@@ -13,7 +13,7 @@ const TEST_LABELS: Record<string, string> = {
   "m1-practice-test-3": "Practice Test 3",
   "m1-practice-test-4": "Fines & Limits",
   "m1-practice-test-5": "Road Sign Test",
-  all: "All Tests",
+  all: "Marathon",
 };
 
 export default function TestPage() {
