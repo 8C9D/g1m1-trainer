@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { type Question } from "@/lib/questions";
 
@@ -15,6 +15,23 @@ export function QuestionCard({ question, questionNumber, total, onNext }: Props)
   const [selected, setSelected] = useState<string | null>(null);
   const answered = selected !== null;
   const isLast = questionNumber === total;
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      if (!answered) {
+        const i = parseInt(e.key) - 1;
+        if (i >= 0 && i < question.answerOptions.length) {
+          setSelected(question.answerOptions[i].text);
+        }
+      } else if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        onNext(selected === question.correctAnswer);
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [answered, selected, question, onNext]);
 
   const handleSelect = (text: string) => {
     if (!answered) setSelected(text);
@@ -57,13 +74,16 @@ export function QuestionCard({ question, questionNumber, total, onNext }: Props)
       <h2 className="text-lg font-medium leading-snug">{question.question}</h2>
 
       <div className="flex flex-col gap-2">
-        {question.answerOptions.map((option) => (
+        {question.answerOptions.map((option, i) => (
           <button
             key={option.index}
             onClick={() => handleSelect(option.text)}
             className={`flex items-center justify-between w-full text-left px-4 py-3 border rounded-lg text-sm transition-colors ${getStyle(option.text)}`}
           >
-            <span>{option.text}</span>
+            <span className="flex items-center gap-3">
+              <kbd className="text-xs text-gray-300 font-mono w-4 shrink-0">{i + 1}</kbd>
+              {option.text}
+            </span>
             {getIndicator(option.text)}
           </button>
         ))}
