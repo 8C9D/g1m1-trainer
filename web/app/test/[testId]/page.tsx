@@ -24,14 +24,17 @@ export default function TestPage() {
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
 
+  const applyShuffleAndReset = (all: Question[]) => {
+    const filtered = testId === "all" ? all : all.filter((q) => q.testName === testId);
+    setQuestions(shuffle(filtered).map((q) => ({ ...q, answerOptions: shuffle(q.answerOptions) })));
+    setIndex(0);
+    setScore(0);
+    setDone(false);
+  };
+
   useEffect(() => {
-    getAllQuestions().then((all) => {
-      const filtered = testId === "all" ? all : all.filter((q) => q.testName === testId);
-      setQuestions(shuffle(filtered).map((q) => ({ ...q, answerOptions: shuffle(q.answerOptions) })));
-      setIndex(0);
-      setScore(0);
-      setDone(false);
-    });
+    getAllQuestions().then(applyShuffleAndReset);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [testId]);
 
   const handleNext = (correct: boolean) => {
@@ -65,7 +68,7 @@ export default function TestPage() {
         <p className="text-xs text-gray-400 mb-4">Passing score: 80%</p>
         <div className="flex gap-3">
           <button
-            onClick={() => { setIndex(0); setScore(0); setDone(false); }}
+            onClick={() => getAllQuestions().then(applyShuffleAndReset)}
             className="px-4 py-2 text-sm border border-gray-200 rounded-lg hover:border-gray-400 transition-colors"
           >
             Restart
