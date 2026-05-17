@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { getAllQuestions, getBankQuestions, updateBank, shuffle, type Question } from "@/lib/questions";
+import { getAllQuestions, getG1AllQuestions, getBankQuestions, updateBank, shuffle, M1_BANK_KEY, G1_BANK_KEY, type Question } from "@/lib/questions";
 import { QuestionCard } from "@/components/QuestionCard";
 import { ProgressBar } from "@/components/ProgressBar";
 
@@ -15,6 +15,11 @@ const TEST_LABELS: Record<string, string> = {
   "m1-practice-test-5": "Road Sign Test",
   all: "Marathon",
   bank: "Missed Questions",
+  "g1-practice-test-1": "Practice Test 1",
+  "g1-practice-test-2": "Practice Test 2",
+  "g1-practice-test-3": "Practice Test 3",
+  "g1-all": "Marathon",
+  "g1-bank": "Missed Questions",
 };
 
 export default function TestPage() {
@@ -25,14 +30,19 @@ export default function TestPage() {
   const [done, setDone] = useState(false);
   const [loaded, setLoaded] = useState(false);
 
+  const isG1 = testId === "g1-all" || testId === "g1-bank" || testId.startsWith("g1-practice-test-");
+  const bankKey = isG1 ? G1_BANK_KEY : M1_BANK_KEY;
+
   const loadQuestions = async () => {
     let base: Question[];
-    if (testId === "bank") {
-      base = getBankQuestions();
+    if (testId === "bank" || testId === "g1-bank") {
+      base = getBankQuestions(bankKey);
     } else if (testId === "all") {
       base = await getAllQuestions();
+    } else if (testId === "g1-all") {
+      base = await getG1AllQuestions();
     } else {
-      const all = await getAllQuestions();
+      const all = isG1 ? await getG1AllQuestions() : await getAllQuestions();
       base = all.filter((q) => q.testName === testId);
     }
     setQuestions(shuffle(base).map((q) => ({ ...q, answerOptions: shuffle(q.answerOptions) })));
@@ -48,7 +58,7 @@ export default function TestPage() {
   }, [testId]);
 
   const handleNext = (correct: boolean) => {
-    updateBank(questions[index], correct);
+    updateBank(questions[index], correct, bankKey);
     if (correct) setScore((s) => s + 1);
     if (index + 1 >= questions.length) {
       setDone(true);

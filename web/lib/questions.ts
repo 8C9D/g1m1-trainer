@@ -19,13 +19,22 @@ export interface Test {
   questions: Question[];
 }
 
-const TEST_META: Record<string, { label: string; order: number }> = {
+const M1_TEST_META: Record<string, { label: string; order: number }> = {
   "m1-practice-test-1": { label: "Practice Test 1", order: 1 },
   "m1-practice-test-2": { label: "Practice Test 2", order: 2 },
   "m1-practice-test-3": { label: "Practice Test 3", order: 3 },
   "m1-practice-test-4": { label: "Fines & Limits", order: 4 },
   "m1-practice-test-5": { label: "Road Sign Test", order: 5 },
 };
+
+const G1_TEST_META: Record<string, { label: string; order: number }> = {
+  "g1-practice-test-1": { label: "Practice Test 1", order: 1 },
+  "g1-practice-test-2": { label: "Practice Test 2", order: 2 },
+  "g1-practice-test-3": { label: "Practice Test 3", order: 3 },
+};
+
+export const M1_BANK_KEY = "m1-missed";
+export const G1_BANK_KEY = "g1-missed";
 
 export function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -36,35 +45,33 @@ export function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-const BANK_KEY = "m1-missed";
-
 function questionId(q: Question): string {
   return `${q.testName}-${q.questionNumber}`;
 }
 
-export function getBankQuestions(): Question[] {
+export function getBankQuestions(bankKey = M1_BANK_KEY): Question[] {
   if (typeof window === "undefined") return [];
   try {
-    return JSON.parse(localStorage.getItem(BANK_KEY) || "[]");
+    return JSON.parse(localStorage.getItem(bankKey) || "[]");
   } catch {
     return [];
   }
 }
 
-export function updateBank(question: Question, correct: boolean): void {
+export function updateBank(question: Question, correct: boolean, bankKey = M1_BANK_KEY): void {
   if (typeof window === "undefined") return;
-  const bank = getBankQuestions();
+  const bank = getBankQuestions(bankKey);
   const id = questionId(question);
   const updated = correct
     ? bank.filter((q) => questionId(q) !== id)
     : bank.some((q) => questionId(q) === id)
     ? bank
     : [...bank, question];
-  localStorage.setItem(BANK_KEY, JSON.stringify(updated));
+  localStorage.setItem(bankKey, JSON.stringify(updated));
 }
 
-export async function getAllQuestions(): Promise<Question[]> {
-  const res = await fetch("/data/all-questions.json");
+async function fetchQuestions(dataFile: string): Promise<Question[]> {
+  const res = await fetch(dataFile);
   const raw = await res.json();
   return raw.map(({ testName, questionNumber, question, questionImageUrl, answerOptions, correctAnswer, explanation }: Question) => ({
     testName,
@@ -77,20 +84,36 @@ export async function getAllQuestions(): Promise<Question[]> {
   }));
 }
 
-export async function getTests(): Promise<Test[]> {
-  const all = await getAllQuestions();
+function groupIntoTests(
+  all: Question[],
+  meta: Record<string, { label: string; order: number }>
+): Test[] {
   const grouped = new Map<string, Question[]>();
-
   for (const q of all) {
     if (!grouped.has(q.testName)) grouped.set(q.testName, []);
     grouped.get(q.testName)!.push(q);
   }
-
   return [...grouped.entries()]
     .map(([id, questions]) => ({
       id,
-      label: TEST_META[id]?.label ?? id,
+      label: meta[id]?.label ?? id,
       questions,
     }))
-    .sort((a, b) => (TEST_META[a.id]?.order ?? 99) - (TEST_META[b.id]?.order ?? 99));
+    .sort((a, b) => (meta[a.id]?.order ?? 99) - (meta[b.id]?.order ?? 99));
+}
+
+export async function getAllQuestions(): Promise<Question[]> {
+  return fetchQuestions("/data/all-questions.json");
+}
+
+export async function getG1AllQuestions(): Promise<Question[]> {
+  return fetchQuestions("/data/g1-all-questions.json");
+}
+
+export async function getTests(): Promise<Test[]> {
+  return groupIntoTests(await getAllQuestions(), M1_TEST_META);
+}
+
+export async function getG1Tests(): Promise<Test[]> {
+  return groupIntoTests(await getG1AllQuestions(), G1_TEST_META);
 }

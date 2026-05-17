@@ -1,0 +1,1082 @@
+[
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 1,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002101245562248.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Underpass ahead"
+      },
+      {
+        "index": "2",
+        "text": "Paved surface ends ahead"
+      },
+      {
+        "index": "3",
+        "text": "Divided roadway ahead"
+      },
+      {
+        "index": "4",
+        "text": "Narrow bridge ahead"
+      }
+    ],
+    "chosenAnswer": "Underpass ahead",
+    "correctAnswer": "Narrow bridge ahead",
+    "explanation": "This sign indicates that there is a narrow bridge ahead. The width of the road will be less than the part of the road you are currently driving on. Slow down at the narrow passage."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 2,
+    "question": "This road sign indicates",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009241916451530.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "you may drive in any direction from any lane."
+      },
+      {
+        "index": "2",
+        "text": "you may not turn here."
+      },
+      {
+        "index": "3",
+        "text": "the direction of travel for each lane."
+      },
+      {
+        "index": "4",
+        "text": "you must not enter this area."
+      }
+    ],
+    "chosenAnswer": "you may drive in any direction from any lane.",
+    "correctAnswer": "the direction of travel for each lane.",
+    "explanation": "These signs, above the road or as pavement markings, tell drivers in each lane the directions in which they must travel. This particular sign means that drivers in the left lane must turn left, drivers in the centre lane must either turn right or go straight, and drivers in the right lane must turn right."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 3,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002061056128575.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Pavement ends"
+      },
+      {
+        "index": "2",
+        "text": "Divided roadway ahead"
+      },
+      {
+        "index": "3",
+        "text": "Low-clearance underpass ahead"
+      },
+      {
+        "index": "4",
+        "text": "Falling rocks"
+      }
+    ],
+    "chosenAnswer": "Pavement ends",
+    "correctAnswer": "Pavement ends",
+    "explanation": "This warning sign indicates the end of the paved surface."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 4,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250655272955.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Hidden intersection"
+      },
+      {
+        "index": "2",
+        "text": "Road branching off ahead"
+      },
+      {
+        "index": "3",
+        "text": "No left turns"
+      },
+      {
+        "index": "4",
+        "text": "Merging traffic ahead"
+      }
+    ],
+    "chosenAnswer": "Hidden intersection",
+    "correctAnswer": "Road branching off ahead",
+    "explanation": "This is a “Road Branching Off Ahead” road sign. This sign indicates a side road branching off to the right."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 5,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002101239016186.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "There is merging traffic ahead."
+      },
+      {
+        "index": "2",
+        "text": "No left turns are allowed."
+      },
+      {
+        "index": "3",
+        "text": "There is a hidden intersection ahead."
+      },
+      {
+        "index": "4",
+        "text": "No U-turns are allowed."
+      }
+    ],
+    "chosenAnswer": "There is merging traffic ahead.",
+    "correctAnswer": "There is merging traffic ahead.",
+    "explanation": "This is a Merging Traffic sign. Two roads going in the same direction are about to join into one. Drivers on both roads are equally responsible for ensuring that traffic merges smoothly and safely."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 6,
+    "question": "This driver is using a hand signal. The driver intends to",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002181150078740.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "slow down or stop."
+      },
+      {
+        "index": "2",
+        "text": "turn left."
+      },
+      {
+        "index": "3",
+        "text": "speed up."
+      },
+      {
+        "index": "4",
+        "text": "turn right."
+      }
+    ],
+    "chosenAnswer": "slow down or stop.",
+    "correctAnswer": "turn right.",
+    "explanation": "Hand signals can be used instead of your car's regular lighted turn and brake signals. This driver intends to turn right."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 7,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250451517168.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "You must turn left."
+      },
+      {
+        "index": "2",
+        "text": "You must turn right."
+      },
+      {
+        "index": "3",
+        "text": "You must not turn left."
+      },
+      {
+        "index": "4",
+        "text": "You must not turn right."
+      }
+    ],
+    "chosenAnswer": "You must turn left.",
+    "correctAnswer": "You must not turn left.",
+    "explanation": "A red slash inside a red circle means \"no.\" This regulatory sign indicates that left turns are prohibited here."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 8,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250856505712.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Bus entrance ahead on the right"
+      },
+      {
+        "index": "2",
+        "text": "Hidden driveway ahead"
+      },
+      {
+        "index": "3",
+        "text": "A hidden school bus stop"
+      },
+      {
+        "index": "4",
+        "text": "Truck entrance ahead on the right"
+      }
+    ],
+    "chosenAnswer": "Bus entrance ahead on the right",
+    "correctAnswer": "Bus entrance ahead on the right",
+    "explanation": "This sign indicates an upcoming bus entrance on the right. Vehicles should be prepared to yield to buses entering the roadway."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 9,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250714564901.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Steep hill ahead"
+      },
+      {
+        "index": "2",
+        "text": "Safety check ahead"
+      },
+      {
+        "index": "3",
+        "text": "No pavement 500 feet ahead"
+      },
+      {
+        "index": "4",
+        "text": "Bumpy road ahead"
+      }
+    ],
+    "chosenAnswer": "Steep hill ahead",
+    "correctAnswer": "Steep hill ahead",
+    "explanation": "This is a “Steep Hill Ahead” road sign. This sign says that you are about to enter a steep 12% descent. Check your brakes. To reduce wear on your brakes, shift into a lower gear even if your vehicle has an automatic transmission."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 10,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250637289660.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Do not enter this area."
+      },
+      {
+        "index": "2",
+        "text": "It is safe to enter this area."
+      },
+      {
+        "index": "3",
+        "text": "Be more aware of pedestrians and your speed in this area."
+      },
+      {
+        "index": "4",
+        "text": "This is a high-crime area."
+      }
+    ],
+    "chosenAnswer": "Do not enter this area.",
+    "correctAnswer": "Be more aware of pedestrians and your speed in this area.",
+    "explanation": "This sign indicates a community safety zone. This is an area where according to the community, speeding or aggressive driving poses a special risk to pedestrians. Traffic offences committed within this zone are subject to increased fines. Obey all speed limits and drive carefully."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 11,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250509253816.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Detour"
+      },
+      {
+        "index": "2",
+        "text": "Directions to cities and towns"
+      },
+      {
+        "index": "3",
+        "text": "Provincial park"
+      },
+      {
+        "index": "4",
+        "text": "School zone"
+      }
+    ],
+    "chosenAnswer": "Detour",
+    "correctAnswer": "Directions to cities and towns",
+    "explanation": "This is a direction sign, showing the directions to various cities and towns."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 12,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "No standing allowed here."
+      },
+      {
+        "index": "2",
+        "text": "The road is slippery when wet."
+      },
+      {
+        "index": "3",
+        "text": "Drive with caution."
+      },
+      {
+        "index": "4",
+        "text": "Share the road with oncoming traffic."
+      }
+    ],
+    "chosenAnswer": "No standing allowed here.",
+    "correctAnswer": "Share the road with oncoming traffic.",
+    "explanation": "This sign indicates you are entering a two-way undivided road. Keep right and watch for oncoming traffic."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 13,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002101119357461.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Side road near a railway ahead"
+      },
+      {
+        "index": "2",
+        "text": "Railway crossing ahead"
+      },
+      {
+        "index": "3",
+        "text": "Intersection ahead"
+      },
+      {
+        "index": "4",
+        "text": "Pedestrian crosswalk ahead"
+      }
+    ],
+    "chosenAnswer": "Side road near a railway ahead",
+    "correctAnswer": "Railway crossing ahead",
+    "explanation": "This warning sign indicates a railway crossing ahead. You must slow down and proceed only if it is safe."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 14,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250524088400.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "During school hours when the yellow lights are flashing, the speed limit is 40 km/h."
+      },
+      {
+        "index": "2",
+        "text": "This is a playground."
+      },
+      {
+        "index": "3",
+        "text": "This is a pedestrian crosswalk."
+      },
+      {
+        "index": "4",
+        "text": "The speed limit is 40 km/h at all times."
+      }
+    ],
+    "chosenAnswer": "During school hours when the yellow lights are flashing, the speed limit is 40 km/h.",
+    "correctAnswer": "During school hours when the yellow lights are flashing, the speed limit is 40 km/h.",
+    "explanation": "During school hours when the yellow lights are flashing, you must always follow the speed limit shown. This sign means that the speed limit when the yellow lights are flashing is 40 km/h."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 15,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250515506384.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Maximum speed of 50 km/h from this sign to the next one"
+      },
+      {
+        "index": "2",
+        "text": "End of 50 km/h zone"
+      },
+      {
+        "index": "3",
+        "text": "Speed limit changes to 50 km/h ahead"
+      },
+      {
+        "index": "4",
+        "text": "Speed limit for rural school zones"
+      }
+    ],
+    "chosenAnswer": "Maximum speed of 50 km/h from this sign to the next one",
+    "correctAnswer": "Speed limit changes to 50 km/h ahead",
+    "explanation": "This regulatory sign indicates that there is a speed limit change ahead. You must be prepared to slow down to the posted speed when you see another speed limit sign without an arrow."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 16,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002101148377306.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Bicycles not allowed"
+      },
+      {
+        "index": "2",
+        "text": "No parking"
+      },
+      {
+        "index": "3",
+        "text": "No left turns"
+      },
+      {
+        "index": "4",
+        "text": "Bicycle crossing ahead"
+      }
+    ],
+    "chosenAnswer": "Bicycles not allowed",
+    "correctAnswer": "Bicycle crossing ahead",
+    "explanation": "This is a “Bicycle Crossing Ahead” road sign."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 17,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250842416415.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "This lane exits to the right."
+      },
+      {
+        "index": "2",
+        "text": "There is a slight bend or curve in the road ahead."
+      },
+      {
+        "index": "3",
+        "text": "Keep right if there is faster traffic."
+      },
+      {
+        "index": "4",
+        "text": "There is a sharp bend or curve in the road ahead."
+      }
+    ],
+    "chosenAnswer": "This lane exits to the right.",
+    "correctAnswer": "There is a slight bend or curve in the road ahead.",
+    "explanation": "This sign warns of a slight bend or curve in the road ahead."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 18,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250642295235.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Survey crew working ahead"
+      },
+      {
+        "index": "2",
+        "text": "Road work ahead"
+      },
+      {
+        "index": "3",
+        "text": "Pedestrian area"
+      },
+      {
+        "index": "4",
+        "text": "Traffic control person ahead"
+      }
+    ],
+    "chosenAnswer": "Survey crew working ahead",
+    "correctAnswer": "Traffic control person ahead",
+    "explanation": "This sign indicates a traffic control person ahead. Traffic control persons (also known as flag persons) may direct traffic at construction (work) zones by using hand signals and STOP/SLOW paddles. Slow down and follow all directions of the traffic control person."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 19,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250513358495.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "You may pass a school bus if its red signals are flashing."
+      },
+      {
+        "index": "2",
+        "text": "You must stop for a school bus if the traffic lights are flashing."
+      },
+      {
+        "index": "3",
+        "text": "You must stop for a school bus if its red signals are flashing."
+      },
+      {
+        "index": "4",
+        "text": "You must stop for a school bus if your turn signals are flashing."
+      }
+    ],
+    "chosenAnswer": "You may pass a school bus if its red signals are flashing.",
+    "correctAnswer": "You must stop for a school bus if its red signals are flashing.",
+    "explanation": "This sign means that you must stop for a school bus when its red signals are flashing."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 20,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250429325255.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Two lanes are closed ahead."
+      },
+      {
+        "index": "2",
+        "text": "This is a highway with two express lanes."
+      },
+      {
+        "index": "3",
+        "text": "Two lanes will merge into one."
+      },
+      {
+        "index": "4",
+        "text": "Two or more occupants must be in the vehicle to use this lane."
+      }
+    ],
+    "chosenAnswer": "Two lanes are closed ahead.",
+    "correctAnswer": "Two or more occupants must be in the vehicle to use this lane.",
+    "explanation": "This type of sign indicates that the lane is a High-Occupancy Vehicle (HOV) lane. This particular sign indicates that only buses and vehicles with two or more occupants (i.e., one or more passengers) may use this lane. However, there are a couple of exceptions: Plug-in hybrid electric vehicles and full-battery electric vehicles with the \"Green\" licence plate may use this lane regardless of the number of occupants. Motorcyclists may also use this lane even if they are not carrying passengers."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 21,
+    "question": "A Level One (Class G1) learner driver may practice driving under the supervision of a licensed driver who has at least ______ of driving experience.",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "3 years"
+      },
+      {
+        "index": "2",
+        "text": "5 years"
+      },
+      {
+        "index": "3",
+        "text": "2 years"
+      },
+      {
+        "index": "4",
+        "text": "4 years"
+      }
+    ],
+    "chosenAnswer": "3 years",
+    "correctAnswer": "4 years",
+    "explanation": "A G1 learner driver may practice driving under the supervision of a driver who holds a valid Class G or higher licence, has a blood alcohol concentration of less than 0.05%, and has at least 4 years of driving experience. This accompanying driver must be the only passenger in the front seat."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 22,
+    "question": "If someone is tailgating you, what should you do?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202001302249003541.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Pull over to let the tailgater pass."
+      },
+      {
+        "index": "2",
+        "text": "Move into another lane when it is safe to do so."
+      },
+      {
+        "index": "3",
+        "text": "Increase your following distance behind the vehicle in front of you."
+      },
+      {
+        "index": "4",
+        "text": "Do any of the above."
+      }
+    ],
+    "chosenAnswer": "Pull over to let the tailgater pass.",
+    "correctAnswer": "Do any of the above.",
+    "explanation": "If you're being tailgated, let the tailgater pass you. First, increase your following distance behind the vehicle in front of you. This will reduce the chance that you'll have to stop or slow down suddenly for the vehicle in front, which might result in your getting rear-ended by the tailgater. On a multilane road, change lanes to let the tailgater pass. On a two-lane road, you may have to pull over to let the tailgater pass. Never speed up in an attempt to appease the tailgater. No speed is too fast for some tailgaters."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 23,
+    "question": "The use of alcohol or drugs affects a driver by impairing which of the following?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Vision"
+      },
+      {
+        "index": "2",
+        "text": "Judgment"
+      },
+      {
+        "index": "3",
+        "text": "Reaction time"
+      },
+      {
+        "index": "4",
+        "text": "All of the above"
+      }
+    ],
+    "chosenAnswer": "Vision",
+    "correctAnswer": "All of the above",
+    "explanation": "The use of alcohol or drugs can impair a driver's vision, judgment, and reaction time. With judgment impaired, the driver may not realize how much he or she has been affected by the alcohol or drugs."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 24,
+    "question": "While driving, a Level Two (Class G2) driver must not have a blood alcohol concentration greater than",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "0.08%."
+      },
+      {
+        "index": "2",
+        "text": "zero."
+      },
+      {
+        "index": "3",
+        "text": "0.05%."
+      },
+      {
+        "index": "4",
+        "text": "0.02%."
+      }
+    ],
+    "chosenAnswer": "0.08%.",
+    "correctAnswer": "zero.",
+    "explanation": "Level 1 and Level 2 drivers must have a BAC of zero when driving. New drivers caught drinking and driving will receive a 30-day suspension and can also be charged under the Criminal Code."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 25,
+    "question": "A \"No Parking\" sign means",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "you may stop temporarily to load or unload merchandise but not passengers."
+      },
+      {
+        "index": "2",
+        "text": "you may not stop for any reason."
+      },
+      {
+        "index": "3",
+        "text": "you may stop temporarily to load or unload passengers or merchandise."
+      },
+      {
+        "index": "4",
+        "text": "you may stop temporarily to load or unload passengers but not merchandise."
+      }
+    ],
+    "chosenAnswer": "you may stop temporarily to load or unload merchandise but not passengers.",
+    "correctAnswer": "you may stop temporarily to load or unload passengers or merchandise.",
+    "explanation": "A “No Parking” sign means that you may not stop there except temporarily to load or unload passengers or merchandise."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 26,
+    "question": "Using a cell phone while driving",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "should be avoided, but it isn't illegal."
+      },
+      {
+        "index": "2",
+        "text": "increases the risk of a collision."
+      },
+      {
+        "index": "3",
+        "text": "is acceptable."
+      },
+      {
+        "index": "4",
+        "text": "is a good way to multitask."
+      }
+    ],
+    "chosenAnswer": "should be avoided, but it isn't illegal.",
+    "correctAnswer": "increases the risk of a collision.",
+    "explanation": "Cell phones can be an important safety aid for drivers, but using a cell phone while driving takes a driver’s attention away from the task of driving and increases the risk of a collision. In Ontario, it is illegal to use a hand-held cell phone while you're driving."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 27,
+    "question": "If the traffic signal light facing you is red and you intend to go straight through the intersection, what must you do?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003112014364009.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Stop and then proceed only when the signal turns green and the way is clear."
+      },
+      {
+        "index": "2",
+        "text": "Stop, yield to pedestrians, and then proceed with caution."
+      },
+      {
+        "index": "3",
+        "text": "Slow down and then proceed when the way is clear."
+      },
+      {
+        "index": "4",
+        "text": "Stop and then proceed when the way is clear."
+      }
+    ],
+    "chosenAnswer": "Stop and then proceed only when the signal turns green and the way is clear.",
+    "correctAnswer": "Stop and then proceed only when the signal turns green and the way is clear.",
+    "explanation": "When the traffic light is red, you must stop. Proceed only when the signal turns green and the way is clear."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 28,
+    "question": "A G2 driver age 19 or younger who has 6 months or less of driving experience may carry ____ unrelated passenger(s) age 19 or younger between midnight and 5:00 a.m.",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "3"
+      },
+      {
+        "index": "2",
+        "text": "4"
+      },
+      {
+        "index": "3",
+        "text": "2"
+      },
+      {
+        "index": "4",
+        "text": "1"
+      }
+    ],
+    "chosenAnswer": "3",
+    "correctAnswer": "1",
+    "explanation": "A G2 driver age 19 or younger who has only 6 months or less of driving experience may carry only one unrelated passenger age 19 or younger between midnight and 5:00 a.m. If the G2 driver has more than 6 months of driving experience, he or she may carry up to three unrelated passengers. These restrictions do not apply if the G2 driver is accompanied by a fully licensed driver sitting in the front seat. There is no restriction on the number of family members that the G2 driver may carry."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 29,
+    "question": "Which of the following classes of vehicles may carry a red light visible from the front?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Emergency vehicles"
+      },
+      {
+        "index": "2",
+        "text": "Recreational vehicles"
+      },
+      {
+        "index": "3",
+        "text": "Trucks"
+      },
+      {
+        "index": "4",
+        "text": "Bicycles"
+      }
+    ],
+    "chosenAnswer": "Emergency vehicles",
+    "correctAnswer": "Emergency vehicles",
+    "explanation": "Only emergency vehicles responding to a call may carry a red light visible from the front."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 30,
+    "question": "Overdriving your headlights at night is dangerous because",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "you cannot stop within the distance that you can see ahead."
+      },
+      {
+        "index": "2",
+        "text": "you are driving too fast."
+      },
+      {
+        "index": "3",
+        "text": "it can drain the car battery."
+      },
+      {
+        "index": "4",
+        "text": "your headlights are too bright."
+      }
+    ],
+    "chosenAnswer": "you cannot stop within the distance that you can see ahead.",
+    "correctAnswer": "you cannot stop within the distance that you can see ahead.",
+    "explanation": "Your headlights illuminate the road ahead for a certain distance. If your stopping distance is greater than that, you may not be able to stop in time to avoid a hazard that your headlights just illuminated. For example, your low-beam headlights have about a 45-metre range, but at 80 km/h, your stopping distance is 60 metres. Your headlights may pick up a hazard at 45 metres, but at that speed, you won't be able to stop in time to avoid it."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 31,
+    "question": "On a highway, when may you drive at the maximum speed limit?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009081535309668.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Only when it's safe to do so"
+      },
+      {
+        "index": "2",
+        "text": "Only in the daytime"
+      },
+      {
+        "index": "3",
+        "text": "Only on one-way roadways"
+      },
+      {
+        "index": "4",
+        "text": "At any time"
+      }
+    ],
+    "chosenAnswer": "Only when it's safe to do so",
+    "correctAnswer": "Only when it's safe to do so",
+    "explanation": "Obey the maximum speed limit posted on signs along the road, but always drive at a speed that will let you stop safely. This means driving below the maximum speed limit in bad weather, in heavy traffic, or in construction zones."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 32,
+    "question": "If you want to pass a motorcycle, you should",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202006041920372833.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "use half of the motorcycle's lane to pass."
+      },
+      {
+        "index": "2",
+        "text": "honk your horn before you pass."
+      },
+      {
+        "index": "3",
+        "text": "turn on your high-beam headlights before you pass."
+      },
+      {
+        "index": "4",
+        "text": "pass it the same way that you would pass a car."
+      }
+    ],
+    "chosenAnswer": "use half of the motorcycle's lane to pass.",
+    "correctAnswer": "pass it the same way that you would pass a car.",
+    "explanation": "Motorcyclists often need to pull to the left or right side of their lane to avoid dangerous road conditions. Do NOT take this as an invitation to pass in the same lane. If you want to pass a motorcycle, do so by changing lanes."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 33,
+    "question": "You are approaching an intersection where there is no signal light or police officer. A pedestrian is in the crosswalk on your side of the street. You should",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "sound your horn to warn the pedestrian."
+      },
+      {
+        "index": "2",
+        "text": "yield to the pedestrian."
+      },
+      {
+        "index": "3",
+        "text": "increase your speed and pass the pedestrian."
+      },
+      {
+        "index": "4",
+        "text": "slow down and drive with increased caution."
+      }
+    ],
+    "chosenAnswer": "sound your horn to warn the pedestrian.",
+    "correctAnswer": "yield to the pedestrian.",
+    "explanation": "Pedestrians in crosswalks have the right-of-way. Drivers, including cyclists, must stop and allow pedestrians to cross before they proceed."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 34,
+    "question": "At an intersection when the signal light is green, which of the following has the right-of-way over all others?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003070857473536.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Vehicles turning right"
+      },
+      {
+        "index": "2",
+        "text": "Pedestrians crossing with the light"
+      },
+      {
+        "index": "3",
+        "text": "Vehicles turning left"
+      },
+      {
+        "index": "4",
+        "text": "Pedestrians crossing against the light"
+      }
+    ],
+    "chosenAnswer": "Vehicles turning right",
+    "correctAnswer": "Pedestrians crossing with the light",
+    "explanation": "When the signal light is green, pedestrians crossing with the light always have the right-of-way over all others."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 35,
+    "question": "Unless otherwise posted, the maximum speed limit in cities, towns and villages is",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009081539318217.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "60 km/h."
+      },
+      {
+        "index": "2",
+        "text": "40 km/h."
+      },
+      {
+        "index": "3",
+        "text": "30 km/h."
+      },
+      {
+        "index": "4",
+        "text": "50 km/h."
+      }
+    ],
+    "chosenAnswer": "60 km/h.",
+    "correctAnswer": "50 km/h.",
+    "explanation": "Where there are no posted speed limits, the maximum speed is 50 km/h in cities, towns and villages, and 80 km/h elsewhere."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 36,
+    "question": "In Ontario, when driving at night, you must dim your headlights (use low beams) whenever you are following another vehicle within",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002211503506612.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "150 metres."
+      },
+      {
+        "index": "2",
+        "text": "500 metres."
+      },
+      {
+        "index": "3",
+        "text": "60 metres."
+      },
+      {
+        "index": "4",
+        "text": "120 metres."
+      }
+    ],
+    "chosenAnswer": "150 metres.",
+    "correctAnswer": "60 metres.",
+    "explanation": "In Ontario, you must dim your headlights to low beam whenever you are within 150 metres of an oncoming vehicle or within 60 metres of a vehicle you are following. These rules apply to all roads, including divided ones. On rural roads, switch to low beams when you come to a curve or hilltop so you can see oncoming headlights and won't blind oncoming drivers. If you can't see any headlights, switch back to high beams."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 37,
+    "question": "In Ontario, you may not carry ________ in a house or boat trailer while you are towing it.",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "people"
+      },
+      {
+        "index": "2",
+        "text": "firearms"
+      },
+      {
+        "index": "3",
+        "text": "flammable materials"
+      },
+      {
+        "index": "4",
+        "text": "pets"
+      }
+    ],
+    "chosenAnswer": "people",
+    "correctAnswer": "people",
+    "explanation": "In Ontario, you may not carry any person in any trailer (including a house or boat trailer) while you are towing it."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 38,
+    "question": "At an intersection where there is a flashing amber (yellow) traffic light, you must",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003070823014609.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "stop if you're making a right turn."
+      },
+      {
+        "index": "2",
+        "text": "continue at the same speed."
+      },
+      {
+        "index": "3",
+        "text": "slow down and proceed with caution."
+      },
+      {
+        "index": "4",
+        "text": "stop if you're making a left turn."
+      }
+    ],
+    "chosenAnswer": "stop if you're making a right turn.",
+    "correctAnswer": "slow down and proceed with caution.",
+    "explanation": "At an intersection where there is a flashing amber (yellow) traffic light, you must slow down and proceed with caution."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 39,
+    "question": "When driving in heavy fog, you should use your",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202004181214304404.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "high-beam headlights."
+      },
+      {
+        "index": "2",
+        "text": "parking lights."
+      },
+      {
+        "index": "3",
+        "text": "low-beam headlights."
+      },
+      {
+        "index": "4",
+        "text": "parking lights and high-beam headlights."
+      }
+    ],
+    "chosenAnswer": "high-beam headlights.",
+    "correctAnswer": "low-beam headlights.",
+    "explanation": "If there is a fog warning, delay your trip until it clears, if possible. If you must drive in fog, use your low-beam headlights. (High beams reflect off the moisture droplets in the fog, making it harder to see.) You may also use fog lights if your vehicle is equipped with them. Your parking lights are for parking, not driving."
+  },
+  {
+    "testName": "g1-practice-test-3",
+    "questionNumber": 40,
+    "question": "If a fully licensed driver is convicted of using a hand-held electronic device while driving, they will face which of the following penalties for a first offence?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "A 30-day licence suspension"
+      },
+      {
+        "index": "2",
+        "text": "A fine of up to $500 and 2 demerit points"
+      },
+      {
+        "index": "3",
+        "text": "A fine of up to $1,000 and 3 demerit points"
+      },
+      {
+        "index": "4",
+        "text": "None of the above"
+      }
+    ],
+    "chosenAnswer": "A 30-day licence suspension",
+    "correctAnswer": "A fine of up to $1,000 and 3 demerit points",
+    "explanation": "A fully licensed driver who is convicted of a first offence of using a hand-held electronic device while driving may face a fine of up to $1,000, three demerit points and a 3-day licence suspension. [\"Distracted Driving,\" Government of Ontario, https://www.ontario.ca/page/distracted-driving]"
+  }
+]

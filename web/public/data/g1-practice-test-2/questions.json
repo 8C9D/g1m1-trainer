@@ -1,0 +1,1082 @@
+[
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 1,
+    "question": "A sign with a green circle",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/canada-permissive-sign.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "is a prohibitory sign."
+      },
+      {
+        "index": "2",
+        "text": "indicates a route for large trucks."
+      },
+      {
+        "index": "3",
+        "text": "is a permissive sign."
+      },
+      {
+        "index": "4",
+        "text": "indicates a truck route."
+      }
+    ],
+    "chosenAnswer": "is a prohibitory sign.",
+    "correctAnswer": "is a permissive sign.",
+    "explanation": "A regulatory sign with a green circle is a permissive sign. It means you may or must do the activity shown inside the circle."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 2,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009251103305930.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Shows directions to nearby towns or cities"
+      },
+      {
+        "index": "2",
+        "text": "Indicates an upcoming railway crossing"
+      },
+      {
+        "index": "3",
+        "text": "Shows distances to towns or cities"
+      },
+      {
+        "index": "4",
+        "text": "Shows the exits on the upcoming roundabout and where they will take you"
+      }
+    ],
+    "chosenAnswer": "Shows directions to nearby towns or cities",
+    "correctAnswer": "Shows the exits on the upcoming roundabout and where they will take you",
+    "explanation": "This sign shows the exits on the upcoming roundabout and where they will take you. After you pass this sign and approach the roundabout, you should also encounter a roundabout warning sign."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 3,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003301703128289.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "There is a playground ahead."
+      },
+      {
+        "index": "2",
+        "text": "You may stop and rest here."
+      },
+      {
+        "index": "3",
+        "text": "Drive to the left of the sign."
+      },
+      {
+        "index": "4",
+        "text": "Drive to the right of the sign."
+      }
+    ],
+    "chosenAnswer": "There is a playground ahead.",
+    "correctAnswer": "Drive to the right of the sign.",
+    "explanation": "This is a hazard warning sign. The downward lines indicate the side on which you may bypass the hazard (in this case, to its right)."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 4,
+    "question": "This driver is using a hand signal. The driver intends to",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002181155395841.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "speed up."
+      },
+      {
+        "index": "2",
+        "text": "slow down or stop."
+      },
+      {
+        "index": "3",
+        "text": "turn left."
+      },
+      {
+        "index": "4",
+        "text": "turn right."
+      }
+    ],
+    "chosenAnswer": "speed up.",
+    "correctAnswer": "turn left.",
+    "explanation": "This driver intends to turn left."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 5,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003151732554338.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Restroom availability"
+      },
+      {
+        "index": "2",
+        "text": "Recreation area ahead"
+      },
+      {
+        "index": "3",
+        "text": "Accessible parking area"
+      },
+      {
+        "index": "4",
+        "text": "Hospital ahead"
+      }
+    ],
+    "chosenAnswer": "Restroom availability",
+    "correctAnswer": "Accessible parking area",
+    "explanation": "This sign features the international symbol of access for persons with disabilities. The sign indicates that a person in a wheelchair may use a handicapped parking space."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 6,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250414375991.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "You may not turn right on a green light."
+      },
+      {
+        "index": "2",
+        "text": "You may not turn right on a red light."
+      },
+      {
+        "index": "3",
+        "text": "You may not turn left on a red light."
+      },
+      {
+        "index": "4",
+        "text": "There is no road on the right side of the intersection."
+      }
+    ],
+    "chosenAnswer": "You may not turn right on a green light.",
+    "correctAnswer": "You may not turn right on a red light.",
+    "explanation": "This is a \"No Right Turn on Red\" sign. Where this sign is posted, you may not turn right on a red light unless there is also a green arrow light pointing right."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 7,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009251041429777.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Do not enter."
+      },
+      {
+        "index": "2",
+        "text": "There may be water flowing over the road."
+      },
+      {
+        "index": "3",
+        "text": "There is a movable bridge ahead."
+      },
+      {
+        "index": "4",
+        "text": "There is a construction zone ahead."
+      }
+    ],
+    "chosenAnswer": "Do not enter.",
+    "correctAnswer": "There may be water flowing over the road.",
+    "explanation": "This sign indicates that water may flow over this road."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 8,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002061310151663.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Narrow road ahead"
+      },
+      {
+        "index": "2",
+        "text": "Road slippery when wet"
+      },
+      {
+        "index": "3",
+        "text": "Hidden intersection ahead"
+      },
+      {
+        "index": "4",
+        "text": "Winding road"
+      }
+    ],
+    "chosenAnswer": "Narrow road ahead",
+    "correctAnswer": "Winding road",
+    "explanation": "This warning sign is a “Winding Road Ahead” sign. A \"winding road\" is a road with at least three curves. Slow down and keep right."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 9,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009251046547760.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "This is a wheelchair crossing."
+      },
+      {
+        "index": "2",
+        "text": "Watch for people with disabilities."
+      },
+      {
+        "index": "3",
+        "text": "A school crossing is ahead."
+      },
+      {
+        "index": "4",
+        "text": "Passing is not allowed."
+      }
+    ],
+    "chosenAnswer": "This is a wheelchair crossing.",
+    "correctAnswer": "A school crossing is ahead.",
+    "explanation": "This warning sign is a \"School Crossing Ahead\" road sign. Follow the directions of the crossing guard or school safety patroller."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 10,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/stop-sign-school-bus.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "When a school bus stops with its red lights flashing and its stop sign arm swung out, you must stop at least 20 metres from the bus."
+      },
+      {
+        "index": "2",
+        "text": "When a school bus stops with its red lights flashing and its stop sign arm swung out, you must stop at any point before reaching the bus."
+      },
+      {
+        "index": "3",
+        "text": "When a school bus stops with its red lights flashing and its stop sign arm swung out, you must slow down to 25 km/h and proceed with caution."
+      },
+      {
+        "index": "4",
+        "text": "When a school bus stops with its red lights flashing and its stop sign arm swung out, you may proceed if you're on the opposite side of the road."
+      }
+    ],
+    "chosenAnswer": "When a school bus stops with its red lights flashing and its stop sign arm swung out, you must stop at least 20 metres from the bus.",
+    "correctAnswer": "When a school bus stops with its red lights flashing and its stop sign arm swung out, you must stop at least 20 metres from the bus.",
+    "explanation": "When a school bus stops with its red lights flashing and its stop sign arm extended, you must stop at least 20 metres from the bus, regardless of which side of the road the bus is on. Remain stopped until the stop sign arm is retracted and the red lights stop flashing. (The only exception is if the bus is stopped on the opposite side of a divided highway. In that case, you don't have to stop for it.)"
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 11,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009251045423157.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Hidden intersection ahead"
+      },
+      {
+        "index": "2",
+        "text": "Hidden bus bay ahead"
+      },
+      {
+        "index": "3",
+        "text": "Hidden school bus stop ahead"
+      },
+      {
+        "index": "4",
+        "text": "School zone ahead"
+      }
+    ],
+    "chosenAnswer": "Hidden intersection ahead",
+    "correctAnswer": "Hidden school bus stop ahead",
+    "explanation": "This warning sign means that there is a hidden school bus stop ahead. School buses stop with flashing red lights there. Slow down, drive with extra caution, and watch for children or a school bus with flashing red lights."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 12,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009251109397675.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Buses are not allowed in this lane during the times and days posted."
+      },
+      {
+        "index": "2",
+        "text": "No stopping is allowed during the times and days posted."
+      },
+      {
+        "index": "3",
+        "text": "Only certain types of vehicles are allowed in this lane during the times and days posted."
+      },
+      {
+        "index": "4",
+        "text": "Do not enter during the times and days posted."
+      }
+    ],
+    "chosenAnswer": "Buses are not allowed in this lane during the times and days posted.",
+    "correctAnswer": "Only certain types of vehicles are allowed in this lane during the times and days posted.",
+    "explanation": "This is a “High-Occupancy Vehicle (HOV)\" sign. During certain times, an HOV lane is open only to such high-occupancy vehicles as buses, taxis, and passenger vehicles with a specified minimum number of occupants. This HOV sign indicates that only passenger vehicles with at least 3 occupants (i.e., at least 2 passengers) may use this lane."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 13,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003151740461521.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Pedestrian crosswalk"
+      },
+      {
+        "index": "2",
+        "text": "School zone"
+      },
+      {
+        "index": "3",
+        "text": "Park ahead"
+      },
+      {
+        "index": "4",
+        "text": "Playground"
+      }
+    ],
+    "chosenAnswer": "Pedestrian crosswalk",
+    "correctAnswer": "School zone",
+    "explanation": "This is a “School Zone” sign. A school is nearby. Proceed with caution because there may be schoolchildren around."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 14,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009251059141691.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "You may exit if you remain in the right-hand lane."
+      },
+      {
+        "index": "2",
+        "text": "You must not drive in the right-hand lane under any circumstances."
+      },
+      {
+        "index": "3",
+        "text": "You must exit if you remain in the right-hand lane."
+      },
+      {
+        "index": "4",
+        "text": "This is the end of the highway; you must move into the right-hand lane."
+      }
+    ],
+    "chosenAnswer": "You may exit if you remain in the right-hand lane.",
+    "correctAnswer": "You must exit if you remain in the right-hand lane.",
+    "explanation": "This sign means that the right-hand lane leads to an exit ramp off this roadway. If you don't want to exit this roadway, move out of the right-hand lane."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 15,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009251102076590.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Pedestrian crossing"
+      },
+      {
+        "index": "2",
+        "text": "Railway crossing"
+      },
+      {
+        "index": "3",
+        "text": "Uncontrolled intersection"
+      },
+      {
+        "index": "4",
+        "text": "Do not enter"
+      }
+    ],
+    "chosenAnswer": "Pedestrian crossing",
+    "correctAnswer": "Railway crossing",
+    "explanation": "All railway crossings on public roads in Ontario are marked with large red-and-white crossbuck (“X”) signs. When a train is approaching, you must stop and yield to the train. Remember: The train cannot yield to you."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 16,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202005121139121942.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "You must not drive in the right-hand lane."
+      },
+      {
+        "index": "2",
+        "text": "You may exit if you remain in the right-hand lane."
+      },
+      {
+        "index": "3",
+        "text": "This is a two-way left-turn lane."
+      },
+      {
+        "index": "4",
+        "text": "The highway ends ahead; you must move into the right-hand lane."
+      }
+    ],
+    "chosenAnswer": "You must not drive in the right-hand lane.",
+    "correctAnswer": "This is a two-way left-turn lane.",
+    "explanation": "This sign indicates a two-way left-turn lane. This is a lane in the centre of the roadway that can be used by vehicles travelling in either direction to make left turns."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 17,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202004071600168996.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "No pedestrians allowed"
+      },
+      {
+        "index": "2",
+        "text": "Only dogs allowed"
+      },
+      {
+        "index": "3",
+        "text": "No bicycles allowed"
+      },
+      {
+        "index": "4",
+        "text": "No children allowed"
+      }
+    ],
+    "chosenAnswer": "No pedestrians allowed",
+    "correctAnswer": "No pedestrians allowed",
+    "explanation": "A red slash inside a red circle means \"no.\" This sign means that pedestrians are not allowed to use this section of the road."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 18,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002101247507801.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Road under construction"
+      },
+      {
+        "index": "2",
+        "text": "Divided highway ends"
+      },
+      {
+        "index": "3",
+        "text": "Two-way traffic"
+      },
+      {
+        "index": "4",
+        "text": "Divided highway begins"
+      }
+    ],
+    "chosenAnswer": "Road under construction",
+    "correctAnswer": "Divided highway begins",
+    "explanation": "This warning sign indicates that the road ahead is divided by a median. Keep right of it."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 19,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003151714361449.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Do not pass."
+      },
+      {
+        "index": "2",
+        "text": "Do not Enter."
+      },
+      {
+        "index": "3",
+        "text": "Keep left."
+      },
+      {
+        "index": "4",
+        "text": "Keep right."
+      }
+    ],
+    "chosenAnswer": "Do not pass.",
+    "correctAnswer": "Do not Enter.",
+    "explanation": "This is a \"Do Not Enter\" sign. It indicates that you cannot enter the roadway at which the sign is posted. You will see such signs at roadway openings you are not to enter or where you would be driving the wrong way on a one-way roadway. You will see them at exit ramps, in crossovers on divided roadways, and at numerous locations on one-way roads."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 20,
+    "question": "What does this sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003151752201841.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "There is a winding road ahead."
+      },
+      {
+        "index": "2",
+        "text": "Keep right of the obstacle ahead."
+      },
+      {
+        "index": "3",
+        "text": "Pass other traffic on the right."
+      },
+      {
+        "index": "4",
+        "text": "The road turns right and then left."
+      }
+    ],
+    "chosenAnswer": "There is a winding road ahead.",
+    "correctAnswer": "Keep right of the obstacle ahead.",
+    "explanation": "This sign indicates a divider, traffic island or other obstacle ahead. Keep right of it."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 21,
+    "question": "When approaching a construction area, what should you do?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Slow down and yield the right-of-way if necessary."
+      },
+      {
+        "index": "2",
+        "text": "Speed up to get out of the area quickly."
+      },
+      {
+        "index": "3",
+        "text": "Come to a complete stop until the workers signal you to proceed."
+      },
+      {
+        "index": "4",
+        "text": "Honk your horn a few times to warn the workers."
+      }
+    ],
+    "chosenAnswer": "Slow down and yield the right-of-way if necessary.",
+    "correctAnswer": "Slow down and yield the right-of-way if necessary.",
+    "explanation": "When approaching a construction area, slow down and yield the right-of-way if necessary. Obey all construction signs."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 22,
+    "question": "When a right turn on a red signal light is permitted, what must you do before entering the intersection and making the turn?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003051756086213.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Stop, then edge into traffic."
+      },
+      {
+        "index": "2",
+        "text": "Slow down and proceed with caution."
+      },
+      {
+        "index": "3",
+        "text": "Signal and stop."
+      },
+      {
+        "index": "4",
+        "text": "Signal and slow down."
+      }
+    ],
+    "chosenAnswer": "Stop, then edge into traffic.",
+    "correctAnswer": "Signal and stop.",
+    "explanation": "Before you turn, you must signal your intention well in advance. And at a red light, you must come to a complete stop. Then make the turn so as not to interfere with other traffic, including pedestrians."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 23,
+    "question": "On a roadway where traffic is moving in both directions, in what position must you be before making a left turn?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Close to the right-hand side of the roadway"
+      },
+      {
+        "index": "2",
+        "text": "To the right of and as close to the centre line of the roadway as possible"
+      },
+      {
+        "index": "3",
+        "text": "In any position as long as you signal"
+      },
+      {
+        "index": "4",
+        "text": "Close to the left-hand side of the roadway"
+      }
+    ],
+    "chosenAnswer": "Close to the right-hand side of the roadway",
+    "correctAnswer": "To the right of and as close to the centre line of the roadway as possible",
+    "explanation": "To make a left turn, signal well before the turn and move into the leftmost lane that is going in your direction. On a two-way road, this is the lane that is just to the right of the yellow lane markings."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 24,
+    "question": "If you become very tired while driving, you should",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "stop and rest."
+      },
+      {
+        "index": "2",
+        "text": "drink coffee."
+      },
+      {
+        "index": "3",
+        "text": "drive faster to your destination."
+      },
+      {
+        "index": "4",
+        "text": "open your windows to allow fresh air in the car."
+      }
+    ],
+    "chosenAnswer": "stop and rest.",
+    "correctAnswer": "stop and rest.",
+    "explanation": "If you become very tired while driving, you should always stop and rest."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 25,
+    "question": "If you are convicted of driving at 50 km/h or more over the speed limit, you will face which of the following penalties?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Licence suspension for up to 2 years or 6 demerit points"
+      },
+      {
+        "index": "2",
+        "text": "$2,000 to $10,000 fine"
+      },
+      {
+        "index": "3",
+        "text": "Jail sentence of up to 6 months"
+      },
+      {
+        "index": "4",
+        "text": "All of the above"
+      }
+    ],
+    "chosenAnswer": "Licence suspension for up to 2 years or 6 demerit points",
+    "correctAnswer": "All of the above",
+    "explanation": "If police stop you for driving at 50 km/h or more over the speed limit, you will be charged with street racing. Police will suspend your licence on the spot and impound your vehicle for 7 days. If you're convicted of this charge for the first time, you will face a $2,000–$10,000 fine, a jail sentence of up to 6 months, and either 6 demerit points or licence suspension for up to 2 years."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 26,
+    "question": "To get your vehicle out of a skid, you should",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202006041906425451.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "steer straight ahead."
+      },
+      {
+        "index": "2",
+        "text": "steer in the opposite direction of the skid."
+      },
+      {
+        "index": "3",
+        "text": "steer in the direction you want to go."
+      },
+      {
+        "index": "4",
+        "text": "apply the brakes hard."
+      }
+    ],
+    "chosenAnswer": "steer straight ahead.",
+    "correctAnswer": "steer in the direction you want to go.",
+    "explanation": "Straighten out your steering wheel slowly. Don't turn your steering wheel in different directions while trying to correct the skid; work on one direction at a time. If you've oversteered and the vehicle slides in the opposite direction, repeat the same procedure as before. Always steer in the direction you want to go."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 27,
+    "question": "A novice driver who is convicted of distracted driving will face which of the following penalties for a third offence?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "A fine, licence cancellation and removal from the Graduated Licensing System"
+      },
+      {
+        "index": "2",
+        "text": "Licence cancellation and removal from the Graduated Licensing System, but no fine"
+      },
+      {
+        "index": "3",
+        "text": "A fine, licence suspension and 3 demerit points"
+      },
+      {
+        "index": "4",
+        "text": "A fine, licence suspension and 6 demerit points"
+      }
+    ],
+    "chosenAnswer": "A fine, licence cancellation and removal from the Graduated Licensing System",
+    "correctAnswer": "A fine, licence cancellation and removal from the Graduated Licensing System",
+    "explanation": "A novice driver who is convicted of distracted driving will not receive any demerit points. Instead, he or she will face the following penalties. First offence: a fine of up to $1,000 and a 30-day licence suspension. Second offence: a fine of up to $2,000 and a 90-day licence suspension. Third offence: a fine of up to $3,000, licence cancellation and removal from the Graduated Licensing System (GLS). Removal from the GLS means that the novice driver will have to begin the GLS over again to obtain a new licence. [\"Distracted Driving,\" Government of Ontario, https://www.ontario.ca/page/distracted-driving]"
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 28,
+    "question": "The two-second rule is used to determine",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202001302249003541.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "how much gas you will save."
+      },
+      {
+        "index": "2",
+        "text": "how fast you are travelling."
+      },
+      {
+        "index": "3",
+        "text": "how fast you can react to obstacles."
+      },
+      {
+        "index": "4",
+        "text": "whether you are following at a safe distance."
+      }
+    ],
+    "chosenAnswer": "how much gas you will save.",
+    "correctAnswer": "whether you are following at a safe distance.",
+    "explanation": "A safe following distance is at least two seconds behind the vehicle you are following. This lets you see around the vehicle ahead and gives you enough space to stop suddenly if necessary. To estimate the time, wait until the rear end of the vehicle in front of you passes any fixed point on the roadway (such as a road sign, a mailbox, or a line, crack or patch in the road). As you count to yourself the elapsed time in seconds, the front of your car should pass the same point no less than two seconds later. If the elapsed time is less than this, increase the distance, then repeat the method again until the time is at least two seconds."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 29,
+    "question": "Never change lanes in traffic without",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202001302245403150.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "giving the proper signal and slowing down."
+      },
+      {
+        "index": "2",
+        "text": "looking into the rear-view mirror only."
+      },
+      {
+        "index": "3",
+        "text": "blowing your horn and looking to make sure that the lane change can be performed safely."
+      },
+      {
+        "index": "4",
+        "text": "giving the proper signal and looking to make sure that the lane change can be performed safely."
+      }
+    ],
+    "chosenAnswer": "giving the proper signal and slowing down.",
+    "correctAnswer": "giving the proper signal and looking to make sure that the lane change can be performed safely.",
+    "explanation": "Before changing lanes, you must always give the proper signal and look to make sure the move can be made safely. First check your mirrors. Then look over your shoulder to check your blind spots."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 30,
+    "question": "When passing a cyclist, failing to leave at least 1 metre of space between your vehicle and the cyclist may result in a fine and ____ demerit point(s) on your driver's record.",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "3"
+      },
+      {
+        "index": "2",
+        "text": "2"
+      },
+      {
+        "index": "3",
+        "text": "zero"
+      },
+      {
+        "index": "4",
+        "text": "1"
+      }
+    ],
+    "chosenAnswer": "3",
+    "correctAnswer": "2",
+    "explanation": "While you are passing a cyclist, if you fail to leave at least 1 metre of space between your vehicle and the cyclist, you may face a fine of $60 to $500, and two demerit points may be added to your driver's record."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 31,
+    "question": "If you fail to stop for a stopped school bus whose red lights are flashing, you will face which of the following penalties for a first offence?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003051658529900.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "A fine of up to $500 and 4 demerit points"
+      },
+      {
+        "index": "2",
+        "text": "A fine of up to $2,000 and 6 demerit points"
+      },
+      {
+        "index": "3",
+        "text": "A requirement to retake your road tests"
+      },
+      {
+        "index": "4",
+        "text": "A one-year jail sentence"
+      }
+    ],
+    "chosenAnswer": "A fine of up to $500 and 4 demerit points",
+    "correctAnswer": "A fine of up to $2,000 and 6 demerit points",
+    "explanation": "If you fail to stop for a stopped school bus whose red lights are flashing, you will be fined $400–$2,000 and receive 6 demerit points if this was your first offence. For each subsequent offence, you will be fined $1,000–$4,000, receive 6 demerit points and possibly be sentenced to jail for up to 6 months. [\"School Bus Safety,\" Ontario Ministry of Transportation, http://www.mto.gov.on.ca/english/safety/school-bus-safety.shtml]"
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 32,
+    "question": "When approaching an intersection, you notice the roadway beyond the intersection is blocked with traffic. What should you do?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Sound your horn to warn traffic ahead to move on."
+      },
+      {
+        "index": "2",
+        "text": "Stop before entering the intersection and wait until traffic ahead moves on."
+      },
+      {
+        "index": "3",
+        "text": "Keep as close as possible to the car ahead."
+      },
+      {
+        "index": "4",
+        "text": "Proceed slowly into the intersection until traffic ahead moves on."
+      }
+    ],
+    "chosenAnswer": "Sound your horn to warn traffic ahead to move on.",
+    "correctAnswer": "Stop before entering the intersection and wait until traffic ahead moves on.",
+    "explanation": "If the roadway beyond the intersection is blocked with traffic, don't proceed into the intersection because you might block the intersection for other vehicles. Instead, stop before entering the intersection and wait until traffic ahead moves on."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 33,
+    "question": "What do broken white lines indicate?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003161201498577.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "They separate lanes of traffic travelling in opposite directions."
+      },
+      {
+        "index": "2",
+        "text": "They indicate that passing is prohibited."
+      },
+      {
+        "index": "3",
+        "text": "They mark the right edge of the roadway."
+      },
+      {
+        "index": "4",
+        "text": "They separate lanes of traffic travelling in the same direction."
+      }
+    ],
+    "chosenAnswer": "They separate lanes of traffic travelling in opposite directions.",
+    "correctAnswer": "They separate lanes of traffic travelling in the same direction.",
+    "explanation": "A white line separates two lanes of traffic travelling in the same direction. You may cross a broken white line to pass or change lanes."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 34,
+    "question": "If you are convicted of failing to stop when a police officer gave pursuit, you may face which of the following penalties?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "A fine of up to $25,000"
+      },
+      {
+        "index": "2",
+        "text": "Up to 6 months in jail"
+      },
+      {
+        "index": "3",
+        "text": "Licence suspension for 5 years"
+      },
+      {
+        "index": "4",
+        "text": "All of the above"
+      }
+    ],
+    "chosenAnswer": "A fine of up to $25,000",
+    "correctAnswer": "All of the above",
+    "explanation": "If you are convicted of failing to pull over when a police officer signaled you to do so, you will face a fine of $1,000–$10,000, up to 6 months in jail, or both. However, if you fled the police officer and the police had to pursue you, you will face a fine of $5,000–$25,000, between 14 days and 6 months in jail, and licence suspension for 5 years. [Section 216, Ontario Highway Traffic Act]"
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 35,
+    "question": "What documents may a police officer require a motor vehicle owner to produce?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "The motor vehicle ownership document"
+      },
+      {
+        "index": "2",
+        "text": "If he or she is operating a motor vehicle, a valid driver's licence"
+      },
+      {
+        "index": "3",
+        "text": "If the motor vehicle is insured, a liability insurance card"
+      },
+      {
+        "index": "4",
+        "text": "All of the above"
+      }
+    ],
+    "chosenAnswer": "The motor vehicle ownership document",
+    "correctAnswer": "All of the above",
+    "explanation": "A police officer may require a motor vehicle owner to produce a liability insurance card, vehicle ownership documents, and a valid driver's licence."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 36,
+    "question": "Which of the following items are you prohibited from using while you're driving?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Hand-held cell phone"
+      },
+      {
+        "index": "2",
+        "text": "Laptop computer"
+      },
+      {
+        "index": "3",
+        "text": "DVD player"
+      },
+      {
+        "index": "4",
+        "text": "All of the above"
+      }
+    ],
+    "chosenAnswer": "Hand-held cell phone",
+    "correctAnswer": "All of the above",
+    "explanation": "Viewing display screens unrelated to driving, such as those on cell phones, laptop computers, and portable DVD players, is prohibited while driving."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 37,
+    "question": "When the driver of another vehicle is about to pass your vehicle on your left, what should you do?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002181239175594.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Speed up so that passing is not necessary."
+      },
+      {
+        "index": "2",
+        "text": "Move to the left and allow the vehicle to pass."
+      },
+      {
+        "index": "3",
+        "text": "Move to the right and allow the vehicle to pass."
+      },
+      {
+        "index": "4",
+        "text": "Signal the other driver not to pass."
+      }
+    ],
+    "chosenAnswer": "Speed up so that passing is not necessary.",
+    "correctAnswer": "Move to the right and allow the vehicle to pass.",
+    "explanation": "If another driver is about to pass your vehicle, you should move to the right and let the driver pass."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 38,
+    "question": "Passing another vehicle on the right side",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "is permitted, provided it is possible to do so by driving on the shoulder of the road."
+      },
+      {
+        "index": "2",
+        "text": "is permitted when the street or highway has two or more lanes of traffic in the direction in which you are travelling."
+      },
+      {
+        "index": "3",
+        "text": "is not permitted."
+      },
+      {
+        "index": "4",
+        "text": "is permitted on any street or highway."
+      }
+    ],
+    "chosenAnswer": "is permitted, provided it is possible to do so by driving on the shoulder of the road.",
+    "correctAnswer": "is permitted when the street or highway has two or more lanes of traffic in the direction in which you are travelling.",
+    "explanation": "Most passing is done on the left. Passing on the right is permitted when the street or highway has two or more lanes of traffic in the direction in which you are travelling. (This can be the case on a multilane highway or a one-way street.) However, this manoeuvre can be more dangerous than passing on the left."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 39,
+    "question": "If you approach several snowplows clearing a freeway, you should NOT",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "keep a safe distance."
+      },
+      {
+        "index": "2",
+        "text": "try to pass between them."
+      },
+      {
+        "index": "3",
+        "text": "wait for the plows to allow traffic to safely pass."
+      },
+      {
+        "index": "4",
+        "text": "do any of the above."
+      }
+    ],
+    "chosenAnswer": "keep a safe distance.",
+    "correctAnswer": "try to pass between them.",
+    "explanation": "This question is about what you should NOT do. On freeways, several snowplows may be staggered across the road, clearing all lanes at the same time by passing a ridge of snow from plow to plow. Do not try to pass between them. Doing so would be extremely dangerous because there is not enough room to pass safely, and the ridge of wet snow can throw your vehicle out of control."
+  },
+  {
+    "testName": "g1-practice-test-2",
+    "questionNumber": 40,
+    "question": "Are drivers responsible for requiring their passengers to buckle up?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Only those passengers in the front seat"
+      },
+      {
+        "index": "2",
+        "text": "Only those passengers under 16 years of age"
+      },
+      {
+        "index": "3",
+        "text": "Only those passengers over 18 years of age"
+      },
+      {
+        "index": "4",
+        "text": "Only those passengers who are 16 years of age or older"
+      }
+    ],
+    "chosenAnswer": "Only those passengers in the front seat",
+    "correctAnswer": "Only those passengers under 16 years of age",
+    "explanation": "If the passengers are 16 years of age or older, they, not the driver, are responsible for buckling themselves up."
+  }
+]

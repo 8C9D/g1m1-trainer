@@ -1,0 +1,542 @@
+[
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 1,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250521014592.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Snowmobiles may not use this road."
+      },
+      {
+        "index": "2",
+        "text": "Snowmobiles may use this road."
+      },
+      {
+        "index": "3",
+        "text": "Only snowmobiles may park here."
+      },
+      {
+        "index": "4",
+        "text": "There is a snowmobile repair shop ahead."
+      }
+    ],
+    "chosenAnswer": "Snowmobiles may not use this road.",
+    "correctAnswer": "Snowmobiles may use this road.",
+    "explanation": "A green circle indicates permission. This regulatory sign means that snowmobiles may use this road."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 2,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250433358502.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "No stopping"
+      },
+      {
+        "index": "2",
+        "text": "No passing"
+      },
+      {
+        "index": "3",
+        "text": "No parking"
+      },
+      {
+        "index": "4",
+        "text": "No trucks"
+      }
+    ],
+    "chosenAnswer": "No stopping",
+    "correctAnswer": "No passing",
+    "explanation": "A red slash inside a red circle means \"no.\" This regulatory sign means that cars and other vehicles should not pass."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 3,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250840405410.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Airport"
+      },
+      {
+        "index": "2",
+        "text": "Movable bridge ahead"
+      },
+      {
+        "index": "3",
+        "text": "Hotel"
+      },
+      {
+        "index": "4",
+        "text": "Narrow road ahead"
+      }
+    ],
+    "chosenAnswer": "Airport",
+    "correctAnswer": "Movable bridge ahead",
+    "explanation": "This warning sign indicates a movable bridge ahead. The bridge lifts or swings open to allow boats to pass. Slow down and prepare to stop in case the bridge is open."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 4,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202007061211244574.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "You may not park between here and the corner."
+      },
+      {
+        "index": "2",
+        "text": "You must turn right."
+      },
+      {
+        "index": "3",
+        "text": "All turns are allowed."
+      },
+      {
+        "index": "4",
+        "text": "Right turns are allowed."
+      }
+    ],
+    "chosenAnswer": "You may not park between here and the corner.",
+    "correctAnswer": "You must turn right.",
+    "explanation": "This is a “Right Turn Only” sign. You must turn right from this lane."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 5,
+    "question": "This symbol indicates",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "information and direction."
+      },
+      {
+        "index": "2",
+        "text": "a prohibition."
+      },
+      {
+        "index": "3",
+        "text": "a temporary condition."
+      },
+      {
+        "index": "4",
+        "text": "a warning."
+      }
+    ],
+    "chosenAnswer": "information and direction.",
+    "correctAnswer": "a prohibition.",
+    "explanation": "A red circle with a slash through it means the activity shown inside the ring is not allowed."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 6,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002101142048449.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "There are no traffic signals on this road."
+      },
+      {
+        "index": "2",
+        "text": "There is a traffic signal ahead."
+      },
+      {
+        "index": "3",
+        "text": "There is someone directing traffic ahead."
+      },
+      {
+        "index": "4",
+        "text": "There is a stop sign ahead."
+      }
+    ],
+    "chosenAnswer": "There are no traffic signals on this road.",
+    "correctAnswer": "There is a traffic signal ahead.",
+    "explanation": "This warning sign indicates that there is a traffic signal ahead. Be prepared to stop."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 7,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202012201231122675.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "No bicycles allowed on this road"
+      },
+      {
+        "index": "2",
+        "text": "No stopping"
+      },
+      {
+        "index": "3",
+        "text": "No parking"
+      },
+      {
+        "index": "4",
+        "text": "Bicycles allowed on this road"
+      }
+    ],
+    "chosenAnswer": "No bicycles allowed on this road",
+    "correctAnswer": "No bicycles allowed on this road",
+    "explanation": "A red slash inside a red circle means \"no.\" This regulatory sign means that bicycles are not allowed."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 8,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002061258239664.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Keep right."
+      },
+      {
+        "index": "2",
+        "text": "Traffic must exit to the right."
+      },
+      {
+        "index": "3",
+        "text": "This road turns slightly right ahead."
+      },
+      {
+        "index": "4",
+        "text": "This road turns sharply right ahead."
+      }
+    ],
+    "chosenAnswer": "Keep right.",
+    "correctAnswer": "This road turns sharply right ahead.",
+    "explanation": "This sign warns of a sharp bend or turn to the right in the road ahead. Slow down before you get to it."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 9,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009250519083300.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "You may not park in the designated area during the posted times."
+      },
+      {
+        "index": "2",
+        "text": "No parking at any time."
+      },
+      {
+        "index": "3",
+        "text": "Only weekend parking is allowed."
+      },
+      {
+        "index": "4",
+        "text": "You may park in the designated area during the posted times."
+      }
+    ],
+    "chosenAnswer": "You may not park in the designated area during the posted times.",
+    "correctAnswer": "You may park in the designated area during the posted times.",
+    "explanation": "A green circle indicates permission. This regulatory sign means that you may park in the designated area for two hours during the posted times."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 10,
+    "question": "What does this road sign mean?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009241939236163.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "No idling for more than 3 minutes"
+      },
+      {
+        "index": "2",
+        "text": "Idling permitted for at least 3 minutes"
+      },
+      {
+        "index": "3",
+        "text": "No stopping for more than 3 minutes"
+      },
+      {
+        "index": "4",
+        "text": "No smoking for more than 3 minutes"
+      }
+    ],
+    "chosenAnswer": "No idling for more than 3 minutes",
+    "correctAnswer": "No idling for more than 3 minutes",
+    "explanation": "This type of sign is a “No Idling” sign. This particular sign means that you may not idle your engine here for more than 3 minutes."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 11,
+    "question": "A flashing green light at an intersection where left and right turns are permitted means",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202009251331126725.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "you may go straight."
+      },
+      {
+        "index": "2",
+        "text": "you may turn right."
+      },
+      {
+        "index": "3",
+        "text": "you may turn left."
+      },
+      {
+        "index": "4",
+        "text": "all of the above."
+      }
+    ],
+    "chosenAnswer": "you may go straight.",
+    "correctAnswer": "all of the above.",
+    "explanation": "When you face a flashing green light or a left-pointing green arrow and a green light, you may turn left, go straight ahead or turn right from the proper lane. This is called an advanced green light because oncoming traffic is stopped at a red light. Pedestrians must not cross on a flashing green light unless a pedestrian signal tells them to."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 12,
+    "question": "In Ontario, when driving at night, you must dim your headlights",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002211503506612.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "whenever you are within 400 metres of another vehicle."
+      },
+      {
+        "index": "2",
+        "text": "whenever you are within 150 metres of another vehicle."
+      },
+      {
+        "index": "3",
+        "text": "whenever you are within 60 metres of an oncoming vehicle or within 150 metres of a vehicle you are following."
+      },
+      {
+        "index": "4",
+        "text": "whenever you are within 150 metres of an oncoming vehicle or within 60 metres of a vehicle you are following."
+      }
+    ],
+    "chosenAnswer": "whenever you are within 400 metres of another vehicle.",
+    "correctAnswer": "whenever you are within 150 metres of an oncoming vehicle or within 60 metres of a vehicle you are following.",
+    "explanation": "In Ontario, you must dim your headlights to low beam whenever you are within 150 metres of an oncoming vehicle or within 60 metres of a vehicle you are following. These rules apply to all roads, including divided ones. Avoid shining your high beams on any other occupied vehicle. Bright lights can reflect off the other vehicle's mirrors and blind the driver."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 13,
+    "question": "If you are approaching an intersection at which the traffic lights are not working, you should",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202003051805205845.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "yield to the traffic to your right."
+      },
+      {
+        "index": "2",
+        "text": "slow down and proceed with caution."
+      },
+      {
+        "index": "3",
+        "text": "stop until no other vehicles are approaching and then go."
+      },
+      {
+        "index": "4",
+        "text": "treat it as if there were all-way stop signs."
+      }
+    ],
+    "chosenAnswer": "yield to the traffic to your right.",
+    "correctAnswer": "treat it as if there were all-way stop signs.",
+    "explanation": "If the traffic lights at an intersection aren't working, treat the intersection as if it had all-way stop signs. That is, come to a complete stop, yield according to the rules for all-way stop signs, and then proceed with extreme caution into the intersection."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 14,
+    "question": "While driving, you receive a call on your hand-held cell phone. There are no passengers who can take the call for you. What should you do?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Answer the phone only if you've been expecting an important call."
+      },
+      {
+        "index": "2",
+        "text": "Text back the caller to let him know that you're driving."
+      },
+      {
+        "index": "3",
+        "text": "Answer the phone and promise to call the person back later."
+      },
+      {
+        "index": "4",
+        "text": "Pull over and park before using your cell phone."
+      }
+    ],
+    "chosenAnswer": "Answer the phone only if you've been expecting an important call.",
+    "correctAnswer": "Pull over and park before using your cell phone.",
+    "explanation": "In Ontario, it is illegal to use a hand-held device while you're behind the wheel, even while you're stopped at a red light. If you're convicted of doing so and it was your first such offence, you may face a fine of up to $1,000, three demerit points and a 3-day licence suspension. You should use a hands-free device instead. If you must use a hand-held device, pull over and park first, or (if possible) ask a passenger to take the call for you. [\"Distracted Driving,\" Government of Ontario, https://www.ontario.ca/page/distracted-driving]"
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 15,
+    "question": "Drivers are prohibited from passing another vehicle within ____ from a pedestrian crossover.",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "50 metres"
+      },
+      {
+        "index": "2",
+        "text": "70 metres"
+      },
+      {
+        "index": "3",
+        "text": "40 metres"
+      },
+      {
+        "index": "4",
+        "text": "30 metres"
+      }
+    ],
+    "chosenAnswer": "50 metres",
+    "correctAnswer": "30 metres",
+    "explanation": "Drivers must not pass any other vehicle within 30 meters of a pedestrian crossover. This rule is in place to ensure that drivers have a clear view of pedestrians who are about to cross or are already crossing the road, thereby enhancing pedestrian safety."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 16,
+    "question": "If one of your tires suddenly blows out while you're driving, what should you do?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Concentrate on steering."
+      },
+      {
+        "index": "2",
+        "text": "Bring the vehicle to a stop off the road."
+      },
+      {
+        "index": "3",
+        "text": "Take your foot off the gas pedal."
+      },
+      {
+        "index": "4",
+        "text": "Do all of the above."
+      }
+    ],
+    "chosenAnswer": "Concentrate on steering.",
+    "correctAnswer": "Do all of the above.",
+    "explanation": "If one of your tires blows out while you're driving, DON'T BRAKE right away. Braking could cause you to lose control. Instead, focus on steering, take your foot off the gas pedal to slow down, and bring your vehicle to a full stop OFF the road."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 17,
+    "question": "If you change your name or address, you must notify the Ministry of Transportation within",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "6 days."
+      },
+      {
+        "index": "2",
+        "text": "30 days."
+      },
+      {
+        "index": "3",
+        "text": "45 days."
+      },
+      {
+        "index": "4",
+        "text": "14 days."
+      }
+    ],
+    "chosenAnswer": "6 days.",
+    "correctAnswer": "6 days.",
+    "explanation": "If you change your name or address, you are required to notify the Ministry of Transportation within 6 days. You will also need a new licence."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 18,
+    "question": "When you are in a roundabout,",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202007060528273965.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "drive in a counter-clockwise direction."
+      },
+      {
+        "index": "2",
+        "text": "you can stop."
+      },
+      {
+        "index": "3",
+        "text": "you can change lanes."
+      },
+      {
+        "index": "4",
+        "text": "drive in a clockwise direction."
+      }
+    ],
+    "chosenAnswer": "drive in a counter-clockwise direction.",
+    "correctAnswer": "drive in a counter-clockwise direction.",
+    "explanation": "When you're in a roundabout, keep right of the central island and drive in a counterclockwise direction until you reach your exit. Don't pass large vehicles or change lanes. Don't stop inside the roundabout except if necessary to avoid a collision."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 19,
+    "question": "At an intersection, the traffic light is red, but a police officer motions you to go through. What should you do?",
+    "questionImageUrl": "https://www.g1.ca/wp-content/uploads/autotest/202002211500121915.jpg",
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "Go through."
+      },
+      {
+        "index": "2",
+        "text": "Wait for the light to turn green."
+      },
+      {
+        "index": "3",
+        "text": "Tell the police officer that the light is red."
+      },
+      {
+        "index": "4",
+        "text": "Stop and make sure that the police officer really wants you to go through."
+      }
+    ],
+    "chosenAnswer": "Go through.",
+    "correctAnswer": "Go through.",
+    "explanation": "When police officers are directing traffic, you must follow their directions, even if it means disregarding some of the usual driving rules. For example, you should go past a red light if a police officer directs you to."
+  },
+  {
+    "testName": "g1-practice-test-1",
+    "questionNumber": 20,
+    "question": "Under what circumstances may a driver's licence be cancelled?",
+    "questionImageUrl": null,
+    "answerOptions": [
+      {
+        "index": "1",
+        "text": "For failure to satisfactorily complete a driver re-examination"
+      },
+      {
+        "index": "2",
+        "text": "For failure to attend a driver re-examination"
+      },
+      {
+        "index": "3",
+        "text": "For possession of an altered driver's licence"
+      },
+      {
+        "index": "4",
+        "text": "Any of the above circumstances"
+      }
+    ],
+    "chosenAnswer": "For failure to satisfactorily complete a driver re-examination",
+    "correctAnswer": "Any of the above circumstances",
+    "explanation": "All these answers are correct."
+  }
+]
