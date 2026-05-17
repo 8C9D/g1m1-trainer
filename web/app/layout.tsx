@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "G1M1 Prep",
+  title: "G1M1 Trainer",
   description: "Ontario G1 and M1 licence practice tests",
 };
 
