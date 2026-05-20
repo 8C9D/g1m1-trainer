@@ -3,24 +3,19 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { getAllQuestions, getG1AllQuestions, getBankQuestions, updateBank, shuffle, M1_BANK_KEY, G1_BANK_KEY, type Question } from "@/lib/questions";
+import {
+  getBankQuestions,
+  updateBank,
+  shuffle,
+  getTestLabel,
+  getLicenceClassForTestId,
+  isBankTest,
+  getQuestionsForClass,
+  getQuestionsForPracticeTest,
+  type Question,
+} from "@/lib/questions";
 import { QuestionCard } from "@/components/QuestionCard";
 import { ProgressBar } from "@/components/ProgressBar";
-
-const TEST_LABELS: Record<string, string> = {
-  "m1-practice-test-1": "Practice Test 1",
-  "m1-practice-test-2": "Practice Test 2",
-  "m1-practice-test-3": "Practice Test 3",
-  "m1-practice-test-4": "Fines & Limits",
-  "m1-practice-test-5": "Road Sign Test",
-  all: "Marathon",
-  bank: "Missed Questions",
-  "g1-practice-test-1": "Practice Test 1",
-  "g1-practice-test-2": "Practice Test 2",
-  "g1-practice-test-3": "Practice Test 3",
-  "g1-all": "Marathon",
-  "g1-bank": "Missed Questions",
-};
 
 export default function TestPage() {
   const { testId } = useParams<{ testId: string }>();
@@ -29,27 +24,36 @@ export default function TestPage() {
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
   const [loaded, setLoaded] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const isG1 = testId === "g1-all" || testId === "g1-bank" || testId.startsWith("g1-practice-test-");
-  const bankKey = isG1 ? G1_BANK_KEY : M1_BANK_KEY;
+  const licenceClass = getLicenceClassForTestId(testId);
+  const bankKey = licenceClass?.bankKey;
 
   const loadQuestions = async () => {
-    let base: Question[];
-    if (testId === "bank" || testId === "g1-bank") {
-      base = getBankQuestions(bankKey);
-    } else if (testId === "all") {
-      base = await getAllQuestions();
-    } else if (testId === "g1-all") {
-      base = await getG1AllQuestions();
-    } else {
-      const all = isG1 ? await getG1AllQuestions() : await getAllQuestions();
-      base = all.filter((q) => q.testName === testId);
-    }
-    setQuestions(shuffle(base).map((q) => ({ ...q, answerOptions: shuffle(q.answerOptions) })));
+    setError(null);
+    setLoaded(false);
     setIndex(0);
     setScore(0);
     setDone(false);
-    setLoaded(true);
+    try {
+      let base: Question[] = [];
+      if (licenceClass) {
+        if (testId === licenceClass.bankId) {
+          base = getBankQuestions(licenceClass.bankKey);
+        } else if (testId === licenceClass.marathonId) {
+          base = await getQuestionsForClass(licenceClass);
+        } else {
+          base = await getQuestionsForPracticeTest(licenceClass, testId);
+        }
+      }
+      setQuestions(shuffle(base).map((q) => ({ ...q, answerOptions: shuffle(q.answerOptions) })));
+    } catch (e) {
+      console.error("Failed to load questions:", e);
+      setQuestions([]);
+      setError("Could not load questions. Please try again later.");
+    } finally {
+      setLoaded(true);
+    }
   };
 
   useEffect(() => {
@@ -58,7 +62,7 @@ export default function TestPage() {
   }, [testId]);
 
   const handleNext = (correct: boolean) => {
-    updateBank(questions[index], correct, bankKey);
+    if (bankKey) updateBank(questions[index], correct, bankKey);
     if (correct) setScore((s) => s + 1);
     if (index + 1 >= questions.length) {
       setDone(true);
@@ -71,6 +75,17 @@ export default function TestPage() {
     return (
       <main className="flex-1 flex items-center justify-center">
         <p className="text-sm text-gray-400">Loading…</p>
+      </main>
+    );
+  }
+
+  if (error) {
+    return (
+      <main className="flex-1 flex flex-col items-center justify-center px-4 gap-3">
+        <p className="text-sm text-red-500">{error}</p>
+        <Link href="/" className="px-4 py-2 text-sm bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition-colors">
+          All tests
+        </Link>
       </main>
     );
   }
@@ -89,16 +104,21 @@ export default function TestPage() {
   if (done) {
     const pct = Math.round((score / questions.length) * 100);
     const passed = pct >= 80;
+    const isBank = isBankTest(testId);
     return (
       <main className="flex-1 flex flex-col items-center justify-center px-4 gap-2">
-        <p className={`text-4xl font-bold ${passed ? "text-green-600" : "text-red-500"}`}>
-          {pct}% {passed ? "PASS" : "FAIL"}
-        </p>
+        {isBank ? (
+          <p className="text-4xl font-bold text-gray-900">Review Complete</p>
+        ) : (
+          <p className={`text-4xl font-bold ${passed ? "text-green-600" : "text-red-500"}`}>
+            {pct}% {passed ? "PASS" : "FAIL"}
+          </p>
+        )}
         <p className="text-sm text-gray-500">
           {score} / {questions.length} correct
         </p>
-        <p className="text-xs text-gray-400 mb-4">Passing score: 80%</p>
-        <div className="flex gap-3">
+        {!isBank && <p className="text-xs text-gray-400 mb-4">Passing score: 80%</p>}
+        <div className={`flex gap-3 ${isBank ? "mt-4" : ""}`}>
           <button
             onClick={loadQuestions}
             className="px-4 py-2 text-sm border border-gray-200 rounded-lg hover:border-gray-400 transition-colors"
@@ -123,7 +143,7 @@ export default function TestPage() {
       <div className="w-full max-w-xl flex flex-col gap-6">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-sm text-gray-400 hover:text-gray-700 transition-colors">
-            ← {TEST_LABELS[testId] ?? testId}
+            ← {getTestLabel(testId)}
           </Link>
         </div>
 

@@ -12,9 +12,11 @@ interface Props {
 }
 
 export function QuestionCard({ question, questionNumber, total, onNext }: Props) {
-  const [selected, setSelected] = useState<string | null>(null);
-  const answered = selected !== null;
+  const [selectedIndex, setSelectedIndex] = useState<string | null>(null);
+  const answered = selectedIndex !== null;
   const isLast = questionNumber === total;
+  const correctIndex = question.correctAnswerIndex;
+  const isCorrect = selectedIndex !== null && selectedIndex === correctIndex;
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -22,38 +24,38 @@ export function QuestionCard({ question, questionNumber, total, onNext }: Props)
       if (!answered) {
         const i = parseInt(e.key) - 1;
         if (i >= 0 && i < question.answerOptions.length) {
-          setSelected(question.answerOptions[i].text);
+          setSelectedIndex(question.answerOptions[i].index);
         }
       } else if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
-        onNext(selected === question.correctAnswer);
+        onNext(isCorrect);
       }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [answered, selected, question, onNext]);
+  }, [answered, isCorrect, question, onNext]);
 
-  const handleSelect = (text: string) => {
-    if (!answered) setSelected(text);
+  const handleSelect = (optionIndex: string) => {
+    if (!answered) setSelectedIndex(optionIndex);
   };
 
-  const getStyle = (text: string) => {
+  const getStyle = (optionIndex: string) => {
     if (!answered) {
       return "border-gray-200 hover:border-gray-400 cursor-pointer";
     }
-    if (text === question.correctAnswer) {
+    if (optionIndex === correctIndex) {
       return "border-green-500 bg-green-50 text-green-900";
     }
-    if (text === selected) {
+    if (optionIndex === selectedIndex) {
       return "border-red-400 bg-red-50 text-red-900";
     }
     return "border-gray-100 text-gray-400";
   };
 
-  const getIndicator = (text: string) => {
+  const getIndicator = (optionIndex: string) => {
     if (!answered) return null;
-    if (text === question.correctAnswer) return <span className="text-green-600 font-bold">✓</span>;
-    if (text === selected) return <span className="text-red-500 font-bold">✗</span>;
+    if (optionIndex === correctIndex) return <span className="text-green-600 font-bold">✓</span>;
+    if (optionIndex === selectedIndex) return <span className="text-red-500 font-bold">✗</span>;
     return null;
   };
 
@@ -77,14 +79,14 @@ export function QuestionCard({ question, questionNumber, total, onNext }: Props)
         {question.answerOptions.map((option, i) => (
           <button
             key={option.index}
-            onClick={() => handleSelect(option.text)}
-            className={`flex items-center justify-between w-full text-left px-4 py-3 border rounded-lg text-sm transition-colors ${getStyle(option.text)}`}
+            onClick={() => handleSelect(option.index)}
+            className={`flex items-center justify-between w-full text-left px-4 py-3 border rounded-lg text-sm transition-colors ${getStyle(option.index)}`}
           >
             <span className="flex items-center gap-3">
               <kbd className="text-xs text-gray-300 font-mono w-4 shrink-0">{i + 1}</kbd>
               {option.text}
             </span>
-            {getIndicator(option.text)}
+            {getIndicator(option.index)}
           </button>
         ))}
       </div>
@@ -98,7 +100,7 @@ export function QuestionCard({ question, questionNumber, total, onNext }: Props)
       {answered && (
         <div className="flex justify-end">
           <button
-            onClick={() => onNext(selected === question.correctAnswer)}
+            onClick={() => onNext(isCorrect)}
             className="px-5 py-2 text-sm font-medium bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition-colors"
           >
             {isLast ? "Finish" : "Next →"}

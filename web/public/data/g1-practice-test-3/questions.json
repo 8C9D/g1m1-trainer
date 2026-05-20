@@ -22,7 +22,6 @@
         "text": "Narrow bridge ahead"
       }
     ],
-    "chosenAnswer": "Underpass ahead",
     "correctAnswer": "Narrow bridge ahead",
     "explanation": "This sign indicates that there is a narrow bridge ahead. The width of the road will be less than the part of the road you are currently driving on. Slow down at the narrow passage."
   },
@@ -49,7 +48,6 @@
         "text": "you must not enter this area."
       }
     ],
-    "chosenAnswer": "you may drive in any direction from any lane.",
     "correctAnswer": "the direction of travel for each lane.",
     "explanation": "These signs, above the road or as pavement markings, tell drivers in each lane the directions in which they must travel. This particular sign means that drivers in the left lane must turn left, drivers in the centre lane must either turn right or go straight, and drivers in the right lane must turn right."
   },
@@ -76,7 +74,6 @@
         "text": "Falling rocks"
       }
     ],
-    "chosenAnswer": "Pavement ends",
     "correctAnswer": "Pavement ends",
     "explanation": "This warning sign indicates the end of the paved surface."
   },
@@ -103,7 +100,6 @@
         "text": "Merging traffic ahead"
       }
     ],
-    "chosenAnswer": "Hidden intersection",
     "correctAnswer": "Road branching off ahead",
     "explanation": "This is a “Road Branching Off Ahead” road sign. This sign indicates a side road branching off to the right."
   },
@@ -130,7 +126,6 @@
         "text": "No U-turns are allowed."
       }
     ],
-    "chosenAnswer": "There is merging traffic ahead.",
     "correctAnswer": "There is merging traffic ahead.",
     "explanation": "This is a Merging Traffic sign. Two roads going in the same direction are about to join into one. Drivers on both roads are equally responsible for ensuring that traffic merges smoothly and safely."
   },
@@ -157,7 +152,6 @@
         "text": "turn right."
       }
     ],
-    "chosenAnswer": "slow down or stop.",
     "correctAnswer": "turn right.",
     "explanation": "Hand signals can be used instead of your car's regular lighted turn and brake signals. This driver intends to turn right."
   },
@@ -184,7 +178,6 @@
         "text": "You must not turn right."
       }
     ],
-    "chosenAnswer": "You must turn left.",
     "correctAnswer": "You must not turn left.",
     "explanation": "A red slash inside a red circle means \"no.\" This regulatory sign indicates that left turns are prohibited here."
   },
@@ -211,7 +204,6 @@
         "text": "Truck entrance ahead on the right"
       }
     ],
-    "chosenAnswer": "Bus entrance ahead on the right",
     "correctAnswer": "Bus entrance ahead on the right",
     "explanation": "This sign indicates an upcoming bus entrance on the right. Vehicles should be prepared to yield to buses entering the roadway."
   },
@@ -238,7 +230,6 @@
         "text": "Bumpy road ahead"
       }
     ],
-    "chosenAnswer": "Steep hill ahead",
     "correctAnswer": "Steep hill ahead",
     "explanation": "This is a “Steep Hill Ahead” road sign. This sign says that you are about to enter a steep 12% descent. Check your brakes. To reduce wear on your brakes, shift into a lower gear even if your vehicle has an automatic transmission."
   },
@@ -265,7 +256,6 @@
         "text": "This is a high-crime area."
       }
     ],
-    "chosenAnswer": "Do not enter this area.",
     "correctAnswer": "Be more aware of pedestrians and your speed in this area.",
     "explanation": "This sign indicates a community safety zone. This is an area where according to the community, speeding or aggressive driving poses a special risk to pedestrians. Traffic offences committed within this zone are subject to increased fines. Obey all speed limits and drive carefully."
   },
@@ -292,7 +282,6 @@
         "text": "School zone"
       }
     ],
-    "chosenAnswer": "Detour",
     "correctAnswer": "Directions to cities and towns",
     "explanation": "This is a direction sign, showing the directions to various cities and towns."
   },
@@ -319,7 +308,6 @@
         "text": "Share the road with oncoming traffic."
       }
     ],
-    "chosenAnswer": "No standing allowed here.",
     "correctAnswer": "Share the road with oncoming traffic.",
     "explanation": "This sign indicates you are entering a two-way undivided road. Keep right and watch for oncoming traffic."
   },
@@ -346,7 +334,6 @@
         "text": "Pedestrian crosswalk ahead"
       }
     ],
-    "chosenAnswer": "Side road near a railway ahead",
     "correctAnswer": "Railway crossing ahead",
     "explanation": "This warning sign indicates a railway crossing ahead. You must slow down and proceed only if it is safe."
   },
@@ -373,7 +360,6 @@
         "text": "The speed limit is 40 km/h at all times."
       }
     ],
-    "chosenAnswer": "During school hours when the yellow lights are flashing, the speed limit is 40 km/h.",
     "correctAnswer": "During school hours when the yellow lights are flashing, the speed limit is 40 km/h.",
     "explanation": "During school hours when the yellow lights are flashing, you must always follow the speed limit shown. This sign means that the speed limit when the yellow lights are flashing is 40 km/h."
   },
@@ -400,7 +386,6 @@
         "text": "Speed limit for rural school zones"
       }
     ],
-    "chosenAnswer": "Maximum speed of 50 km/h from this sign to the next one",
     "correctAnswer": "Speed limit changes to 50 km/h ahead",
     "explanation": "This regulatory sign indicates that there is a speed limit change ahead. You must be prepared to slow down to the posted speed when you see another speed limit sign without an arrow."
   },
@@ -427,7 +412,6 @@
         "text": "Bicycle crossing ahead"
       }
     ],
-    "chosenAnswer": "Bicycles not allowed",
     "correctAnswer": "Bicycle crossing ahead",
     "explanation": "This is a “Bicycle Crossing Ahead” road sign."
   },
@@ -454,7 +438,6 @@
         "text": "There is a sharp bend or curve in the road ahead."
       }
     ],
-    "chosenAnswer": "This lane exits to the right.",
     "correctAnswer": "There is a slight bend or curve in the road ahead.",
     "explanation": "This sign warns of a slight bend or curve in the road ahead."
   },
@@ -481,7 +464,6 @@
         "text": "Traffic control person ahead"
       }
     ],
-    "chosenAnswer": "Survey crew working ahead",
     "correctAnswer": "Traffic control person ahead",
     "explanation": "This sign indicates a traffic control person ahead. Traffic control persons (also known as flag persons) may direct traffic at construction (work) zones by using hand signals and STOP/SLOW paddles. Slow down and follow all directions of the traffic control person."
   },
@@ -508,7 +490,6 @@
         "text": "You must stop for a school bus if your turn signals are flashing."
       }
     ],
-    "chosenAnswer": "You may pass a school bus if its red signals are flashing.",
     "correctAnswer": "You must stop for a school bus if its red signals are flashing.",
     "explanation": "This sign means that you must stop for a school bus when its red signals are flashing."
   },
@@ -535,7 +516,6 @@
         "text": "Two or more occupants must be in the vehicle to use this lane."
       }
     ],
-    "chosenAnswer": "Two lanes are closed ahead.",
     "correctAnswer": "Two or more occupants must be in the vehicle to use this lane.",
     "explanation": "This type of sign indicates that the lane is a High-Occupancy Vehicle (HOV) lane. This particular sign indicates that only buses and vehicles with two or more occupants (i.e., one or more passengers) may use this lane. However, there are a couple of exceptions: Plug-in hybrid electric vehicles and full-battery electric vehicles with the \"Green\" licence plate may use this lane regardless of the number of occupants. Motorcyclists may also use this lane even if they are not carrying passengers."
   },
@@ -562,7 +542,6 @@
         "text": "4 years"
       }
     ],
-    "chosenAnswer": "3 years",
     "correctAnswer": "4 years",
     "explanation": "A G1 learner driver may practice driving under the supervision of a driver who holds a valid Class G or higher licence, has a blood alcohol concentration of less than 0.05%, and has at least 4 years of driving experience. This accompanying driver must be the only passenger in the front seat."
   },
@@ -589,7 +568,6 @@
         "text": "Do any of the above."
       }
     ],
-    "chosenAnswer": "Pull over to let the tailgater pass.",
     "correctAnswer": "Do any of the above.",
     "explanation": "If you're being tailgated, let the tailgater pass you. First, increase your following distance behind the vehicle in front of you. This will reduce the chance that you'll have to stop or slow down suddenly for the vehicle in front, which might result in your getting rear-ended by the tailgater. On a multilane road, change lanes to let the tailgater pass. On a two-lane road, you may have to pull over to let the tailgater pass. Never speed up in an attempt to appease the tailgater. No speed is too fast for some tailgaters."
   },
@@ -616,7 +594,6 @@
         "text": "All of the above"
       }
     ],
-    "chosenAnswer": "Vision",
     "correctAnswer": "All of the above",
     "explanation": "The use of alcohol or drugs can impair a driver's vision, judgment, and reaction time. With judgment impaired, the driver may not realize how much he or she has been affected by the alcohol or drugs."
   },
@@ -643,7 +620,6 @@
         "text": "0.02%."
       }
     ],
-    "chosenAnswer": "0.08%.",
     "correctAnswer": "zero.",
     "explanation": "Level 1 and Level 2 drivers must have a BAC of zero when driving. New drivers caught drinking and driving will receive a 30-day suspension and can also be charged under the Criminal Code."
   },
@@ -670,7 +646,6 @@
         "text": "you may stop temporarily to load or unload passengers but not merchandise."
       }
     ],
-    "chosenAnswer": "you may stop temporarily to load or unload merchandise but not passengers.",
     "correctAnswer": "you may stop temporarily to load or unload passengers or merchandise.",
     "explanation": "A “No Parking” sign means that you may not stop there except temporarily to load or unload passengers or merchandise."
   },
@@ -697,7 +672,6 @@
         "text": "is a good way to multitask."
       }
     ],
-    "chosenAnswer": "should be avoided, but it isn't illegal.",
     "correctAnswer": "increases the risk of a collision.",
     "explanation": "Cell phones can be an important safety aid for drivers, but using a cell phone while driving takes a driver’s attention away from the task of driving and increases the risk of a collision. In Ontario, it is illegal to use a hand-held cell phone while you're driving."
   },
@@ -724,7 +698,6 @@
         "text": "Stop and then proceed when the way is clear."
       }
     ],
-    "chosenAnswer": "Stop and then proceed only when the signal turns green and the way is clear.",
     "correctAnswer": "Stop and then proceed only when the signal turns green and the way is clear.",
     "explanation": "When the traffic light is red, you must stop. Proceed only when the signal turns green and the way is clear."
   },
@@ -751,7 +724,6 @@
         "text": "1"
       }
     ],
-    "chosenAnswer": "3",
     "correctAnswer": "1",
     "explanation": "A G2 driver age 19 or younger who has only 6 months or less of driving experience may carry only one unrelated passenger age 19 or younger between midnight and 5:00 a.m. If the G2 driver has more than 6 months of driving experience, he or she may carry up to three unrelated passengers. These restrictions do not apply if the G2 driver is accompanied by a fully licensed driver sitting in the front seat. There is no restriction on the number of family members that the G2 driver may carry."
   },
@@ -778,7 +750,6 @@
         "text": "Bicycles"
       }
     ],
-    "chosenAnswer": "Emergency vehicles",
     "correctAnswer": "Emergency vehicles",
     "explanation": "Only emergency vehicles responding to a call may carry a red light visible from the front."
   },
@@ -805,7 +776,6 @@
         "text": "your headlights are too bright."
       }
     ],
-    "chosenAnswer": "you cannot stop within the distance that you can see ahead.",
     "correctAnswer": "you cannot stop within the distance that you can see ahead.",
     "explanation": "Your headlights illuminate the road ahead for a certain distance. If your stopping distance is greater than that, you may not be able to stop in time to avoid a hazard that your headlights just illuminated. For example, your low-beam headlights have about a 45-metre range, but at 80 km/h, your stopping distance is 60 metres. Your headlights may pick up a hazard at 45 metres, but at that speed, you won't be able to stop in time to avoid it."
   },
@@ -832,7 +802,6 @@
         "text": "At any time"
       }
     ],
-    "chosenAnswer": "Only when it's safe to do so",
     "correctAnswer": "Only when it's safe to do so",
     "explanation": "Obey the maximum speed limit posted on signs along the road, but always drive at a speed that will let you stop safely. This means driving below the maximum speed limit in bad weather, in heavy traffic, or in construction zones."
   },
@@ -859,7 +828,6 @@
         "text": "pass it the same way that you would pass a car."
       }
     ],
-    "chosenAnswer": "use half of the motorcycle's lane to pass.",
     "correctAnswer": "pass it the same way that you would pass a car.",
     "explanation": "Motorcyclists often need to pull to the left or right side of their lane to avoid dangerous road conditions. Do NOT take this as an invitation to pass in the same lane. If you want to pass a motorcycle, do so by changing lanes."
   },
@@ -886,7 +854,6 @@
         "text": "slow down and drive with increased caution."
       }
     ],
-    "chosenAnswer": "sound your horn to warn the pedestrian.",
     "correctAnswer": "yield to the pedestrian.",
     "explanation": "Pedestrians in crosswalks have the right-of-way. Drivers, including cyclists, must stop and allow pedestrians to cross before they proceed."
   },
@@ -913,7 +880,6 @@
         "text": "Pedestrians crossing against the light"
       }
     ],
-    "chosenAnswer": "Vehicles turning right",
     "correctAnswer": "Pedestrians crossing with the light",
     "explanation": "When the signal light is green, pedestrians crossing with the light always have the right-of-way over all others."
   },
@@ -940,7 +906,6 @@
         "text": "50 km/h."
       }
     ],
-    "chosenAnswer": "60 km/h.",
     "correctAnswer": "50 km/h.",
     "explanation": "Where there are no posted speed limits, the maximum speed is 50 km/h in cities, towns and villages, and 80 km/h elsewhere."
   },
@@ -967,7 +932,6 @@
         "text": "120 metres."
       }
     ],
-    "chosenAnswer": "150 metres.",
     "correctAnswer": "60 metres.",
     "explanation": "In Ontario, you must dim your headlights to low beam whenever you are within 150 metres of an oncoming vehicle or within 60 metres of a vehicle you are following. These rules apply to all roads, including divided ones. On rural roads, switch to low beams when you come to a curve or hilltop so you can see oncoming headlights and won't blind oncoming drivers. If you can't see any headlights, switch back to high beams."
   },
@@ -994,7 +958,6 @@
         "text": "pets"
       }
     ],
-    "chosenAnswer": "people",
     "correctAnswer": "people",
     "explanation": "In Ontario, you may not carry any person in any trailer (including a house or boat trailer) while you are towing it."
   },
@@ -1021,7 +984,6 @@
         "text": "stop if you're making a left turn."
       }
     ],
-    "chosenAnswer": "stop if you're making a right turn.",
     "correctAnswer": "slow down and proceed with caution.",
     "explanation": "At an intersection where there is a flashing amber (yellow) traffic light, you must slow down and proceed with caution."
   },
@@ -1048,7 +1010,6 @@
         "text": "parking lights and high-beam headlights."
       }
     ],
-    "chosenAnswer": "high-beam headlights.",
     "correctAnswer": "low-beam headlights.",
     "explanation": "If there is a fog warning, delay your trip until it clears, if possible. If you must drive in fog, use your low-beam headlights. (High beams reflect off the moisture droplets in the fog, making it harder to see.) You may also use fog lights if your vehicle is equipped with them. Your parking lights are for parking, not driving."
   },
@@ -1075,7 +1036,6 @@
         "text": "None of the above"
       }
     ],
-    "chosenAnswer": "A 30-day licence suspension",
     "correctAnswer": "A fine of up to $1,000 and 3 demerit points",
     "explanation": "A fully licensed driver who is convicted of a first offence of using a hand-held electronic device while driving may face a fine of up to $1,000, three demerit points and a 3-day licence suspension. [\"Distracted Driving,\" Government of Ontario, https://www.ontario.ca/page/distracted-driving]"
   }

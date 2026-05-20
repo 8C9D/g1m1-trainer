@@ -22,7 +22,6 @@
         "text": "along the side of the pavement."
       }
     ],
-    "chosenAnswer": "along the middle of the lane.",
     "correctAnswer": "along the side of the pavement.",
     "explanation": "Sand and gravel usually collect along the side of the pavement."
   },
@@ -49,7 +48,6 @@
         "text": "5-point check-up formula"
       }
     ],
-    "chosenAnswer": "10-point check-up formula",
     "correctAnswer": "10-point check-up formula",
     "explanation": "Before starting the motorcycle, every motorcycle rider must perform a daily check-up by following a 10-point formula."
   },
@@ -76,7 +74,6 @@
         "text": "riding in heavy traffic."
       }
     ],
-    "chosenAnswer": "downshifting, turning, or starting on hills.",
     "correctAnswer": "downshifting, turning, or starting on hills.",
     "explanation": "There is more to shifting gears than simply getting the motorcycle to accelerate smoothly. Accidents can occur if the gears are used incorrectly, when downshifting, turning, or starting on hills."
   },
@@ -103,7 +100,6 @@
         "text": "from .05 to .08"
       }
     ],
-    "chosenAnswer": "from .03 to .04",
     "correctAnswer": "from .05 to .08",
     "explanation": "If you register a BAC from .05 to .08 (known as the “warn range”), you will receive an immediate driver’s licence suspension. For a first occurrence, you will be suspended for seven days."
   },
@@ -130,7 +126,6 @@
         "text": "No stopping power"
       }
     ],
-    "chosenAnswer": "Three quarters of total stopping power",
     "correctAnswer": "One quarter of total stopping power",
     "explanation": "Only one quarter of the total stopping power is provided by the rear brake."
   },
@@ -157,7 +152,6 @@
         "text": "Stop 12 metres from the farthest track."
       }
     ],
-    "chosenAnswer": "Stop 5 metres away from the nearest track.",
     "correctAnswer": "Stop 5 metres away from the nearest track.",
     "explanation": "Motorcyclists must maintain 5-metres' distance from the nearest railway track at railway crossings."
   },
@@ -184,7 +178,6 @@
         "text": "in the right lane."
       }
     ],
-    "chosenAnswer": "in front of the motorcycle.",
     "correctAnswer": "behind the motorcycle.",
     "explanation": "When a rider wants to stop his/her motorcycle, s/he must watch the traffic behind before taking the next steps."
   },
@@ -211,7 +204,6 @@
         "text": "All of the above"
       }
     ],
-    "chosenAnswer": "turn the motorcycle at night.",
     "correctAnswer": "All of the above",
     "explanation": "Alcohol impairs the driver's ability to control, turn, or stop the motorcycle."
   },
@@ -238,7 +230,6 @@
         "text": "None of the above"
       }
     ],
-    "chosenAnswer": "Left part of the lane",
     "correctAnswer": "Centre of the lane",
     "explanation": "The centre part of the lane is more slippery due to oil and grease buildup. Motorcyclists should avoid that particular area in wet conditions."
   },
@@ -265,7 +256,6 @@
         "text": "When s/he takes a turn"
       }
     ],
-    "chosenAnswer": "When the front tire blows",
     "correctAnswer": "When the front tire blows",
     "explanation": "If a front tire blows, the motorcyclist must try to steer straight and shift his/her weight to the rear to control the vehicle."
   },
@@ -292,7 +282,6 @@
         "text": "enter with the lowest possible speed."
       }
     ],
-    "chosenAnswer": "take a special route for motorcycles.",
     "correctAnswer": "enter into the access path and then the merging area.",
     "explanation": "Motorcycle riders must enter into the access path and then into the acceleration zone and slowly merge into highway traffic."
   },
@@ -319,7 +308,6 @@
         "text": "to judge the speed of the vehicle."
       }
     ],
-    "chosenAnswer": "to estimate the distance of the vehicle.",
     "correctAnswer": "to see the bumps or rough pavement.",
     "explanation": "The vehicle's taillights can alert the motorist of any rough conditions of the road."
   },
@@ -346,7 +334,6 @@
         "text": "behind a passenger vehicle."
       }
     ],
-    "chosenAnswer": "in the right lane.",
     "correctAnswer": "between two lanes.",
     "explanation": "The motorcycle rider should never ride between two lanes, as each lane is designed for only one vehicle."
   },
@@ -373,7 +360,6 @@
         "text": "Higher gear"
       }
     ],
-    "chosenAnswer": "The highest gear",
     "correctAnswer": "Lower gear",
     "explanation": "Using a lower gear while going down a hill acts as a brake."
   },
@@ -400,7 +386,6 @@
         "text": "bending the body into the proper direction."
       }
     ],
-    "chosenAnswer": "removing his/her feet from the footpegs and balancing them.",
     "correctAnswer": "holding handgrips firmly.",
     "explanation": "The driver must hold the handgrips firmly so as to not lose grip if the motorcycle bounces."
   },
@@ -427,7 +412,6 @@
         "text": "vehicle track."
       }
     ],
-    "chosenAnswer": "tire track.",
     "correctAnswer": "tire track.",
     "explanation": "This area is called the tire track, because all tires would travel in this area."
   },
@@ -454,7 +438,6 @@
         "text": "15-seconds' distance"
       }
     ],
-    "chosenAnswer": "5-seconds' distance",
     "correctAnswer": "2-3-seconds' distance",
     "explanation": "Motorcycle riders must maintain at least a 2-to-3-seconds' safe following distance from other vehicles."
   },
@@ -481,7 +464,6 @@
         "text": "a passenger."
       }
     ],
-    "chosenAnswer": "an animal.",
     "correctAnswer": "a passenger.",
     "explanation": "The motorcycle must be equipped with a larger seat and separate footrests for a passenger."
   },
@@ -508,7 +490,6 @@
         "text": "9-10 seconds."
       }
     ],
-    "chosenAnswer": "4-5 seconds.",
     "correctAnswer": "5-7 seconds.",
     "explanation": "Motorcycle riders must check their mirrors every 5-7 seconds to watch the traffic behind them."
   },
@@ -535,7 +516,6 @@
         "text": "do neither of the above."
       }
     ],
-    "chosenAnswer": "approach slowly.",
     "correctAnswer": "do both of the above.",
     "explanation": "A vehicle making a left turn across your path is one of the leading causes of collisions at intersections. To cut down your chances of being hit, approach slowly and move to the right."
   },
@@ -562,7 +542,6 @@
         "text": "Both brakes simultaneously"
       }
     ],
-    "chosenAnswer": "Front brake first and rear brake next",
     "correctAnswer": "Both brakes simultaneously",
     "explanation": "Always use both brakes simultaneously to decrease the stopping distance."
   },
@@ -589,7 +568,6 @@
         "text": "crossing an intersection."
       }
     ],
-    "chosenAnswer": "making turns.",
     "correctAnswer": "making turns.",
     "explanation": "In order to maintain balance, every motorcycle rider must hold his/her knees firmly against the gas tank while making turns."
   },
@@ -616,7 +594,6 @@
         "text": "To protect the motorcyclist from head injuries in case of a crash"
       }
     ],
-    "chosenAnswer": "To protect the motorcyclist from rain and snow",
     "correctAnswer": "To protect the motorcyclist from head injuries in case of a crash",
     "explanation": "As per Ontario law, every motorcycle rider and passenger must wear a proper helmet while moving on a motorcycle. It provides protection from head injuries during a collision."
   },
@@ -643,7 +620,6 @@
         "text": "16 years."
       }
     ],
-    "chosenAnswer": "14 years.",
     "correctAnswer": "16 years.",
     "explanation": "The minimum age requirement for the learner's licence is 16 years."
   },
@@ -670,7 +646,6 @@
         "text": "Blood alcohol content"
       }
     ],
-    "chosenAnswer": "Speed limit on highways",
     "correctAnswer": "Roads and weather conditions",
     "explanation": "Motorcycle riders are adversely affected by road and weather changes as they are not protected like four-wheel vehicle drivers are."
   },
@@ -697,7 +672,6 @@
         "text": "do all of the above."
       }
     ],
-    "chosenAnswer": "look as far around it as possible.",
     "correctAnswer": "do all of the above.",
     "explanation": "As you enter the curve, look as far around it as possible. This helps you stay in a smooth line around the curve. If you look only at the road directly in front of you, you are likely to wander back and forth across the lane, constantly correcting your steering. On a curve with a short sight distance, drive in the tire track where you can see more of the road ahead. If the curve is to the left, use the right tire track. If the curve is to the right, keep as far left as possible while watching for oncoming traffic that might be cutting the curve short. You may also change tire tracks in order to drive through a more gradual curve than if you followed the full curve of the road."
   },
@@ -724,7 +698,6 @@
         "text": "Maintain considerable distance from other vehicles"
       }
     ],
-    "chosenAnswer": "Class M1 licence holders are not allowed to drive at night.",
     "correctAnswer": "Class M1 licence holders are not allowed to drive at night.",
     "explanation": "Class M1 licence holders are not allowed to drive at night due to their insufficient experience."
   },
@@ -751,7 +724,6 @@
         "text": "Hit the brakes hard."
       }
     ],
-    "chosenAnswer": "Apply brakes to stop the vehicle immediately.",
     "correctAnswer": "Maintain control and pull over immediately.",
     "explanation": "When the chain locks the rear wheel, maintain control and pull over immediately."
   },
@@ -778,7 +750,6 @@
         "text": "Insurance liability card, valid driver's licence, and vehicle ownership document"
       }
     ],
-    "chosenAnswer": "Birth certificate, marriage certificate, and valid driver's licence",
     "correctAnswer": "Insurance liability card, valid driver's licence, and vehicle ownership document",
     "explanation": "Insurance liability card, valid driver's licence, and vehicle ownership documents are required for all drivers in Ontario."
   },
@@ -805,7 +776,6 @@
         "text": "straighten, square, squeeze."
       }
     ],
-    "chosenAnswer": "turn, slow, squeeze.",
     "correctAnswer": "straighten, square, squeeze.",
     "explanation": "When braking hard in a turn, the driver must follow the principles of \"straighten, square, squeeze\" and practice them."
   },
@@ -832,7 +802,6 @@
         "text": "clutch pushing method."
       }
     ],
-    "chosenAnswer": "push steering method.",
     "correctAnswer": "push steering method.",
     "explanation": "When travelling at speeds greater than 25 km/h, the rider must push on the handgrip in the direction of the turn."
   },
@@ -859,7 +828,6 @@
         "text": "yield to pedestrians and vehicles or come to a complete stop if necessary."
       }
     ],
-    "chosenAnswer": "stop in front of four-wheeled vehicles.",
     "correctAnswer": "yield to pedestrians and vehicles or come to a complete stop if necessary.",
     "explanation": "Whenever a motorist reaches a through intersection, s/he must yield to pedestrians and other vehicles as per the right-of-way rules."
   },
@@ -886,7 +854,6 @@
         "text": "a cap."
       }
     ],
-    "chosenAnswer": "eyeglasses.",
     "correctAnswer": "a face shield.",
     "explanation": "Face protective shields protect the motorcyclist's face and eyes from flying objects."
   },
@@ -913,7 +880,6 @@
         "text": "by slowly closing the throttle without applying brakes."
       }
     ],
-    "chosenAnswer": "by further increasing the speed of the vehicle.",
     "correctAnswer": "by slowly closing the throttle without applying brakes.",
     "explanation": "High speed wobble can be prevented by slowly closing the throttle and reducing the speed without applying the brakes."
   },
@@ -940,7 +906,6 @@
         "text": "lean in the opposite direction of the turn."
       }
     ],
-    "chosenAnswer": "bend backward.",
     "correctAnswer": "lean in the direction of the turn.",
     "explanation": "The driver as well as the passenger must lean in the direction of the turn."
   },
@@ -967,7 +932,6 @@
         "text": "Slowing down quickly"
       }
     ],
-    "chosenAnswer": "A quick movement toward the other lane",
     "correctAnswer": "A quick shoulder check",
     "explanation": "The driver should do a quick shoulder check before changing the lane position, position within a lane, or before turning off the roadway."
   },
@@ -994,7 +958,6 @@
         "text": "four-wheelers."
       }
     ],
-    "chosenAnswer": "heavy goods trucks.",
     "correctAnswer": "pedestrians.",
     "explanation": "Motorcycle riders must stop for pedestrians at crosswalks or intersections."
   },
@@ -1021,7 +984,6 @@
         "text": "lean the bike against the direction of the turn."
       }
     ],
-    "chosenAnswer": "use a higher gear.",
     "correctAnswer": "lean the bike in the direction of the turn.",
     "explanation": "To turn a motorcycle safely, the rider must lean the bike in the direction of the turn."
   },
@@ -1048,7 +1010,6 @@
         "text": "Wearing a helmet"
       }
     ],
-    "chosenAnswer": "Regular body movements while riding",
     "correctAnswer": "Keeping the feet steady on the footpegs",
     "explanation": "Motorcycle riders must keep their feet firmly on the footpegs. This will help them maintain balance."
   },
@@ -1075,7 +1036,6 @@
         "text": "Change lanes frequently to avoid any accidents with fast-moving vehicles."
       }
     ],
-    "chosenAnswer": "Apply brakes often to prevent any collisions.",
     "correctAnswer": "Check the surroundings and scan the road in all directions.",
     "explanation": "The driver must watch the surrounding areas and scan the road in all directions to prevent accidents."
   },
@@ -1102,7 +1062,6 @@
         "text": "fix your gaze on the vehicle ahead."
       }
     ],
-    "chosenAnswer": "keep your eyes scanning the road ahead, behind and beside you.",
     "correctAnswer": "keep your eyes scanning the road ahead, behind and beside you.",
     "explanation": "Keep your eyes constantly moving and scanning the road ahead, beside and behind. Don't look at any one place for more than two seconds; trouble could be developing where you aren't looking."
   },
@@ -1129,7 +1088,6 @@
         "text": "single file."
       }
     ],
-    "chosenAnswer": "alongside each other.",
     "correctAnswer": "single file.",
     "explanation": "Staggered formation can be safely used on an open road. However, you should drive single file (in a single line) on curves, in turns or when entering or leaving a freeway."
   },
@@ -1156,7 +1114,6 @@
         "text": "All of the above statements are true."
       }
     ],
-    "chosenAnswer": "Your stopping distance will increase.",
     "correctAnswer": "All of the above statements are true.",
     "explanation": "When you carry cargo or a passenger on your motorcycle, the stopping distance will increase. It will also take you longer to speed up or turn. Adjust your riding accordingly."
   },
@@ -1183,7 +1140,6 @@
         "text": "stop, yield to pedestrians, and proceed with caution."
       }
     ],
-    "chosenAnswer": "increase your speed to get past the yellow light before it turns red.",
     "correctAnswer": "stop if you can do so safely.",
     "explanation": "A steady yellow traffic light indicates that the traffic light is about to turn red. Stop if it is safe to do so. However, don't stop suddenly and risk getting rear-ended by the vehicle behind you. If you cannot stop safely, proceed with caution into the intersection, perform the maneuver you intended to make there, and clear the intersection. Never speed up in an attempt to \"beat the light\" before it turns red."
   },
@@ -1210,7 +1166,6 @@
         "text": "twist the throttle as you pull in the clutch."
       }
     ],
-    "chosenAnswer": "twist the throttle.",
     "correctAnswer": "twist the throttle as you pull in the clutch.",
     "explanation": "To shift up, twist the throttle as you pull in the clutch. Move the shift lever up with your toe until it stops. When you can hear and feel the gear engage, ease off on the clutch and slowly twist the throttle back up to speed."
   },
@@ -1237,7 +1192,6 @@
         "text": "secure it just to the sides of the motorcycle."
       }
     ],
-    "chosenAnswer": "weigh it before loading it on the motorcycle.",
     "correctAnswer": "keep the load low.",
     "explanation": "When carrying cargo, it is important to keep the load low to maintain a low centre of gravity."
   },
@@ -1264,7 +1218,6 @@
         "text": "ride to the far left of your lane."
       }
     ],
-    "chosenAnswer": "ride a little to the left or right of the centre of your lane.",
     "correctAnswer": "ride a little to the left or right of the centre of your lane.",
     "explanation": "To discourage other vehicles from sharing your lane, it is best to ride a little to the left or right of the centre of your lane, in the track where the tires of a four-wheeled vehicle would travel. This spot is referred to as the left or right “tire track.” It is also called the “blocking position” because it blocks or discourages other drivers from sharing your lane."
   },
@@ -1291,7 +1244,6 @@
         "text": "the truck turning close to the right curb."
       }
     ],
-    "chosenAnswer": "the truck swinging right.",
     "correctAnswer": "the truck swinging left.",
     "explanation": "When any vehicle turns, its rear wheels follow a shorter path than its front wheels. The longer the vehicle, the greater the difference in the turning path. If a large truck (big rig) tries to turn right from the right lane, it might overrun the right curb. This is why big rigs must often swing wide left to complete a right turn. When you follow a big rig, look at its turn signals before you try to pass it. If the truck appears to be turning left, check its turn signals; the driver may be turning right but first swinging wide."
   },
@@ -1318,7 +1270,6 @@
         "text": "with your toes pointed downward."
       }
     ],
-    "chosenAnswer": "firmly on the footrests.",
     "correctAnswer": "firmly on the footrests.",
     "explanation": "While riding a motorcycle, you should position your feet firmly on the footrests. This helps maintain balance. Pointing your feet downward could cause them to catch on something."
   },
@@ -1345,7 +1296,6 @@
         "text": "Make sure the gas tank is at least half full."
       }
     ],
-    "chosenAnswer": "Don't use saddlebags.",
     "correctAnswer": "Go slower when taking curves or corners.",
     "explanation": "Your motorcycle will respond more slowly with a passenger. Hence, you should ride a bit slower, especially when taking curves, corners or bumps."
   },
@@ -1372,7 +1322,6 @@
         "text": "go straight."
       }
     ],
-    "chosenAnswer": "make a U-turn only.",
     "correctAnswer": "turn right.",
     "explanation": "In counter-steering, you momentarily steer counter to the direction in which you want to turn. This causes the motorcycle to lean in the direction for the turn."
   },
@@ -1399,7 +1348,6 @@
         "text": "at the front of the group."
       }
     ],
-    "chosenAnswer": "anywhere.",
     "correctAnswer": "behind the leader.",
     "explanation": "When riding in a group, an inexperienced rider should be positioned right behind the leader. The inexperienced rider won't have to chase after the group, and more experienced riders will be able to keep an eye on the inexperienced rider from behind."
   },
@@ -1426,7 +1374,6 @@
         "text": "In pairs"
       }
     ],
-    "chosenAnswer": "Staggered formation",
     "correctAnswer": "Single file",
     "explanation": "When riding through curves, it is best to ride single file (in a single line)."
   },
@@ -1453,7 +1400,6 @@
         "text": "Stop momentarily; then proceed when safe."
       }
     ],
-    "chosenAnswer": "Slow down; then proceed when the way is clear.",
     "correctAnswer": "Come to a complete stop and wait for the light to turn green.",
     "explanation": "When the traffic light is red, you must come to a complete stop. Proceed only when the signal turns green and the way is clear."
   },
@@ -1480,7 +1426,6 @@
         "text": "Crouch down."
       }
     ],
-    "chosenAnswer": "Increase your speed.",
     "correctAnswer": "Rise slightly off the seat.",
     "explanation": "If you are riding over an obstacle on the road, the best way to absorb shock is to raise yourself slightly off the seat and let your knees and elbows absorb the shock."
   },
@@ -1507,7 +1452,6 @@
         "text": "do all of the above."
       }
     ],
-    "chosenAnswer": "drive at lower speeds.",
     "correctAnswer": "do all of the above.",
     "explanation": "When carrying cargo or a passenger, some speed adjustments are required. Drive slower and leave more space ahead and to your sides. Adjust your riding accordingly."
   },
@@ -1534,7 +1478,6 @@
         "text": "only in the daytime."
       }
     ],
-    "chosenAnswer": "only in rain or fog.",
     "correctAnswer": "whenever you're driving.",
     "explanation": "All motorcycles must have a white light at the front (headlight) and a red light at the back (rear or tail light), and these must be used at all times of the day and night."
   },
@@ -1561,7 +1504,6 @@
         "text": "look slightly to the right-hand side."
       }
     ],
-    "chosenAnswer": "turn your high beam on.",
     "correctAnswer": "look slightly to the right-hand side.",
     "explanation": "At night, should you meet another vehicle with blinding bright lights, the safest thing to do is to look slightly to the right-hand side."
   },
@@ -1588,7 +1530,6 @@
         "text": "in a staggered formation."
       }
     ],
-    "chosenAnswer": "alongside each other.",
     "correctAnswer": "in a staggered formation.",
     "explanation": "When riding in a group, motorcyclists should usually ride in a staggered formation. It keeps the group together while still maintaining an adequate space cushion."
   },
@@ -1615,7 +1556,6 @@
         "text": "changing lane positions."
       }
     ],
-    "chosenAnswer": "using hand signals.",
     "correctAnswer": "using hand signals.",
     "explanation": "When you're driving in a group, communicate with hand signals. Make sure all group members are familiar with the hand signals before you start your trip. To speak to another driver, wait until the two of you have stopped."
   },
@@ -1642,7 +1582,6 @@
         "text": "make a U-turn."
       }
     ],
-    "chosenAnswer": "turn left.",
     "correctAnswer": "slow down or stop.",
     "explanation": "This driver intends to slow down or stop."
   },
@@ -1669,7 +1608,6 @@
         "text": "maintain your current lane position."
       }
     ],
-    "chosenAnswer": "move as far to the right as possible.",
     "correctAnswer": "move toward the centre of your lane.",
     "explanation": "When you're being passed by an oncoming vehicle or from behind, move toward the centre of your lane. This way, you won't be too close to a passing vehicle and you'll discourage other drivers from moving into your lane."
   },
@@ -1696,7 +1634,6 @@
         "text": "stop and walk the bike across."
       }
     ],
-    "chosenAnswer": "pull in the clutch and coast.",
     "correctAnswer": "pull in the clutch and coast.",
     "explanation": "When crossing a very slippery surface, you should pull in the clutch and coast across."
   },
@@ -1723,7 +1660,6 @@
         "text": "Gravel provides less traction than pavement."
       }
     ],
-    "chosenAnswer": "They do not have posted speed limits.",
     "correctAnswer": "Gravel provides less traction than pavement.",
     "explanation": "Gravel roads are potentially dangerous to motorcyclists because the loose sand and gravel provide little traction."
   },
@@ -1750,7 +1686,6 @@
         "text": "Only in heavy traffic"
       }
     ],
-    "chosenAnswer": "Only if both lanes are headed in the same direction",
     "correctAnswer": "Never",
     "explanation": "A motorcycle needs a full lane width to maneuver safely. A motorcycle should never be ridden between lanes of traffic, even if it looks like there is room. It could put you too close to other vehicles; if they were to start making even a small movement such as changing lanes, you would have no place else to go."
   },
@@ -1777,7 +1712,6 @@
         "text": "Wear bright colours and reflective or fluorescent clothing."
       }
     ],
-    "chosenAnswer": "Use the front brake if you need to stop quickly.",
     "correctAnswer": "Use the front brake if you need to stop quickly.",
     "explanation": "Both brakes together are more effective than the rear brake alone, even on a slippery surface."
   },
@@ -1804,7 +1738,6 @@
         "text": "blue"
       }
     ],
-    "chosenAnswer": "green",
     "correctAnswer": "blue",
     "explanation": "Snow-removal vehicles on public roadways are equipped with flashing blue lights that can be seen from up to 150 metres."
   },
@@ -1831,7 +1764,6 @@
         "text": "it is not driven on often."
       }
     ],
-    "chosenAnswer": "the pavement is of poor quality.",
     "correctAnswer": "dirt and gravel provide little traction.",
     "explanation": "The side of the road can be dangerous to motorcycles because the dirt and gravel that build up there provide little traction."
   },
@@ -1858,7 +1790,6 @@
         "text": "the front brake."
       }
     ],
-    "chosenAnswer": "the rear brake.",
     "correctAnswer": "the front brake.",
     "explanation": "The front brake provides three-quarters of your motorcycle's stopping power."
   },
@@ -1885,7 +1816,6 @@
         "text": "do all of the above."
       }
     ],
-    "chosenAnswer": "increase your following distance.",
     "correctAnswer": "do all of the above.",
     "explanation": "For increased safety when riding at night, you should do the following: 1. Reduce your speed to give yourself more time to react to the unexpected. 2. Increase your following distance to give yourself more room to maneuver if the vehicle ahead of you stops short. 3. Watch the vehicle ahead of you. Its headlights can help give you a better view of the road. And if the vehicle's taillights seem to bounce up and down, it is likely riding over bumps."
   },
@@ -1912,7 +1842,6 @@
         "text": "Don't drive in another vehicle's blind spot."
       }
     ],
-    "chosenAnswer": "Larger vehicles have smaller blind spots.",
     "correctAnswer": "Larger vehicles have smaller blind spots.",
     "explanation": "Every vehicle has blind spots. Generally, the larger the vehicle, the larger the blind spots."
   },
@@ -1939,7 +1868,6 @@
         "text": "Slow down and stop even if the intersection is clear."
       }
     ],
-    "chosenAnswer": "Slow down; stop if necessary to yield the right-of-way.",
     "correctAnswer": "Slow down; stop if necessary to yield the right-of-way.",
     "explanation": "This sign means that drivers must slow down and be ready to stop if necessary to let any vehicle or pedestrian pass."
   },
@@ -1966,7 +1894,6 @@
         "text": "on most roads whose speed limits are over 80 km/h."
       }
     ],
-    "chosenAnswer": "in residential areas.",
     "correctAnswer": "on most roads whose speed limits are over 80 km/h.",
     "explanation": "While you hold an M1 licence, you may not drive on roads whose speed limits are over 80 km/h, except highways 11, 17, 61, 69, 71, 101, 102, 144 and 655. (These exceptions are made because some drivers have no other route available to them.) Also, you may not drive from one-half hour after sunset to one-half hour before sunrise."
   },
@@ -1993,7 +1920,6 @@
         "text": "do all of the above."
       }
     ],
-    "chosenAnswer": "keep it low.",
     "correctAnswer": "do all of the above.",
     "explanation": "To carry a load, you should position it forward and low and distribute the weight evenly. Keep your motorcycle balanced and keep its centre of gravity low."
   },
@@ -2020,7 +1946,6 @@
         "text": "turn right."
       }
     ],
-    "chosenAnswer": "make a U-turn.",
     "correctAnswer": "turn right.",
     "explanation": "This hand signal indicates that the driver intends to turn right."
   },
@@ -2047,7 +1972,6 @@
         "text": "10 seconds"
       }
     ],
-    "chosenAnswer": "5 seconds",
     "correctAnswer": "2 seconds",
     "explanation": "Always keep at least a two-second following distance behind the vehicle in front of you. This gives you time to react if something happens ahead. It also gives you a better view of things in the road, such as potholes, slippery spots, chunks of tire tread, or debris. If conditions are less than ideal, such as in bad weather, leave even more space."
   },
@@ -2074,7 +1998,6 @@
         "text": "to the left of the white line."
       }
     ],
-    "chosenAnswer": "as close to the left side of the roadway as possible.",
     "correctAnswer": "as close to the left side of the roadway as possible.",
     "explanation": "When making a left turn, position your motorcycle as close to the left side of the roadway as possible."
   },
@@ -2101,7 +2024,6 @@
         "text": "a double solid yellow line is in the centre."
       }
     ],
-    "chosenAnswer": "a solid yellow line is next to your lane.",
     "correctAnswer": "a broken yellow line is next to your lane.",
     "explanation": "On a two-lane road where traffic moves in opposite directions, you may pass on the left when a broken yellow line is next to your lane."
   },
@@ -2128,7 +2050,6 @@
         "text": "Clothing made of non-reflective material"
       }
     ],
-    "chosenAnswer": "Brightly colored clothing",
     "correctAnswer": "Brightly colored clothing",
     "explanation": "Most collisions occur in broad daylight. Wear brightly colored clothing to increase your chances of being seen. Bright orange, red, yellow, or green jackets or vests are best for being seen. Reflective material on your vest and helmets will help drivers see you from the side."
   },
@@ -2155,7 +2076,6 @@
         "text": "turn right."
       }
     ],
-    "chosenAnswer": "make a U-turn.",
     "correctAnswer": "turn right.",
     "explanation": "You may use your vehicle's signal lights or hand signals. If the signal lights are not working or if bright sunlight makes them hard to see, use hand signals. A driver in front of you who signals with his or her hand and arm pointing upward is about to turn right."
   },
@@ -2182,7 +2102,6 @@
         "text": "a car driver's visibility might be reduced."
       }
     ],
-    "chosenAnswer": "your motorcycle might skid.",
     "correctAnswer": "you might be in a blind spot.",
     "explanation": "It can be dangerous to drive alongside cars because you might be riding in their blind spots."
   },
@@ -2209,7 +2128,6 @@
         "text": "making right turns"
       }
     ],
-    "chosenAnswer": "making left turns",
     "correctAnswer": "making left turns",
     "explanation": "This is a shared centre lane, also known as a shared left-turn lane. Vehicles in either direction may use this lane only to make a left turn (or a U-turn where permitted). Use this lane with caution because vehicles travelling in the opposite direction may use it, too."
   },
@@ -2236,7 +2154,6 @@
         "text": "brake as hard as you can."
       }
     ],
-    "chosenAnswer": "do your best to swerve around it.",
     "correctAnswer": "do your best to swerve around it.",
     "explanation": "If you cannot stop in time and the animal is large, such as a dog or moose, you may have no choice but to swerve; if you are in traffic, try to stay in your lane. However, if the animal is small, you have a better chance of surviving an impact with it than with another vehicle."
   },
@@ -2263,7 +2180,6 @@
         "text": "a foot pedal."
       }
     ],
-    "chosenAnswer": "the right hand lever.",
     "correctAnswer": "a foot pedal.",
     "explanation": "The rear brake is controlled by the right foot pedal. The front brake is controlled by the right hand lever."
   },
@@ -2290,7 +2206,6 @@
         "text": "Stand on the shoulder of the road and wave to passing drivers."
       }
     ],
-    "chosenAnswer": "Put your helmet on the ground near the road.",
     "correctAnswer": "Put your helmet on the ground near the road.",
     "explanation": "If you must make an emergency stop, pull your motorcycle off the road as far as possible. If you need help, place your helmet on the ground near the road. This is a signal among motorcycle drivers that a motorcyclist needs help."
   },
@@ -2317,7 +2232,6 @@
         "text": "approach the animal and then speed away."
       }
     ],
-    "chosenAnswer": "kick the dog.",
     "correctAnswer": "approach the animal and then speed away.",
     "explanation": "If a dog starts to chase you, you should approach the animal and then speed away. This should stop the dog from chasing you."
   },
@@ -2344,7 +2258,6 @@
         "text": "Proceed straight through; you cannot turn left or right at a flashing red signal."
       }
     ],
-    "chosenAnswer": "Proceed with caution; the traffic signal is out of order.",
     "correctAnswer": "Stop and yield as you would at a stop sign.",
     "explanation": "You must treat a flashing red signal like a stop sign. That is, you must stop before entering the intersection or crosswalk, yield to traffic and pedestrians, and then proceed when it is safe to do so."
   },
@@ -2371,7 +2284,6 @@
         "text": "let the tailgater pass you."
       }
     ],
-    "chosenAnswer": "increase your speed.",
     "correctAnswer": "let the tailgater pass you.",
     "explanation": "If you are being tailgated, try to get the tailgater in front of you. (You are safer with the tailgater in front of you than right behind you.) Change lanes if possible, slow down, and encourage the tailgater behind you to pass. Don't increase your speed in an attempt to appease or outdistance the tailgater. No speed is too fast for some tailgaters."
   },
@@ -2398,7 +2310,6 @@
         "text": "Vehicles travelling in either direction can make right turns."
       }
     ],
-    "chosenAnswer": "Vehicles travelling in either direction can make left turns.",
     "correctAnswer": "Vehicles travelling in either direction can make left turns.",
     "explanation": "This is a shared centre lane, also known as a shared left-turn lane. Vehicles in either direction may use this lane only to make a left turn (or a U-turn where permitted). Use this lane with caution because vehicles travelling in the opposite direction may use it, too."
   },
@@ -2425,7 +2336,6 @@
         "text": "Use threshold braking."
       }
     ],
-    "chosenAnswer": "Use the rear brake only.",
     "correctAnswer": "Use threshold braking.",
     "explanation": "Pull in the clutch and apply both brakes quickly and smoothly but without locking the wheels (or without ABS kicking in if your motorcycle has ABS brakes). If either wheel locks, release the brake momentarily to get the wheel rolling, then re-apply the brakes but not to the point of locking. This is called threshold braking."
   },
@@ -2452,7 +2362,6 @@
         "text": "slow down and proceed with caution."
       }
     ],
-    "chosenAnswer": "treat the intersection like an all-way stop.",
     "correctAnswer": "treat the intersection like an all-way stop.",
     "explanation": "During an electrical failure, traffic lights at intersections will not work. Proceed cautiously and use the intersection the same way you would use an intersection with all-way stop signs."
   },
@@ -2479,7 +2388,6 @@
         "text": "with elbows and wrists high."
       }
     ],
-    "chosenAnswer": "with elbows and wrists locked.",
     "correctAnswer": "with elbows slightly bent and wrists low.",
     "explanation": "To maintain adequate control of the motorcycle, your arms should be positioned with elbows slightly bent and wrists low to prevent you from increasing your speed by mistake."
   },
@@ -2506,7 +2414,6 @@
         "text": "Passing is permitted during the day."
       }
     ],
-    "chosenAnswer": "Passing is not permitted.",
     "correctAnswer": "Passing is not permitted.",
     "explanation": "A double solid yellow line in the centre of a two-lane road means that no passing is allowed on either side."
   },
@@ -2533,7 +2440,6 @@
         "text": "Pull off the road when it is safe and clear off your face shield."
       }
     ],
-    "chosenAnswer": "Stop immediately and clear off your face shield.",
     "correctAnswer": "Pull off the road when it is safe and clear off your face shield.",
     "explanation": "From time to time, insects, cigarette butts thrown from other vehicles or stones kicked up by the tires of the vehicle ahead may hit you. If you are not wearing face protection, you could be hit in the eye or the face. If you are wearing face protection, it could become smeared or cracked, making it difficult to see. Whatever happens, do not let it affect your control of your motorcycle or moped. Keep your eyes on the road and your hands on the handlebars. As soon as it is safe, pull off the road and repair the damage."
   },
@@ -2560,7 +2466,6 @@
         "text": "look both ways for an approaching train and listen carefully."
       }
     ],
-    "chosenAnswer": "look both ways only if the signals are flashing.",
     "correctAnswer": "look both ways for an approaching train and listen carefully.",
     "explanation": "Look both ways as you approach a railway crossing, even if the flashing signal is not functioning. Never stop your vehicle when any part of your vehicle is on the track. When in traffic, never proceed across the tracks unless the opposite side has adequate room for the full length of your vehicle. Never drive around lowered gates or fail to heed a warning signal, even if you can’t see a train approaching. Also keep in mind that trains are at least two metres wider than the tracks that they run on, so you don't want to be too close."
   },
@@ -2587,7 +2492,6 @@
         "text": "the left hand lever."
       }
     ],
-    "chosenAnswer": "the right hand lever.",
     "correctAnswer": "the right hand lever.",
     "explanation": "The front brake is operated by the right hand lever. The left hand lever controls the clutch. The right foot pedal is for the rear brake, and the left foot lever is the gear shifter."
   },
@@ -2614,7 +2518,6 @@
         "text": "is harmful to the motorcycle."
       }
     ],
-    "chosenAnswer": "is not hazardous.",
     "correctAnswer": "is not hazardous.",
     "explanation": "Weaving caused by riding over a metal grating is usually not hazardous. Relax and stay on course."
   },
@@ -2641,7 +2544,6 @@
         "text": "increases or decreases"
       }
     ],
-    "chosenAnswer": "decreases",
     "correctAnswer": "decreases",
     "explanation": "Checking tire pressure is recommended every time you drive. Proper tire pressure means safer driving and longer-lasting tires. Use an air-pressure gauge to get accurate readings. Keep in mind that tire pressures decrease when the tires are cold."
   },
@@ -2668,7 +2570,6 @@
         "text": "the front brake"
       }
     ],
-    "chosenAnswer": "the rear brake",
     "correctAnswer": "the front brake",
     "explanation": "When starting on a hill, use the front brake to hold your motorcycle while you start the engine and shift into first gear. Change to the rear brake to hold your vehicle while you operate the throttle with your right hand. Slowly open the throttle for more power and slowly release the clutch. (If you release it too quickly, the front wheel may lift off the ground or the engine may stall.) Ease off the rear brake as the engine slows down and engages."
   },
@@ -2695,7 +2596,6 @@
         "text": "the centre of your lane."
       }
     ],
-    "chosenAnswer": "the right tire track position.",
     "correctAnswer": "the left tire track position.",
     "explanation": "To increase your line of sight when passing the vehicle ahead of you, drive in the left portion of your lane (left tire track position). This will let you see beyond the vehicle in front of you and spot oncoming hazards. It will also make your pass more visible to the driver of the vehicle."
   },
@@ -2722,7 +2622,6 @@
         "text": "keep a gentle but firm grip on the handlebars."
       }
     ],
-    "chosenAnswer": "stop and walk your motorcycle across.",
     "correctAnswer": "keep a gentle but firm grip on the handlebars.",
     "explanation": "When you ride over grooved or rutted pavement or metal gratings, you may feel as though you are losing control of your motorcycle. This effect is greater on smaller vehicles than it is on larger ones; the smaller your vehicle, the larger the effect. Avoid overreacting. Keep a gentle but firm grip on the handlebars and drive as smoothly as you can, choosing the best route possible until you get back on a good surface."
   },
@@ -2749,7 +2648,6 @@
         "text": "While it is still on the kickstand"
       }
     ],
-    "chosenAnswer": "After the engine has been started",
     "correctAnswer": "After the engine has been started",
     "explanation": "A passenger should get on a motorcycle only after the motorcyclist has mounted and started it."
   },
@@ -2776,7 +2674,6 @@
         "text": "is for blocking other traffic."
       }
     ],
-    "chosenAnswer": "blocks your view.",
     "correctAnswer": "discourages other drivers from sharing your lane.",
     "explanation": "Usually the best lane position is a little to the left or right of the centre of your lane (left or right \"tire track position\"). It is also called the “blocking position” because it blocks or discourages other drivers from trying to squeeze past you in the same lane."
   },
@@ -2803,7 +2700,6 @@
         "text": "stop."
       }
     ],
-    "chosenAnswer": "back up to your exit.",
     "correctAnswer": "continue to the next exit.",
     "explanation": "If you miss your exit on a highway, don't stop, back up, or try to turn around. Doing so greatly increases the likelihood of a collision. Instead, take the next exit and re-enter the highway to return to the exit you missed."
   },
@@ -2830,7 +2726,6 @@
         "text": "passing is prohibited."
       }
     ],
-    "chosenAnswer": "changing lanes is not allowed.",
     "correctAnswer": "passing is allowed if the way is clear.",
     "explanation": "A single broken yellow line usually marks the centreline of a two-way roadway on which a vehicle may pass if it is safe."
   },
@@ -2857,7 +2752,6 @@
         "text": "Only in the daytime"
       }
     ],
-    "chosenAnswer": "Only if you can stop safely",
     "correctAnswer": "Only if you can stop safely",
     "explanation": "Obey the maximum speed limit posted on signs along the road, but always ride at a speed that will let you stop safely. This means riding below the maximum speed limit in bad weather, heavy traffic, or construction zones."
   },
@@ -2884,7 +2778,6 @@
         "text": "use the front brake only."
       }
     ],
-    "chosenAnswer": "apply both brakes.",
     "correctAnswer": "operate the engine kill switch.",
     "explanation": "If your throttle is stuck and twisting it does not release it, operate the engine kill switch and pull in the clutch at the same time. This will cut power to the rear wheel."
   },
@@ -2911,7 +2804,6 @@
         "text": "Always stop when a train is close to the crossing."
       }
     ],
-    "chosenAnswer": "Never drive around crossing gates.",
     "correctAnswer": "You can shift gears on the crossing.",
     "explanation": "Don't try to cross the tracks until you can cross them without stopping or shifting gears (because your vehicle might stall on the tracks). If the crossing gates are down, stop and remain stopped until the gates are raised. Always stop when a train is close to the crossing. A train cannot yield the right-of-way to you."
   },
@@ -2938,7 +2830,6 @@
         "text": "Speed up to clear the intersection as quickly as possible."
       }
     ],
-    "chosenAnswer": "Stop. If a stop cannot be made safely, proceed with caution.",
     "correctAnswer": "Stop. If a stop cannot be made safely, proceed with caution.",
     "explanation": "If the signal light changes to yellow (amber) as you're approaching it, stop. Only if a stop cannot be made safely should you proceed with caution into the intersection."
   },
@@ -2965,7 +2856,6 @@
         "text": "Lean sharply in the direction in which you need to swerve."
       }
     ],
-    "chosenAnswer": "Lean sharply in the opposite direction from which you need to swerve.",
     "correctAnswer": "Apply a small amount of pressure to the handgrip on the side of your intended swerve.",
     "explanation": "If you are in danger of hitting an object, the best way to initiate a swerve is to apply a small amount of pressure to the handgrip on the side of your intended swerve. This will cause the motorcycle to lean quickly in that direction."
   },
@@ -2992,7 +2882,6 @@
         "text": "disregard the bus."
       }
     ],
-    "chosenAnswer": "honk your horn and pass the bus quickly.",
     "correctAnswer": "slow down or stop to yield the right-of-way to the bus.",
     "explanation": "When a bus in a bus bay begins flashing its left-turn signals, indicating that it is ready to leave the bus bay, and you are approaching in the lane adjacent to the bus bay, you must allow the bus to re-enter traffic. Yielding the right-of-way to buses in this situation is the law."
   },
@@ -3019,7 +2908,6 @@
         "text": "shift gears in the turn."
       }
     ],
-    "chosenAnswer": "shift gears after the turn.",
     "correctAnswer": "shift gears before the turn.",
     "explanation": "If you need to shift gears as you approach a turn, you should do it before the turn if possible. This will help keep the turn smooth and stable. A sudden change in power to the rear wheel during a turn can cause a skid."
   },
@@ -3046,7 +2934,6 @@
         "text": "Shifting gears improperly"
       }
     ],
-    "chosenAnswer": "The front tire skidding",
     "correctAnswer": "Being low on oil",
     "explanation": "If an engine locks, it is likely low on oil. Always check your oil before beginning a trip. If needed, add oil as soon as possible or else the engine may seize."
   },
@@ -3073,7 +2960,6 @@
         "text": "in any of the above situations."
       }
     ],
-    "chosenAnswer": "when approaching a hill or curve where there is no clear visibility.",
     "correctAnswer": "in any of the above situations.",
     "explanation": "A solid yellow line indicates a no-passing zone. You are not allowed to pass if there is a solid yellow line next to your lane. It is also illegal to pass a stopped school bus with flashing red lights and an extended stop arm. Also, do not pass when approaching a hill or curve where there is no clear visibility."
   },
@@ -3100,7 +2986,6 @@
         "text": "Do all of the above."
       }
     ],
-    "chosenAnswer": "Don’t overdrive your headlight.",
     "correctAnswer": "Don’t overdrive your headlight.",
     "explanation": "You are overdriving your headlight when you travel so fast that your stopping distance is farther than you can see with your headlight. This is a dangerous thing to do, because you are not giving yourself enough room to make a safe stop. In the dark, you have no way of knowing what lies beyond the reach of your headlight."
   },
@@ -3127,7 +3012,6 @@
         "text": "ride as slowly as possible."
       }
     ],
-    "chosenAnswer": "ride close to the cars so their drivers can see you.",
     "correctAnswer": "ride in the left tire track position.",
     "explanation": "When passing a line of parked cars on your right, you should ride in the left tire track position to be farthest away from hazards associated with parked cars."
   },
@@ -3154,7 +3038,6 @@
         "text": "do all of the above."
       }
     ],
-    "chosenAnswer": "increase your following distance.",
     "correctAnswer": "do all of the above.",
     "explanation": "Turn on your low-beam headlight whenever visibility is reduced, such as in bad weather. Don't use your high-beam headlight in bad weather. The bright light can reflect off fog, rain or snow and cause glare. However, if fog becomes so dense that you cannot see even 10 seconds ahead, pull off the road and stop in a safe place. Remember: If you can't see, you can't drive."
   },
@@ -3181,7 +3064,6 @@
         "text": "All of the above statements are true."
       }
     ],
-    "chosenAnswer": "Stay in the left lane if a large truck ahead is making a left turn.",
     "correctAnswer": "Large trucks create heavy turbulence that may affect your ability to control your motorcycle.",
     "explanation": "A large vehicle can create heavy turbulence that can seriously affect your ability to control your vehicle when you are passing the larger one. If you must pass a large vehicle, try to relax and work with the air turbulence. Do not drive in the left lane when a large vehicle is making a left turn in front of you. Stay well back until the truck has cleared the turn, or else you might get squeezed between the truck and the curb. Keep in mind that large trucks require much longer stopping distances. When you pass a large truck, don't cut right in front of it. If you cut right in front of the truck and then have to slow down suddenly for some reason, the truck may not have enough space to avoid rear-ending you. Wait until you are well ahead of the truck before you merge back in front of it."
   },
@@ -3208,7 +3090,6 @@
         "text": "Enter the intersection and wait for the other vehicles to clear it."
       }
     ],
-    "chosenAnswer": "Don't enter the intersection until the other vehicles have cleared it.",
     "correctAnswer": "Don't enter the intersection until the other vehicles have cleared it.",
     "explanation": "Never block an intersection. Even if the light is green, don't proceed into the intersection if you can't get through it. Instead, wait until the other side of the intersection is clear before you proceed."
   },
@@ -3235,7 +3116,6 @@
         "text": "swerve from side to side."
       }
     ],
-    "chosenAnswer": "flash your brake light.",
     "correctAnswer": "flash your brake light.",
     "explanation": "To warn drivers that you are slowing down in an unusual place, tap the brake pedal to flash your brake light to the driver behind you."
   },
@@ -3262,7 +3142,6 @@
         "text": "any of the above are true."
       }
     ],
-    "chosenAnswer": "someone has been hurt or killed.",
     "correctAnswer": "any of the above are true.",
     "explanation": "By law, you must report to the police any collision involving injuries or damage to vehicles or property exceeding $2,000."
   },
@@ -3289,7 +3168,6 @@
         "text": "100 km/h."
       }
     ],
-    "chosenAnswer": "80 km/h.",
     "correctAnswer": "80 km/h.",
     "explanation": "Where there are no posted speed limits, the maximum speed limit is 50 km/h in cities, towns and villages, and 80 km/h elsewhere."
   },
@@ -3316,7 +3194,6 @@
         "text": "$400."
       }
     ],
-    "chosenAnswer": "$1,000.",
     "correctAnswer": "$400.",
     "explanation": "When driving your own vehicle or someone else’s, you must carry the pink liability insurance card from the insurance company for that particular vehicle. You must show this card if a police officer asks for it. If you do not, you may be fined up to $400."
   },
@@ -3343,7 +3220,6 @@
         "text": "0.05"
       }
     ],
-    "chosenAnswer": "0.04",
     "correctAnswer": "zero",
     "explanation": "M1 licence holders may not operate a motorcycle if they have been drinking alcohol."
   },
@@ -3370,7 +3246,6 @@
         "text": "1 month."
       }
     ],
-    "chosenAnswer": "6 days.",
     "correctAnswer": "6 days.",
     "explanation": "If your name or address changes, it is your responsibility to report it to the Ministry of Transportation within six days."
   },
@@ -3397,7 +3272,6 @@
         "text": "any of the above"
       }
     ],
-    "chosenAnswer": "racing",
     "correctAnswer": "any of the above",
     "explanation": "If you are convicted of careless driving, racing, failing to stop for a school bus or exceeding the speed limit by 50 km/hour or more, six demerit points will be added to your driving record. You may also face additional penalties."
   },
@@ -3424,7 +3298,6 @@
         "text": "One or more of the above"
       }
     ],
-    "chosenAnswer": "Loss of licence for up to a year",
     "correctAnswer": "One or more of the above",
     "explanation": "Before you may register your motorcycle or moped or renew your registration, you must show proof that you have insurance coverage. If you provide false documents or lie about your insurance, you can be fined from $5,000 to $25,000. You may also lose your licence for up to one year and have your motorcycle or moped taken away for up to three months."
   },
@@ -3451,7 +3324,6 @@
         "text": "1"
       }
     ],
-    "chosenAnswer": "3",
     "correctAnswer": "3",
     "explanation": "Many different offences carry three points each. These include driving through, around or under a railway crossing barrier; failing to yield the right-of-way; and failing to obey a stop sign, traffic light or railway crossing signal."
   },
@@ -3478,7 +3350,6 @@
         "text": "you may only ride to and from work."
       }
     ],
-    "chosenAnswer": "you may operate a motorcycle in an emergency.",
     "correctAnswer": "you may not operate a motorcycle.",
     "explanation": "If your licence is suspended, you may not operate a motorcycle under any circumstances. [R.S.O. 1990, c. H.8, s. 36]"
   },
@@ -3505,7 +3376,6 @@
         "text": "All of the above statements are correct."
       }
     ],
-    "chosenAnswer": "It is a document that certifies your vehicle's fitness.",
     "correctAnswer": "All of the above statements are correct.",
     "explanation": "An inspection station licensed by the Ministry of Transportation to inspect motorcycles can issue a safety standards certificate (SSC) for your vehicle, provided that it has passed an inspection. An SSC is valid for 36 days after the inspection."
   },
@@ -3532,7 +3402,6 @@
         "text": "Any of the above"
       }
     ],
-    "chosenAnswer": "Over-the-counter medications",
     "correctAnswer": "Any of the above",
     "explanation": "Not only alcohol can affect your ability to ride a motorcycle. Some illegal, prescription, and over-the-counter drugs can also affect your riding abilities. If you're not sure of the effects of a particular medication, check the warning label or ask your pharmacist or doctor."
   },
@@ -3559,7 +3428,6 @@
         "text": "3 demerit points."
       }
     ],
-    "chosenAnswer": "6 demerit points.",
     "correctAnswer": "6 demerit points.",
     "explanation": "See section “Demerit-point System for Level 1 and Level 2 Drivers” in the official MTO Driver's handbook. Note that this question refers to Level 1 and Level 2 drivers, NOT fully licensed drivers."
   },
@@ -3586,7 +3454,6 @@
         "text": "Monthly"
       }
     ],
-    "chosenAnswer": "Biweekly",
     "correctAnswer": "Every time you ride",
     "explanation": "Motorcycles require more maintenance than cars. It is important that you read your owner’s manual, inspect your motorcycle carefully and fix things right away. According to the Official Ministry of Transportation Motorcycle Handbook, in addition to the check you do each time you ride, some things as tires, wheels, coolant, battery, drive line, brakes and shock absorbers should be carefully examined weekly."
   },
@@ -3613,7 +3480,6 @@
         "text": "Only in an emergency"
       }
     ],
-    "chosenAnswer": "If you are riding together",
     "correctAnswer": "Never",
     "explanation": "It is illegal to lend your licence to anyone or use someone else's licence as your own."
   },
@@ -3640,7 +3506,6 @@
         "text": "30 km/h."
       }
     ],
-    "chosenAnswer": "50 km/h.",
     "correctAnswer": "50 km/h.",
     "explanation": "Where there are no posted speed limits, the maximum speed limit is 50 km/h in cities, towns and villages, and 80 km/h elsewhere."
   },
@@ -3667,7 +3532,6 @@
         "text": "One immediate relative"
       }
     ],
-    "chosenAnswer": "Two",
     "correctAnswer": "None",
     "explanation": "M1 drivers are not allowed to carry any passengers."
   },
@@ -3694,7 +3558,6 @@
         "text": "do nothing."
       }
     ],
-    "chosenAnswer": "report it to the police within 6 days.",
     "correctAnswer": "report it to a Driver and Vehicle Licence Issuing Office within 6 days.",
     "explanation": "Your vehicle permit includes a description of your motorcycle. If you have changed anything, such as the colour, you must report it to a Driver and Vehicle Licence Issuing Office within six days."
   },
@@ -3721,7 +3584,6 @@
         "text": "45 days."
       }
     ],
-    "chosenAnswer": "60 days.",
     "correctAnswer": "90 days.",
     "explanation": "Your M1 licence is only valid for 90 days, so it is a good idea to book your Level One road test early so you can complete it before your M1 licence expires."
   },
@@ -3748,7 +3610,6 @@
         "text": "meet all of the above requirements."
       }
     ],
-    "chosenAnswer": "have an M1, M2 or M licence.",
     "correctAnswer": "meet all of the above requirements.",
     "explanation": "To legally drive a motorcycle in Ontario, you must be at least 16 years old and have a valid motorcycle licence, and a licence plate must be attached to the rear of your vehicle."
   },
@@ -3775,7 +3636,6 @@
         "text": "from 10 p.m. to 6 a.m."
       }
     ],
-    "chosenAnswer": "from midnight to 5 a.m.",
     "correctAnswer": "from one-half hour after sunset to one-half hour before sunrise.",
     "explanation": "While you hold an M1 licence, you may NOT drive from one-half hour after sunset to one-half hour before sunrise. There are also other restrictions on your driving."
   },
@@ -3802,7 +3662,6 @@
         "text": "Road work ahead"
       }
     ],
-    "chosenAnswer": "Survey crew working ahead",
     "correctAnswer": "Traffic control person ahead",
     "explanation": "This sign indicates a traffic control person ahead. Traffic control persons (also known as flag persons) may direct traffic at construction (work) zones by using hand signals and STOP/SLOW paddles. Slow down and follow all directions of the traffic control person."
   },
@@ -3829,7 +3688,6 @@
         "text": "There is a sharp bend or curve in the road ahead."
       }
     ],
-    "chosenAnswer": "This lane exits to the right.",
     "correctAnswer": "There is a slight bend or curve in the road ahead.",
     "explanation": "This sign warns of a slight bend or curve in the road ahead."
   },
@@ -3856,7 +3714,6 @@
         "text": "Construction zone ahead"
       }
     ],
-    "chosenAnswer": "Bumpy or uneven pavement ahead",
     "correctAnswer": "Bumpy or uneven pavement ahead",
     "explanation": "This is a “Bumpy or Uneven Pavement Ahead” road sign. Slow down."
   },
@@ -3883,7 +3740,6 @@
         "text": "School buses load or unload in this area by turning on the flashing red lights and extending the stop arm."
       }
     ],
-    "chosenAnswer": "You must be driving a school bus to enter this area.",
     "correctAnswer": "School buses load or unload in this area without using the flashing red lights or the stop arm.",
     "explanation": "This sign marks a loading zone for school buses. In this area, school buses load or unload passengers without using the flashing red lights or the stop arm."
   },
@@ -3910,7 +3766,6 @@
         "text": "Slight bend or curve in the road ahead"
       }
     ],
-    "chosenAnswer": "Road turns left",
     "correctAnswer": "Closed lane",
     "explanation": "This sign means that there is a closed lane ahead. If you're in that lane, adjust your speed to merge with traffic in the lane indicated by the arrow."
   },
@@ -3937,7 +3792,6 @@
         "text": "There is road work operation ahead."
       }
     ],
-    "chosenAnswer": "Slow down and obey the flagger's directions.",
     "correctAnswer": "There is road work operation ahead.",
     "explanation": "This is a “Road Work Ahead” sign."
   },
@@ -3964,7 +3818,6 @@
         "text": "Only weekend parking is allowed."
       }
     ],
-    "chosenAnswer": "You may park in the designated area during the posted times.",
     "correctAnswer": "You may park in the designated area during the posted times.",
     "explanation": "A green circle indicates permission. This regulatory sign means that you may park in the designated area for two hours during the posted times."
   },
@@ -3991,7 +3844,6 @@
         "text": "Road under construction"
       }
     ],
-    "chosenAnswer": "Divided highway ends",
     "correctAnswer": "Divided highway begins",
     "explanation": "This warning sign indicates that the road ahead is divided by a median. Keep right of it."
   },
@@ -4018,7 +3870,6 @@
         "text": "Watch for people with disabilities."
       }
     ],
-    "chosenAnswer": "Passing is not allowed.",
     "correctAnswer": "A school crossing is ahead.",
     "explanation": "This warning sign is a \"School Crossing Ahead\" road sign. Follow the directions of the crossing guard or school safety patroller."
   },
@@ -4045,7 +3896,6 @@
         "text": "Safety check ahead"
       }
     ],
-    "chosenAnswer": "Bumpy road ahead",
     "correctAnswer": "Steep hill ahead",
     "explanation": "This is a “Steep Hill Ahead” road sign. This sign says that you are about to enter a steep 12% descent. Check your brakes. To reduce wear on your brakes, shift into a lower gear even if your vehicle has an automatic transmission."
   },
@@ -4072,7 +3922,6 @@
         "text": "None of the above"
       }
     ],
-    "chosenAnswer": "Intersection with unpaved road ahead",
     "correctAnswer": "Railway crossing ahead",
     "explanation": "This is a sign indicating that a railway crossing is ahead. Slow down, watch for trains and be prepared to stop if a train is approaching."
   },
@@ -4099,7 +3948,6 @@
         "text": "No parking"
       }
     ],
-    "chosenAnswer": "Bicycles allowed on this road",
     "correctAnswer": "No bicycles allowed on this road",
     "explanation": "A red slash inside a red circle means \"no.\" This regulatory sign means that bicycles are not allowed."
   },
@@ -4126,7 +3974,6 @@
         "text": "No pedestrians are allowed on this road."
       }
     ],
-    "chosenAnswer": "This lane is for bicycles only.",
     "correctAnswer": "This road is an official bicycle route.",
     "explanation": "This road is an official bicycle route. Watch for cyclists and be prepared to share the road with them."
   },
@@ -4153,7 +4000,6 @@
         "text": "When a school bus stops with its red lights flashing and its stop sign arm swung out, you must slow down to 25 km/h and proceed with caution."
       }
     ],
-    "chosenAnswer": "When a school bus stops with its red lights flashing and its stop sign arm swung out, you may proceed if you're on the opposite side of the road.",
     "correctAnswer": "When a school bus stops with its red lights flashing and its stop sign arm swung out, you must stop at least 20 metres from the bus.",
     "explanation": "When a school bus stops with its red lights flashing and its stop sign arm extended, you must stop at least 20 metres from the bus, regardless of which side of the road the bus is on. Remain stopped until the stop sign arm is retracted and the red lights stop flashing. (The only exception is if the bus is stopped on the opposite side of a divided highway. In that case, you don't have to stop for it.)"
   },
@@ -4180,7 +4026,6 @@
         "text": "A vehicle carrying dangerous goods"
       }
     ],
-    "chosenAnswer": "A slow-moving vehicle",
     "correctAnswer": "A slow-moving vehicle",
     "explanation": "This emblem on the rear of the vehicle identifies it as a slow-moving vehicle (one whose speed is 40 km/h or less). Slow-moving vehicles include farm equipment and some construction equipment. If you see this emblem on a vehicle you are following, slow down and be patient."
   },
@@ -4207,7 +4052,6 @@
         "text": "indicates a truck route."
       }
     ],
-    "chosenAnswer": "is a permissive sign.",
     "correctAnswer": "is a permissive sign.",
     "explanation": "A regulatory sign with a green circle is a permissive sign. It means you may or must do the activity shown inside the circle."
   },
@@ -4234,7 +4078,6 @@
         "text": "Bicycle crossing ahead"
       }
     ],
-    "chosenAnswer": "Bicycles not allowed",
     "correctAnswer": "Bicycle crossing ahead",
     "explanation": "This is a “Bicycle Crossing Ahead” road sign."
   },
@@ -4261,7 +4104,6 @@
         "text": "Maximum speed limit on the highway"
       }
     ],
-    "chosenAnswer": "Maximum safe speed on the ramp",
     "correctAnswer": "Maximum speed limit on the highway",
     "explanation": "This is a “Maximum Speed Limit on the Highway” road sign."
   },
@@ -4288,7 +4130,6 @@
         "text": "Deer regularly cross here."
       }
     ],
-    "chosenAnswer": "Do not honk at animals.",
     "correctAnswer": "Deer regularly cross here.",
     "explanation": "This is a “Deer Crossing” road sign. Watch for deer and be prepared to stop for them."
   },
@@ -4315,7 +4156,6 @@
         "text": "Possible falling rocks ahead"
       }
     ],
-    "chosenAnswer": "Passing not allowed",
     "correctAnswer": "Possible falling rocks ahead",
     "explanation": "This is a “Watch for Falling Rocks” road sign. Drive with extra caution and be prepared to avoid a collision."
   },
@@ -4342,7 +4182,6 @@
         "text": "Shows the exits on the upcoming roundabout and where they will take you"
       }
     ],
-    "chosenAnswer": "Shows distances to towns or cities",
     "correctAnswer": "Shows the exits on the upcoming roundabout and where they will take you",
     "explanation": "This sign shows the exits on the upcoming roundabout and where they will take you. After you pass this sign and approach the roundabout, you should also encounter a roundabout warning sign."
   },
@@ -4369,7 +4208,6 @@
         "text": "No idling for more than 3 minutes"
       }
     ],
-    "chosenAnswer": "No stopping for more than 3 minutes",
     "correctAnswer": "No idling for more than 3 minutes",
     "explanation": "This type of sign is a “No Idling” sign. This particular sign means that you may not idle your engine here for more than 3 minutes."
   },
@@ -4396,7 +4234,6 @@
         "text": "No trucks"
       }
     ],
-    "chosenAnswer": "No parking",
     "correctAnswer": "No passing",
     "explanation": "A red slash inside a red circle means \"no.\" This regulatory sign means that cars and other vehicles should not pass."
   },
@@ -4423,7 +4260,6 @@
         "text": "A survey crew is working on the road ahead."
       }
     ],
-    "chosenAnswer": "There is road work ahead.",
     "correctAnswer": "A survey crew is working on the road ahead.",
     "explanation": "This sign is seen at construction zones where survey crews may be working. Proceed with caution."
   },
@@ -4450,7 +4286,6 @@
         "text": "Uneven pavement is ahead."
       }
     ],
-    "chosenAnswer": "This is a school zone.",
     "correctAnswer": "This is a pedestrian crossover.",
     "explanation": "This is a pedestrian crossover. Be prepared to stop and yield the right-of-way to pedestrians. You may not pass within 30 metres of a pedestrian crossover."
   },
@@ -4477,7 +4312,6 @@
         "text": "During school hours when the yellow lights are flashing, the speed limit is 40 km/h."
       }
     ],
-    "chosenAnswer": "The speed limit is 40 km/h at all times.",
     "correctAnswer": "During school hours when the yellow lights are flashing, the speed limit is 40 km/h.",
     "explanation": "During school hours when the yellow lights are flashing, you must always follow the speed limit shown. This sign means that the speed limit when the yellow lights are flashing is 40 km/h."
   },
@@ -4504,7 +4338,6 @@
         "text": "There is a playground to the right."
       }
     ],
-    "chosenAnswer": "Take a detour.",
     "correctAnswer": "Danger; there is a sharp turn ahead.",
     "explanation": "This sign warns of a sudden turn in the road ahead in the direction shown by the arrow. Slow down and proceed with care."
   },
@@ -4531,7 +4364,6 @@
         "text": "You must turn left."
       }
     ],
-    "chosenAnswer": "You must turn right.",
     "correctAnswer": "You must not turn left.",
     "explanation": "A red slash inside a red circle means \"no.\" This regulatory sign indicates that left turns are prohibited here."
   },
@@ -4558,7 +4390,6 @@
         "text": "Right turns prohibited"
       }
     ],
-    "chosenAnswer": "U-turns prohibited",
     "correctAnswer": "U-turns prohibited",
     "explanation": "A red slash inside a red circle means \"no.\" This regulatory sign indicates that U-turns are prohibited here."
   },
@@ -4585,7 +4416,6 @@
         "text": "Do not pass."
       }
     ],
-    "chosenAnswer": "Keep left.",
     "correctAnswer": "Do not Enter.",
     "explanation": "This is a \"Do Not Enter\" sign. It indicates that you cannot enter the roadway at which the sign is posted. You will see such signs at roadway openings you are not to enter or where you would be driving the wrong way on a one-way roadway. You will see them at exit ramps, in crossovers on divided roadways, and at numerous locations on one-way roads."
   },
@@ -4612,7 +4442,6 @@
         "text": "This is a landing area for helicopters."
       }
     ],
-    "chosenAnswer": "Airplanes fly low overhead.",
     "correctAnswer": "This is the route to an airport.",
     "explanation": "Information signs are square signs with white symbols. This information sign indicates that an airport is ahead."
   },
@@ -4639,7 +4468,6 @@
         "text": "There is merging traffic ahead."
       }
     ],
-    "chosenAnswer": "No U-turns are allowed.",
     "correctAnswer": "There is merging traffic ahead.",
     "explanation": "This is a Merging Traffic sign. Two roads going in the same direction are about to join into one. Drivers on both roads are equally responsible for ensuring that traffic merges smoothly and safely."
   },
@@ -4666,7 +4494,6 @@
         "text": "There is a slight bend or curve in the road ahead."
       }
     ],
-    "chosenAnswer": "Keep right of the traffic island.",
     "correctAnswer": "There is a passing lane ahead.",
     "explanation": "This regulatory sign means you must stay in the right lane except when passing on two-lane sections where climbing or passing lanes are provided."
   },
@@ -4693,7 +4520,6 @@
         "text": "No bicycles allowed"
       }
     ],
-    "chosenAnswer": "No children allowed",
     "correctAnswer": "No pedestrians allowed",
     "explanation": "A red slash inside a red circle means \"no.\" This sign means that pedestrians are not allowed to use this section of the road."
   },
@@ -4720,7 +4546,6 @@
         "text": "Dead-end street ahead"
       }
     ],
-    "chosenAnswer": "Yield right-of-way",
     "correctAnswer": "Stop sign ahead",
     "explanation": "This is a “Stop Sign Ahead” road sign. Be prepared to stop at the stop sign."
   },
@@ -4747,7 +4572,6 @@
         "text": "Narrow road ahead"
       }
     ],
-    "chosenAnswer": "Movable bridge ahead",
     "correctAnswer": "Movable bridge ahead",
     "explanation": "This warning sign indicates a movable bridge ahead. The bridge lifts or swings open to allow boats to pass. Slow down and prepare to stop in case the bridge is open."
   },
@@ -4774,7 +4598,6 @@
         "text": "You have the right-of-way."
       }
     ],
-    "chosenAnswer": "A railway crossing is ahead.",
     "correctAnswer": "You must give the right-of-way.",
     "explanation": "This is a yield sign. When you approach a yield sign, slow down and prepare to yield to pedestrians and approaching traffic. You may also have to stop for them, so be ready."
   },
@@ -4801,7 +4624,6 @@
         "text": "Hotel"
       }
     ],
-    "chosenAnswer": "Heliport",
     "correctAnswer": "Hospital",
     "explanation": "Information signs are square signs with white symbols. This information sign indicates a hospital nearby."
   },
@@ -4828,7 +4650,6 @@
         "text": "for pregnant women and mothers with young children."
       }
     ],
-    "chosenAnswer": "only for vehicles displaying a valid Accessible Parking Permit.",
     "correctAnswer": "only for vehicles displaying a valid Accessible Parking Permit.",
     "explanation": "This sign is placed in the areas where parking is permitted only for vehicles displaying a valid Accessible Parking Permit."
   },
@@ -4855,7 +4676,6 @@
         "text": "Directions to cities and towns"
       }
     ],
-    "chosenAnswer": "Provincial park",
     "correctAnswer": "Directions to cities and towns",
     "explanation": "This is a direction sign, showing the directions to various cities and towns."
   },
@@ -4882,7 +4702,6 @@
         "text": "Recommended speed in a construction zone"
       }
     ],
-    "chosenAnswer": "Maximum speed limit at night",
     "correctAnswer": "Maximum safe speed for a curve",
     "explanation": "Posted under a curve warning, this sign shows the maximum safe speed for the curve."
   },
@@ -4909,7 +4728,6 @@
         "text": "There is a snowmobile repair shop ahead."
       }
     ],
-    "chosenAnswer": "Only snowmobiles may park here.",
     "correctAnswer": "Snowmobiles may use this road.",
     "explanation": "A green circle indicates permission. This regulatory sign means that snowmobiles may use this road."
   },
@@ -4936,7 +4754,6 @@
         "text": "This is the end of the highway; you must move into the right-hand lane."
       }
     ],
-    "chosenAnswer": "You must not drive in the right-hand lane under any circumstances.",
     "correctAnswer": "You must exit if you remain in the right-hand lane.",
     "explanation": "This sign means that the right-hand lane leads to an exit ramp off this roadway. If you don't want to exit this roadway, move out of the right-hand lane."
   },
@@ -4963,7 +4780,6 @@
         "text": "Hidden bus bay ahead"
       }
     ],
-    "chosenAnswer": "School zone ahead",
     "correctAnswer": "Hidden school bus stop ahead",
     "explanation": "This warning sign means that there is a hidden school bus stop ahead. School buses stop with flashing red lights there. Slow down, drive with extra caution, and watch for children or a school bus with flashing red lights."
   },
@@ -4990,7 +4806,6 @@
         "text": "You may not turn right on a green light."
       }
     ],
-    "chosenAnswer": "You may not turn right on a red light.",
     "correctAnswer": "You may not turn right on a red light.",
     "explanation": "This is a \"No Right Turn on Red\" sign. Where this sign is posted, you may not turn right on a red light unless there is also a green arrow light pointing right."
   },
@@ -5017,7 +4832,6 @@
         "text": "Two lanes will merge into one."
       }
     ],
-    "chosenAnswer": "Two or more occupants must be in the vehicle to use this lane.",
     "correctAnswer": "Two or more occupants must be in the vehicle to use this lane.",
     "explanation": "This type of sign indicates that the lane is a High-Occupancy Vehicle (HOV) lane. This particular sign indicates that only buses and vehicles with two or more occupants (i.e., one or more passengers) may use this lane. However, there are a couple of exceptions: Plug-in hybrid electric vehicles and full-battery electric vehicles with the \"Green\" licence plate may use this lane regardless of the number of occupants. Motorcyclists may also use this lane even if they are not carrying passengers."
   },
@@ -5044,7 +4858,6 @@
         "text": "Bumpy road ahead"
       }
     ],
-    "chosenAnswer": "Possible falling rocks ahead",
     "correctAnswer": "Underpass ahead",
     "explanation": "This sign indicates an underpass ahead with only 3.9 metres of vertical clearance. (In Ontario, trucks can legally be up to 4.15 metres tall.)"
   },
@@ -5071,7 +4884,6 @@
         "text": "slow down or stop."
       }
     ],
-    "chosenAnswer": "turn left.",
     "correctAnswer": "turn left.",
     "explanation": "This driver intends to turn left."
   },
@@ -5098,7 +4910,6 @@
         "text": "Left lane ends ahead"
       }
     ],
-    "chosenAnswer": "Narrow passage ahead",
     "correctAnswer": "Right lane ends ahead",
     "explanation": "This type of warning sign gives advance notice of a reduction in the number of lanes ahead. This particular sign indicates that the right lane ends ahead. All traffic in the right lane must merge left."
   },
@@ -5125,7 +4936,6 @@
         "text": "pass only during daylight hours."
       }
     ],
-    "chosenAnswer": "pass if the way is clear.",
     "correctAnswer": "pass if the way is clear.",
     "explanation": "A broken yellow line on your side of the roadway means that you may pass if the way is clear. A solid yellow line on your side means that you are not allowed to pass."
   },
@@ -5152,7 +4962,6 @@
         "text": "Slow down to prevent hydroplaning."
       }
     ],
-    "chosenAnswer": "The pavement is slippery when wet.",
     "correctAnswer": "The pavement is slippery when wet.",
     "explanation": "This warning sign means that the road is slippery when wet. In wet weather, slow down and proceed with extra caution."
   },
@@ -5179,7 +4988,6 @@
         "text": "Stop and yield to approaching vehicles."
       }
     ],
-    "chosenAnswer": "Slow down and yield to approaching vehicles.",
     "correctAnswer": "Stop and yield to approaching vehicles.",
     "explanation": "This is a stop sign. You must come to a complete stop and yield the right-of-way to approaching vehicles before you proceed."
   },
@@ -5206,7 +5014,6 @@
         "text": "Railway crossing"
       }
     ],
-    "chosenAnswer": "Pedestrian crossing",
     "correctAnswer": "Railway crossing",
     "explanation": "All railway crossings on public roads in Ontario are marked with large red-and-white crossbuck (“X”) signs. When a train is approaching, you must stop and yield to the train. Remember: The train cannot yield to you."
   },
@@ -5233,7 +5040,6 @@
         "text": "Speed limit for rural school zones"
       }
     ],
-    "chosenAnswer": "Speed limit changes to 50 km/h ahead",
     "correctAnswer": "Speed limit changes to 50 km/h ahead",
     "explanation": "This regulatory sign indicates that there is a speed limit change ahead. You must be prepared to slow down to the posted speed when you see another speed limit sign without an arrow."
   },
@@ -5260,7 +5066,6 @@
         "text": "Keep right."
       }
     ],
-    "chosenAnswer": "This road turns sharply right ahead.",
     "correctAnswer": "This road turns sharply right ahead.",
     "explanation": "This sign warns of a sharp bend or turn to the right in the road ahead. Slow down before you get to it."
   },
@@ -5287,7 +5092,6 @@
         "text": "Vehicles in this lane must turn right."
       }
     ],
-    "chosenAnswer": "Keep to the right of the traffic island.",
     "correctAnswer": "Traffic must travel in one direction only.",
     "explanation": "This is a One Way sign. On this street, traffic may travel only in the direction of the arrow."
   },
@@ -5314,7 +5118,6 @@
         "text": "The highway ends ahead; you must move into the right-hand lane."
       }
     ],
-    "chosenAnswer": "You may exit if you remain in the right-hand lane.",
     "correctAnswer": "This is a two-way left-turn lane.",
     "explanation": "This sign indicates a two-way left-turn lane. This is a lane in the centre of the roadway that can be used by vehicles travelling in either direction to make left turns."
   },
@@ -5341,7 +5144,6 @@
         "text": "You may not park between here and the corner."
       }
     ],
-    "chosenAnswer": "Right turns are allowed.",
     "correctAnswer": "You must turn right.",
     "explanation": "This is a “Right Turn Only” sign. You must turn right from this lane."
   },
@@ -5368,7 +5170,6 @@
         "text": "Intersection ahead"
       }
     ],
-    "chosenAnswer": "Road ahead turns left, then right",
     "correctAnswer": "Road ahead turns right, then left",
     "explanation": "This sign indicates a double curve ahead. The road ahead first turns right, then left. (If the road ahead had three or more curves, a Winding Road sign would be posted instead.)"
   },
@@ -5395,7 +5196,6 @@
         "text": "The road turns right and then left."
       }
     ],
-    "chosenAnswer": "There is a winding road ahead.",
     "correctAnswer": "Keep right of the obstacle ahead.",
     "explanation": "This sign indicates a divider, traffic island or other obstacle ahead. Keep right of it."
   },
@@ -5422,7 +5222,6 @@
         "text": "Truck entrance ahead on the right"
       }
     ],
-    "chosenAnswer": "No trucks allowed",
     "correctAnswer": "Truck entrance ahead on the right",
     "explanation": "This sign means there is a truck entrance ahead on the right."
   },
@@ -5449,7 +5248,6 @@
         "text": "Do not enter this area."
       }
     ],
-    "chosenAnswer": "It is safe to enter this area.",
     "correctAnswer": "Be more aware of pedestrians and your speed in this area.",
     "explanation": "This sign indicates a community safety zone. This is an area where according to the community, speeding or aggressive driving poses a special risk to pedestrians. Traffic offences committed within this zone are subject to increased fines. Obey all speed limits and drive carefully."
   },
@@ -5476,7 +5274,6 @@
         "text": "Do not slow down."
       }
     ],
-    "chosenAnswer": "Do not block the intersection.",
     "correctAnswer": "Do not block the intersection.",
     "explanation": "The \"Do Not Block Intersection\" sign warns you not to enter the intersection if traffic is blocked beyond it, because you might end up blocking the intersection for cross traffic. This warning sign is rectangular rather than diamond shaped because of its relatively long text."
   },
@@ -5503,7 +5300,6 @@
         "text": "Divided highway ends"
       }
     ],
-    "chosenAnswer": "Narrow bridge ahead",
     "correctAnswer": "Divided highway ends",
     "explanation": "This sign indicates that the divided highway ends. Keep right and watch for oncoming vehicles."
   },
@@ -5530,7 +5326,6 @@
         "text": "There is a construction zone ahead."
       }
     ],
-    "chosenAnswer": "There may be water flowing over the road.",
     "correctAnswer": "There may be water flowing over the road.",
     "explanation": "This sign indicates that water may flow over this road."
   },
@@ -5557,7 +5352,6 @@
         "text": "Only certain types of vehicles are allowed in this lane during the times and days posted."
       }
     ],
-    "chosenAnswer": "Do not enter during the times and days posted.",
     "correctAnswer": "Only certain types of vehicles are allowed in this lane during the times and days posted.",
     "explanation": "This is a “High-Occupancy Vehicle (HOV)\" sign. During certain times, an HOV lane is open only to such high-occupancy vehicles as buses, taxis, and passenger vehicles with a specified minimum number of occupants. This HOV sign indicates that only passenger vehicles with at least 3 occupants (i.e., at least 2 passengers) may use this lane."
   },
@@ -5584,7 +5378,6 @@
         "text": "a temporary condition."
       }
     ],
-    "chosenAnswer": "information and direction.",
     "correctAnswer": "a prohibition.",
     "explanation": "A red circle with a slash through it means the activity shown inside the ring is not allowed."
   },
@@ -5611,7 +5404,6 @@
         "text": "This is a pedestrian crossover. Be prepared to stop and yield the right-of-way to pedestrians."
       }
     ],
-    "chosenAnswer": "Vehicles cannot change lanes into or out of a high-occupancy vehicle (HOV) lane in this area.",
     "correctAnswer": "Vehicles cannot change lanes into or out of a high-occupancy vehicle (HOV) lane in this area.",
     "explanation": "This sign means that vehicles cannot change lanes into or out of a high-occupancy (HOV) lane in this area."
   },
@@ -5638,7 +5430,6 @@
         "text": "Divided roadway ahead"
       }
     ],
-    "chosenAnswer": "Pavement ends",
     "correctAnswer": "Pavement ends",
     "explanation": "This warning sign indicates the end of the paved surface."
   },
@@ -5665,7 +5456,6 @@
         "text": "You may stop and rest here."
       }
     ],
-    "chosenAnswer": "Drive to the left of the sign.",
     "correctAnswer": "Drive to the right of the sign.",
     "explanation": "This is a hazard warning sign. The downward lines indicate the side on which you may bypass the hazard (in this case, to its right)."
   },
@@ -5692,7 +5482,6 @@
         "text": "Do not stand in the area between the signs."
       }
     ],
-    "chosenAnswer": "Do not stop in the area between the signs except to load or unload passengers or merchandise.",
     "correctAnswer": "Do not stop in the area between the signs.",
     "explanation": "This is a No Stopping sign. It means that you are not allowed to stop here, even for a moment. These signs are typically used in pairs or groups."
   },
@@ -5719,7 +5508,6 @@
         "text": "There is construction work one kilometre ahead."
       }
     ],
-    "chosenAnswer": "Keep a certain distance away.",
     "correctAnswer": "Follow these signs until you return to your regular route.",
     "explanation": "This is a temporary condition sign. These signs warn of unusual temporary conditions such as road work zones, diversions, detours, lane closures, or traffic control people on the road. This particular sign is a detour marker. Keep following these detour markers until they return you to your regular route."
   },
@@ -5746,7 +5534,6 @@
         "text": "Truck entrance ahead on the right"
       }
     ],
-    "chosenAnswer": "Bus entrance ahead on the right",
     "correctAnswer": "Bus entrance ahead on the right",
     "explanation": "This sign indicates an upcoming bus entrance on the right. Vehicles should be prepared to yield to buses entering the roadway."
   },
@@ -5773,7 +5560,6 @@
         "text": "Stay to the right of the centre island."
       }
     ],
-    "chosenAnswer": "There is a sharp curve to the right.",
     "correctAnswer": "There is a sharp curve to the right.",
     "explanation": "Chevron (arrowhead) signs are posted in groups to guide drivers around sharp curves in the road."
   },
@@ -5800,7 +5586,6 @@
         "text": "You may not stop for any reason."
       }
     ],
-    "chosenAnswer": "You may stop temporarily to load or unload passengers but not merchandise.",
     "correctAnswer": "You may stop temporarily to load or unload passengers but not merchandise.",
     "explanation": "According to the Ontario Highway Traffic Act, \"No Parking\" means you may stop only temporarily to load or unload passengers or merchandise. \"No Standing\" means you may stop only temporarily to load or unload passengers but not merchandise. (\"No Standing\" signs are often posted at bus stops and taxi stands.) \"No Stopping\" means you may not stop for any reason, not even temporarily, unless you're directed to do so by a traffic sign or signal or a police officer."
   },
@@ -5827,7 +5612,6 @@
         "text": "There is a traffic signal ahead."
       }
     ],
-    "chosenAnswer": "There is someone directing traffic ahead.",
     "correctAnswer": "There is a traffic signal ahead.",
     "explanation": "This warning sign indicates that there is a traffic signal ahead. Be prepared to stop."
   },
@@ -5854,7 +5638,6 @@
         "text": "Drive with caution."
       }
     ],
-    "chosenAnswer": "The road is slippery when wet.",
     "correctAnswer": "Share the road with oncoming traffic.",
     "explanation": "This sign means you have to share the road with oncoming traffic."
   },
@@ -5881,7 +5664,6 @@
         "text": "None of the above"
       }
     ],
-    "chosenAnswer": "Truck entrance ahead on the right",
     "correctAnswer": "Fire truck entrance ahead on the right",
     "explanation": "This sign indicates an upcoming fire truck entrance on the right. Prepare to yield to fire trucks entering the roadway."
   },
@@ -5908,7 +5690,6 @@
         "text": "No left turns"
       }
     ],
-    "chosenAnswer": "Merging traffic ahead",
     "correctAnswer": "Road branching off ahead",
     "explanation": "This is a “Road Branching Off Ahead” road sign. This sign indicates a side road branching off to the right."
   },
@@ -5935,7 +5716,6 @@
         "text": "Winding road"
       }
     ],
-    "chosenAnswer": "Narrow road ahead",
     "correctAnswer": "Winding road",
     "explanation": "This warning sign is a “Winding Road Ahead” sign. A \"winding road\" is a road with at least three curves. Slow down and keep right."
   },
@@ -5962,7 +5742,6 @@
         "text": "Left turns are not allowed."
       }
     ],
-    "chosenAnswer": "Right turns are not allowed.",
     "correctAnswer": "Going straight is not allowed.",
     "explanation": "A red slash inside a red circle means \"no.\" This regulatory sign indicates that going straight is prohibited here."
   },
@@ -5989,7 +5768,6 @@
         "text": "Divided roadway ahead"
       }
     ],
-    "chosenAnswer": "Paved surface ends ahead",
     "correctAnswer": "Narrow bridge ahead",
     "explanation": "This sign indicates that there is a narrow bridge ahead. The width of the road will be less than the part of the road you are currently driving on. Slow down at the narrow passage."
   },
@@ -6016,7 +5794,6 @@
         "text": "Recreation area ahead"
       }
     ],
-    "chosenAnswer": "Restroom availability",
     "correctAnswer": "Accessible parking area",
     "explanation": "This sign features the international symbol of access for persons with disabilities. The sign indicates that a person in a wheelchair may use a handicapped parking space."
   },
@@ -6043,7 +5820,6 @@
         "text": "You must stop for a school bus if its red signals are flashing."
       }
     ],
-    "chosenAnswer": "You must stop for a school bus if your turn signals are flashing.",
     "correctAnswer": "You must stop for a school bus if its red signals are flashing.",
     "explanation": "This sign means that you must stop for a school bus when its red signals are flashing."
   },
@@ -6070,7 +5846,6 @@
         "text": "you may drive in any direction from any lane."
       }
     ],
-    "chosenAnswer": "the direction of travel for each lane.",
     "correctAnswer": "the direction of travel for each lane.",
     "explanation": "These signs, above the road or as pavement markings, tell drivers in each lane the directions in which they must travel. This particular sign means that drivers in the left lane must turn left, drivers in the centre lane must either turn right or go straight, and drivers in the right lane must turn right."
   },
@@ -6097,7 +5872,6 @@
         "text": "Intersection ahead"
       }
     ],
-    "chosenAnswer": "Railway crossing ahead",
     "correctAnswer": "Intersection ahead",
     "explanation": "This sign warns that there is an intersection ahead. The arrow shows indicates which road has the right-of-way."
   },
@@ -6124,7 +5898,6 @@
         "text": "Park ahead"
       }
     ],
-    "chosenAnswer": "Pedestrian crosswalk",
     "correctAnswer": "School zone",
     "explanation": "This is a “School Zone” sign. A school is nearby. Proceed with caution because there may be schoolchildren around."
   },
@@ -6151,7 +5924,6 @@
         "text": "A roundabout is 300 metres ahead."
       }
     ],
-    "chosenAnswer": "A highway interchange is 300 metres ahead.",
     "correctAnswer": "A roundabout is 300 metres ahead.",
     "explanation": "This sign indicates that a roundabout is 300 metres ahead. A roundabout is a circular intersection in which traffic circulates counterclockwise around a central island. Slow down and prepare to yield to the traffic already in the roundabout."
   },
@@ -6178,7 +5950,6 @@
         "text": "turn right."
       }
     ],
-    "chosenAnswer": "speed up.",
     "correctAnswer": "slow down or stop.",
     "explanation": "This hand signal indicates that the driver intends to slow down or stop. This hand signal is the equivalent of the brake lights on the driver's vehicle."
   },
@@ -6205,7 +5976,6 @@
         "text": "The right lane is for faster traffic."
       }
     ],
-    "chosenAnswer": "Slower traffic must turn right.",
     "correctAnswer": "Slower traffic must keep right.",
     "explanation": "This sign is usually posted on multilane roadways. It means just what it says: slower traffic should stay in the rightmost lane except when turning left or avoiding an obstruction or other hazard."
   },
@@ -6232,7 +6002,6 @@
         "text": "Do not turn left."
       }
     ],
-    "chosenAnswer": "Do not make a U-turn except during the times shown.",
     "correctAnswer": "Do not turn left during the times shown.",
     "explanation": "A red slash inside a red circle means \"no.\" This sign means that left turns are prohibited during the times shown on the sign (in this case, 7:00 a.m. – 9:00 a.m. and 4:00 p.m. – 6:00 p.m.)."
   },
@@ -6259,7 +6028,6 @@
         "text": "Vehicles that don't stop at this red light will be photographed."
       }
     ],
-    "chosenAnswer": "You must stop for a red light at this intersection.",
     "correctAnswer": "Vehicles that don't stop at this red light will be photographed.",
     "explanation": "This intersection is monitored with a red light camera. The camera photographs vehicles that run a red light here. Their owners may be cited."
   },
@@ -6286,7 +6054,6 @@
         "text": "One-way street ahead"
       }
     ],
-    "chosenAnswer": "Hidden intersection ahead",
     "correctAnswer": "Narrow roadway ahead",
     "explanation": "This sign indicates that the roadway narrows without a reduction in the number of lanes. There will be less lane width available. Slow down, stay in your lane and watch for oncoming vehicles."
   },
@@ -6313,7 +6080,6 @@
         "text": "There are no right turns allowed."
       }
     ],
-    "chosenAnswer": "There is a concealed side road ahead.",
     "correctAnswer": "There is a concealed side road ahead.",
     "explanation": "This warning sign indicates a hidden intersection ahead. There is a hidden side road ahead. And drivers on the side road may not be able to see you approaching. Slow down and proceed with caution."
   },
@@ -6340,7 +6106,6 @@
         "text": "None of the above"
       }
     ],
-    "chosenAnswer": "Milled or grooved pavement ahead",
     "correctAnswer": "Milled or grooved pavement ahead",
     "explanation": "This sign means that the pavement has been milled or grooved. Your vehicle's stopping ability may be affected, so obey the speed limit and drive with extra caution. Motorcyclists may experience reduced traction on these surfaces."
   },
@@ -6367,7 +6132,6 @@
         "text": "Snowmobiles cross this road ahead."
       }
     ],
-    "chosenAnswer": "There is a snowmobile repair shop ahead.",
     "correctAnswer": "Snowmobiles cross this road ahead.",
     "explanation": "This is a “Snowmobiles Cross This Road” road sign."
   },
@@ -6394,7 +6158,6 @@
         "text": "speed up."
       }
     ],
-    "chosenAnswer": "slow down or stop.",
     "correctAnswer": "turn right.",
     "explanation": "Hand signals can be used instead of your car's regular lighted turn and brake signals. This driver intends to turn right."
   },
@@ -6421,7 +6184,6 @@
         "text": "Pedestrian crosswalk ahead"
       }
     ],
-    "chosenAnswer": "Intersection ahead",
     "correctAnswer": "Railway crossing ahead",
     "explanation": "This warning sign indicates a railway crossing ahead. You must slow down and proceed only if it is safe."
   },
@@ -6448,7 +6210,6 @@
         "text": "School zone"
       }
     ],
-    "chosenAnswer": "Pedestrians ahead",
     "correctAnswer": "Pedestrians ahead",
     "explanation": "This sign means that there may be pedestrians ahead. Watch for pedestrians and be prepared to share the road with them."
   },
@@ -6475,7 +6236,6 @@
         "text": "This lane is for bicycles only."
       }
     ],
-    "chosenAnswer": "This lane is for buses only.",
     "correctAnswer": "This lane is for bicycles only.",
     "explanation": "A diamond symbol indicates a reserved lane, a lane in which only certain kinds of vehicles may legally travel. This particular sign means that only bicycles may travel in this lane."
   }
