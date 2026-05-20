@@ -19,6 +19,21 @@ import { ProgressBar } from "@/components/ProgressBar";
 
 export default function TestPage() {
   const { testId } = useParams<{ testId: string }>();
+  const [reloadKey, setReloadKey] = useState(0);
+  // Remount the runner on testId change or Restart so its progress state
+  // (questions, index, score, done, loaded, error) resets via React
+  // reconciliation. This avoids cascading setStates inside an effect
+  // (react-hooks/set-state-in-effect).
+  return (
+    <TestRun
+      key={`${testId}-${reloadKey}`}
+      testId={testId}
+      onRestart={() => setReloadKey((k) => k + 1)}
+    />
+  );
+}
+
+function TestRun({ testId, onRestart }: { testId: string; onRestart: () => void }) {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -29,37 +44,37 @@ export default function TestPage() {
   const licenceClass = getLicenceClassForTestId(testId);
   const bankKey = licenceClass?.bankKey;
 
-  const loadQuestions = async () => {
-    setError(null);
-    setLoaded(false);
-    setIndex(0);
-    setScore(0);
-    setDone(false);
-    try {
-      let base: Question[] = [];
-      if (licenceClass) {
-        if (testId === licenceClass.bankId) {
-          base = getBankQuestions(licenceClass.bankKey);
-        } else if (testId === licenceClass.marathonId) {
-          base = await getQuestionsForClass(licenceClass);
-        } else {
-          base = await getQuestionsForPracticeTest(licenceClass, testId);
-        }
-      }
-      setQuestions(shuffle(base).map((q) => ({ ...q, answerOptions: shuffle(q.answerOptions) })));
-    } catch (e) {
-      console.error("Failed to load questions:", e);
-      setQuestions([]);
-      setError("Could not load questions. Please try again later.");
-    } finally {
-      setLoaded(true);
-    }
-  };
-
   useEffect(() => {
-    loadQuestions();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [testId]);
+    let cancelled = false;
+    (async () => {
+      try {
+        let base: Question[] = [];
+        if (licenceClass) {
+          if (testId === licenceClass.bankId) {
+            base = getBankQuestions(licenceClass.bankKey);
+          } else if (testId === licenceClass.marathonId) {
+            base = await getQuestionsForClass(licenceClass);
+          } else {
+            base = await getQuestionsForPracticeTest(licenceClass, testId);
+          }
+        }
+        if (cancelled) return;
+        setQuestions(
+          shuffle(base).map((q) => ({ ...q, answerOptions: shuffle(q.answerOptions) })),
+        );
+      } catch (e) {
+        if (cancelled) return;
+        console.error("Failed to load questions:", e);
+        setQuestions([]);
+        setError("Could not load questions. Please try again later.");
+      } finally {
+        if (!cancelled) setLoaded(true);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [testId, licenceClass]);
 
   const handleNext = (correct: boolean) => {
     if (bankKey) updateBank(questions[index], correct, bankKey);
@@ -120,7 +135,7 @@ export default function TestPage() {
         {!isBank && <p className="text-xs text-gray-400 mb-4">Passing score: 80%</p>}
         <div className={`flex gap-3 ${isBank ? "mt-4" : ""}`}>
           <button
-            onClick={loadQuestions}
+            onClick={onRestart}
             className="px-4 py-2 text-sm border border-gray-200 rounded-lg hover:border-gray-400 transition-colors"
           >
             Restart

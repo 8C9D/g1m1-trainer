@@ -128,7 +128,6 @@ npm run start   # serve the production build on http://localhost:3000
 
 ## Known issues
 
-- **Pre-existing lint error.** `npm run lint` (in `web/`) currently reports one `react-hooks/set-state-in-effect` error in `web/app/test/[testId]/page.tsx`. It predates the current refactor pass and is tracked for a later improvement; the app still builds and runs correctly.
 - **`web/public/data/` is tracked in git.** It is a generated mirror of `data/`, but we intentionally keep it tracked so a deploy of just `web/` works without first running the sync. The cost is two synchronized copies in version control; the `predev`/`prebuild` hooks keep them aligned.
 - **Moderate `postcss` advisory in the dependency audit.** `npm audit` (in `web/`) flags [GHSA-qx2v-qp2m-jg93](https://github.com/advisories/GHSA-qx2v-qp2m-jg93) inside the copy of `postcss` bundled by Next 16. The advisory describes a stringify-time XSS that requires attacker-supplied CSS; this project's build only processes our own CSS (Tailwind + `app/globals.css`), so exploitability here is very low. The auto-fix is a major Next.js downgrade and is **not** safe to apply. Re-audit after upgrading to a Next.js release that bundles a newer `postcss`.
 - **Multiple-lockfiles warning during `next build`.** Next emits a workspace-root inference warning because both `package-lock.json` (root, for the scraper) and `web/package-lock.json` exist. It is harmless; resolving it would require either npm workspaces or a `turbopack.root` setting and is deferred.
