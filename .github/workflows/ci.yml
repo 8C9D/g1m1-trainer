@@ -6,11 +6,6 @@ on:
   pull_request:
     branches: [main]
 
-env:
-  # Opt JavaScript-based actions (actions/checkout, actions/setup-node, etc.)
-  # into the Node 24 runtime ahead of GitHub's full deprecation of Node 20.
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   web:
     name: Web app
@@ -19,9 +14,9 @@ jobs:
       run:
         working-directory: web
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: '20'
           cache: 'npm'
