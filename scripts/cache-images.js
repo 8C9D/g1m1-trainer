@@ -17,6 +17,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const { urlToCacheFilename, PUBLIC_DIR_NAME } = require("./image-cache");
+const { collectImageUrlsFromQuestions } = require("./sync-helpers");
 
 const ROOT = path.join(__dirname, "..");
 const SRC_DIR = path.join(ROOT, "data");
@@ -46,12 +47,7 @@ function addFromFile(filepath, urls) {
     console.warn(`skip ${filepath}: ${e.message}`);
     return;
   }
-  if (!Array.isArray(data)) return;
-  for (const q of data) {
-    if (q && typeof q.questionImageUrl === "string" && q.questionImageUrl) {
-      urls.add(q.questionImageUrl);
-    }
-  }
+  collectImageUrlsFromQuestions(data, urls);
 }
 
 async function downloadOne(url, dest) {

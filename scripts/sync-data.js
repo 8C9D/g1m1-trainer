@@ -21,42 +21,16 @@
  */
 const fs = require("fs");
 const path = require("path");
-const {
-  maybeRewriteImageUrl,
-  PUBLIC_DIR_NAME,
-} = require("./image-cache");
+const { PUBLIC_DIR_NAME } = require("./image-cache");
+const { projectQuestion } = require("./sync-helpers");
 
 const ROOT = path.join(__dirname, "..");
 const SRC_DIR = path.join(ROOT, "data");
 const DEST_DIR = path.join(ROOT, "web", "public", "data");
 const IMAGE_CACHE_DIR = path.join(ROOT, "web", "public", PUBLIC_DIR_NAME);
 
-const PUBLISHED_FIELDS = [
-  "testName",
-  "questionNumber",
-  "question",
-  "questionImageUrl",
-  "answerOptions",
-  "correctAnswer",
-  "explanation",
-];
-
 const rewriteCachedImages = process.argv.includes("--rewrite-cached-images");
 const cacheExists = (filename) => fs.existsSync(path.join(IMAGE_CACHE_DIR, filename));
-
-function project(question) {
-  const out = {};
-  for (const k of PUBLISHED_FIELDS) {
-    if (k in question) out[k] = question[k];
-  }
-  if (out.questionImageUrl) {
-    out.questionImageUrl = maybeRewriteImageUrl(out.questionImageUrl, {
-      rewriteCachedImages,
-      cacheExists,
-    });
-  }
-  return out;
-}
 
 function syncFile(relPath) {
   const src = path.join(SRC_DIR, relPath);
@@ -67,7 +41,9 @@ function syncFile(relPath) {
   if (!Array.isArray(raw)) {
     throw new Error(`expected an array in ${src}`);
   }
-  const projected = raw.map(project);
+  const projected = raw.map((q) =>
+    projectQuestion(q, { rewriteCachedImages, cacheExists }),
+  );
 
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   fs.writeFileSync(dest, JSON.stringify(projected, null, 2), "utf8");
