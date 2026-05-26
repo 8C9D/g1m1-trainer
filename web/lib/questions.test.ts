@@ -2,6 +2,7 @@ import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
 import {
   deriveCorrectAnswerIndex,
   parseQuestion,
+  parseQuestionsArray,
   getBankQuestions,
   updateBank,
   getQuestionsForClass,
@@ -115,6 +116,32 @@ describe("parseQuestion", () => {
   it("rejects a correctAnswer that does not match any answer option text", () => {
     const bad = { ...validRaw, correctAnswer: "definitely not in the list" };
     expect(() => parseQuestion(bad)).toThrow(/does not match any answerOption/);
+  });
+});
+
+describe("parseQuestionsArray", () => {
+  it("returns parsed questions for a valid array", () => {
+    const result = parseQuestionsArray([validRaw, { ...validRaw, questionNumber: 2 }], "src");
+    expect(result).toHaveLength(2);
+    expect(result[0].questionNumber).toBe(1);
+    expect(result[1].questionNumber).toBe(2);
+  });
+
+  it("returns [] for an empty array", () => {
+    expect(parseQuestionsArray([], "src")).toEqual([]);
+  });
+
+  it("throws with the sourceLabel when raw is not an array", () => {
+    expect(() => parseQuestionsArray({ not: "an array" }, "/data/foo.json")).toThrow(
+      /^\/data\/foo\.json: expected an array of questions at the top level$/,
+    );
+  });
+
+  it("includes the failing index and sourceLabel in the error message", () => {
+    const bad = { ...validRaw, testName: 42 };
+    expect(() => parseQuestionsArray([validRaw, validRaw, bad], "/data/foo.json")).toThrow(
+      /^\/data\/foo\.json\[2\]: .*testName/,
+    );
   });
 });
 

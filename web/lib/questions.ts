@@ -217,23 +217,26 @@ export function updateBank(question: Question, correct: boolean, bankKey: string
   localStorage.setItem(bankKey, serializeBankStorage(updated));
 }
 
-async function fetchQuestions(dataFile: string): Promise<Question[]> {
-  const res = await fetch(dataFile);
-  if (!res.ok) {
-    throw new Error(`Failed to fetch ${dataFile}: ${res.status} ${res.statusText}`);
-  }
-  const raw: unknown = await res.json();
+export function parseQuestionsArray(raw: unknown, sourceLabel: string): Question[] {
   if (!Array.isArray(raw)) {
-    throw new Error(`${dataFile}: expected an array of questions at the top level`);
+    throw new Error(`${sourceLabel}: expected an array of questions at the top level`);
   }
   return raw.map((item, i) => {
     try {
       return parseQuestion(item);
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
-      throw new Error(`${dataFile}[${i}]: ${msg}`);
+      throw new Error(`${sourceLabel}[${i}]: ${msg}`);
     }
   });
+}
+
+async function fetchQuestions(dataFile: string): Promise<Question[]> {
+  const res = await fetch(dataFile);
+  if (!res.ok) {
+    throw new Error(`Failed to fetch ${dataFile}: ${res.status} ${res.statusText}`);
+  }
+  return parseQuestionsArray(await res.json(), dataFile);
 }
 
 export async function getQuestionsForClass(licenceClass: LicenceClass): Promise<Question[]> {
