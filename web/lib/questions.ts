@@ -33,33 +33,35 @@ export interface LicenceClass {
 export const MARATHON_LABEL = "Marathon";
 export const BANK_LABEL = "Missed Questions";
 
+const DATA_ROUTE = "/data";
+
 export const LICENCE_CLASSES: LicenceClass[] = [
   {
     key: "m1",
     label: "M1 Motorcycle",
-    dataFile: "/data/all-questions.json",
+    dataFile: `${DATA_ROUTE}/all-questions.json`,
     bankKey: "m1-missed",
     marathonId: "all",
     bankId: "bank",
     tests: {
-      "m1-practice-test-1": { label: "Practice Test 1", order: 1, dataFile: "/data/m1-practice-test-1/questions.json" },
-      "m1-practice-test-2": { label: "Practice Test 2", order: 2, dataFile: "/data/m1-practice-test-2/questions.json" },
-      "m1-practice-test-3": { label: "Practice Test 3", order: 3, dataFile: "/data/m1-practice-test-3/questions.json" },
-      "m1-practice-test-4": { label: "Fines & Limits", order: 4, dataFile: "/data/m1-practice-test-4/questions.json" },
-      "m1-practice-test-5": { label: "Road Sign Test", order: 5, dataFile: "/data/m1-practice-test-5/questions.json" },
+      "m1-practice-test-1": { label: "Practice Test 1", order: 1, dataFile: `${DATA_ROUTE}/m1-practice-test-1/questions.json` },
+      "m1-practice-test-2": { label: "Practice Test 2", order: 2, dataFile: `${DATA_ROUTE}/m1-practice-test-2/questions.json` },
+      "m1-practice-test-3": { label: "Practice Test 3", order: 3, dataFile: `${DATA_ROUTE}/m1-practice-test-3/questions.json` },
+      "m1-practice-test-4": { label: "Fines & Limits", order: 4, dataFile: `${DATA_ROUTE}/m1-practice-test-4/questions.json` },
+      "m1-practice-test-5": { label: "Road Sign Test", order: 5, dataFile: `${DATA_ROUTE}/m1-practice-test-5/questions.json` },
     },
   },
   {
     key: "g1",
     label: "G1 Car",
-    dataFile: "/data/g1-all-questions.json",
+    dataFile: `${DATA_ROUTE}/g1-all-questions.json`,
     bankKey: "g1-missed",
     marathonId: "g1-all",
     bankId: "g1-bank",
     tests: {
-      "g1-practice-test-1": { label: "Practice Test 1", order: 1, dataFile: "/data/g1-practice-test-1/questions.json" },
-      "g1-practice-test-2": { label: "Practice Test 2", order: 2, dataFile: "/data/g1-practice-test-2/questions.json" },
-      "g1-practice-test-3": { label: "Practice Test 3", order: 3, dataFile: "/data/g1-practice-test-3/questions.json" },
+      "g1-practice-test-1": { label: "Practice Test 1", order: 1, dataFile: `${DATA_ROUTE}/g1-practice-test-1/questions.json` },
+      "g1-practice-test-2": { label: "Practice Test 2", order: 2, dataFile: `${DATA_ROUTE}/g1-practice-test-2/questions.json` },
+      "g1-practice-test-3": { label: "Practice Test 3", order: 3, dataFile: `${DATA_ROUTE}/g1-practice-test-3/questions.json` },
     },
   },
 ];
