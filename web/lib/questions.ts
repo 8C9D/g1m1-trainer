@@ -66,24 +66,26 @@ export const LICENCE_CLASSES: LicenceClass[] = [
   },
 ];
 
-export function getLicenceClassForTestId(testId: string): LicenceClass | undefined {
-  return LICENCE_CLASSES.find(
-    (c) => c.marathonId === testId || c.bankId === testId || testId in c.tests,
-  );
-}
+export type ClassifiedTest =
+  | { kind: "practice"; testId: string; licenceClass: LicenceClass; test: PracticeTestMeta; label: string }
+  | { kind: "marathon"; testId: string; licenceClass: LicenceClass; label: string }
+  | { kind: "bank"; testId: string; licenceClass: LicenceClass; label: string }
+  | { kind: "unknown"; testId: string; label: string };
 
-export function isBankTest(testId: string): boolean {
-  return LICENCE_CLASSES.some((c) => c.bankId === testId);
-}
-
-export function getTestLabel(testId: string): string {
-  for (const c of LICENCE_CLASSES) {
-    const meta = c.tests[testId];
-    if (meta) return meta.label;
-    if (c.marathonId === testId) return MARATHON_LABEL;
-    if (c.bankId === testId) return BANK_LABEL;
+export function classifyTestId(testId: string): ClassifiedTest {
+  for (const licenceClass of LICENCE_CLASSES) {
+    const test = licenceClass.tests[testId];
+    if (test) {
+      return { kind: "practice", testId, licenceClass, test, label: test.label };
+    }
+    if (licenceClass.marathonId === testId) {
+      return { kind: "marathon", testId, licenceClass, label: MARATHON_LABEL };
+    }
+    if (licenceClass.bankId === testId) {
+      return { kind: "bank", testId, licenceClass, label: BANK_LABEL };
+    }
   }
-  return testId;
+  return { kind: "unknown", testId, label: testId };
 }
 
 export function shuffle<T>(arr: T[]): T[] {

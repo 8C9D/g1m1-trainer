@@ -1,15 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import {
   getBankQuestions,
   updateBank,
   prepareTestQuestions,
-  getTestLabel,
-  getLicenceClassForTestId,
-  isBankTest,
+  classifyTestId,
   getQuestionsForClass,
   getQuestionsForPracticeTest,
   type Question,
@@ -41,22 +39,28 @@ function TestRun({ testId, onRestart }: { testId: string; onRestart: () => void 
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const licenceClass = getLicenceClassForTestId(testId);
-  const bankKey = licenceClass?.bankKey;
+  const classified = useMemo(() => classifyTestId(testId), [testId]);
+  const bankKey =
+    classified.kind === "unknown" ? undefined : classified.licenceClass.bankKey;
 
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
         let base: Question[] = [];
-        if (licenceClass) {
-          if (testId === licenceClass.bankId) {
-            base = getBankQuestions(licenceClass.bankKey);
-          } else if (testId === licenceClass.marathonId) {
-            base = await getQuestionsForClass(licenceClass);
-          } else {
-            base = await getQuestionsForPracticeTest(licenceClass, testId);
-          }
+        switch (classified.kind) {
+          case "bank":
+            base = getBankQuestions(classified.licenceClass.bankKey);
+            break;
+          case "marathon":
+            base = await getQuestionsForClass(classified.licenceClass);
+            break;
+          case "practice":
+            base = await getQuestionsForPracticeTest(classified.licenceClass, testId);
+            break;
+          case "unknown":
+            base = [];
+            break;
         }
         if (cancelled) return;
         setQuestions(prepareTestQuestions(base));
@@ -72,7 +76,7 @@ function TestRun({ testId, onRestart }: { testId: string; onRestart: () => void 
     return () => {
       cancelled = true;
     };
-  }, [testId, licenceClass]);
+  }, [testId, classified]);
 
   const handleNext = (correct: boolean) => {
     if (bankKey) updateBank(questions[index], correct, bankKey);
@@ -117,7 +121,7 @@ function TestRun({ testId, onRestart }: { testId: string; onRestart: () => void 
   if (done) {
     const pct = Math.round((score / questions.length) * 100);
     const passed = pct >= 80;
-    const isBank = isBankTest(testId);
+    const isBank = classified.kind === "bank";
     return (
       <main className="flex-1 flex flex-col items-center justify-center px-4 gap-2">
         {isBank ? (
@@ -156,7 +160,7 @@ function TestRun({ testId, onRestart }: { testId: string; onRestart: () => void 
       <div className="w-full max-w-xl flex flex-col gap-6">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-sm text-gray-400 hover:text-gray-700 transition-colors">
-            ← {getTestLabel(testId)}
+            ← {classified.label}
           </Link>
         </div>
 

@@ -4,12 +4,15 @@ import {
   parseQuestion,
   parseQuestionsArray,
   prepareTestQuestions,
+  classifyTestId,
   getBankQuestions,
   updateBank,
   getQuestionsForClass,
   getQuestionsForPracticeTest,
   BANK_STORAGE_VERSION,
+  BANK_LABEL,
   LICENCE_CLASSES,
+  MARATHON_LABEL,
   type Question,
 } from "./questions";
 
@@ -185,6 +188,56 @@ describe("prepareTestQuestions", () => {
 
   it("returns [] for an empty input", () => {
     expect(prepareTestQuestions([])).toEqual([]);
+  });
+});
+
+describe("classifyTestId", () => {
+  it("classifies a known practice test", () => {
+    const result = classifyTestId("g1-practice-test-2");
+    expect(result.kind).toBe("practice");
+    if (result.kind !== "practice") return;
+    expect(result.testId).toBe("g1-practice-test-2");
+    expect(result.licenceClass.key).toBe("g1");
+    expect(result.test.label).toBe("Practice Test 2");
+    expect(result.label).toBe("Practice Test 2");
+  });
+
+  it("classifies the M1 marathon test", () => {
+    const result = classifyTestId("all");
+    expect(result.kind).toBe("marathon");
+    if (result.kind !== "marathon") return;
+    expect(result.licenceClass.key).toBe("m1");
+    expect(result.label).toBe(MARATHON_LABEL);
+  });
+
+  it("classifies the G1 marathon test", () => {
+    const result = classifyTestId("g1-all");
+    expect(result.kind).toBe("marathon");
+    if (result.kind !== "marathon") return;
+    expect(result.licenceClass.key).toBe("g1");
+    expect(result.label).toBe(MARATHON_LABEL);
+  });
+
+  it("classifies the missed-question bank for each class", () => {
+    const g1 = classifyTestId("g1-bank");
+    expect(g1.kind).toBe("bank");
+    if (g1.kind !== "bank") return;
+    expect(g1.licenceClass.key).toBe("g1");
+    expect(g1.licenceClass.bankKey).toBe("g1-missed");
+    expect(g1.label).toBe(BANK_LABEL);
+
+    const m1 = classifyTestId("bank");
+    expect(m1.kind).toBe("bank");
+    if (m1.kind !== "bank") return;
+    expect(m1.licenceClass.key).toBe("m1");
+    expect(m1.licenceClass.bankKey).toBe("m1-missed");
+  });
+
+  it("classifies an unknown test id and uses it as the label", () => {
+    const result = classifyTestId("not-a-real-test");
+    expect(result.kind).toBe("unknown");
+    expect(result.testId).toBe("not-a-real-test");
+    expect(result.label).toBe("not-a-real-test");
   });
 });
 
