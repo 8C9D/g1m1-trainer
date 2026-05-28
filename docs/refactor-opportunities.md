@@ -72,7 +72,7 @@ and `scripts/sync-helpers.js`.
   used assets.
 - **Suggested validation:** `npm run build`, `npm test`, `npm run lint` in `web/`.
 - **Dependency ordering:** Independent.
-- **Autopilot status:** Planned
+- **Autopilot status:** Implemented
 
 ### Opportunity B — Replace boilerplate `web/README.md`
 
@@ -177,6 +177,7 @@ npm run cache-images  # node scripts/cache-images.js
 
 | # | Cleanup | Files changed | Validation | Commit | Push | Notes |
 |---|---------|---------------|------------|--------|------|-------|
-| 0 | Add refactor opportunities report | `docs/refactor-opportunities.md` | n/a (docs) | _this commit_ | pending | Plan committed first |
+| 0 | Add refactor opportunities report | `docs/refactor-opportunities.md` | n/a (docs) | `459eef1` | pushed | Plan committed first |
+| A | Remove unused boilerplate SVGs | deleted 5× `web/public/*.svg` | test (84), lint, build all green | _this commit_ | pending | Confirmed unreferenced; static assets only |
 
 _Entries are appended as each cleanup lands._
