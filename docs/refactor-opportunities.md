@@ -106,7 +106,7 @@ and `scripts/sync-helpers.js`.
 - **Expected benefit:** Docs that match reality.
 - **Suggested validation:** Cross-check every listed path against the working tree.
 - **Dependency ordering:** Independent.
-- **Autopilot status:** Planned
+- **Autopilot status:** Implemented
 
 ## 4. Quick Wins
 
@@ -178,6 +178,7 @@ npm run cache-images  # node scripts/cache-images.js
 | # | Cleanup | Files changed | Validation | Commit | Push | Notes |
 |---|---------|---------------|------------|--------|------|-------|
 | 0 | Add refactor opportunities report | `docs/refactor-opportunities.md` | n/a (docs) | `459eef1` | pushed | Plan committed first |
-| A | Remove unused boilerplate SVGs | deleted 5× `web/public/*.svg` | test (84), lint, build all green | _this commit_ | pending | Confirmed unreferenced; static assets only |
+| A | Remove unused boilerplate SVGs | deleted 5× `web/public/*.svg` | test (84), lint, build all green | `61a4b39` | pushed | Confirmed unreferenced; static assets only |
+| C | Fix root README repo-layout | `README.md` | every listed path verified to exist | _this commit_ | pending | Adds scrape.js/sync-helpers.js; scrapers noted as wrappers |
 
 _Entries are appended as each cleanup lands._

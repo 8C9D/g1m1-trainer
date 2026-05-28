@@ -8,8 +8,8 @@ Questions, answer options, and explanations are scraped from <https://www.g1.ca/
 
 ```
 g1m1-trainer/
-├── scrape-g1-practice.js       Playwright scraper for G1 (car) practice tests
-├── scrape-m1-practice.js       Playwright scraper for M1 (motorcycle) practice tests
+├── scrape-g1-practice.js       G1 (car) scraper entry point (config for scripts/scrape.js)
+├── scrape-m1-practice.js       M1 (motorcycle) scraper entry point (config for scripts/scrape.js)
 ├── data/                       scraped source data (source of truth)
 │   ├── all-questions.json        all M1 questions, flat
 │   ├── g1-all-questions.json     all G1 questions, flat
@@ -17,13 +17,15 @@ g1m1-trainer/
 │       ├── questions.json        per-test questions
 │       └── screenshots/          before/after screenshots (gitignored)
 ├── scripts/
+│   ├── scrape.js               shared Playwright scraping engine (used by both root scrapers)
 │   ├── sync-data.js            mirrors data/ → web/public/data/, strips scraper-only fields
+│   ├── sync-helpers.js         pure project/collect helpers for the data scripts (unit-tested)
 │   ├── cache-images.js         opt-in downloader for question images
-│   └── image-cache.js          URL ↔ local-path helpers shared by the two above
+│   └── image-cache.js          URL ↔ local-path helpers shared by the sync/cache scripts
 └── web/                        Next.js 16 (App Router) practice-test trainer
     ├── app/                      routes (home + /test/[testId])
-    ├── components/               QuestionCard, ProgressBar
-    ├── lib/questions.ts          data loading, shuffle, missed-bank
+    ├── components/               QuestionCard, ProgressBar, BankCount, TestResults
+    ├── lib/                      questions.ts (load/shuffle/bank) + questions.server.ts (counts)
     ├── public/data/              published mirror of scraped data (served by Next)
     └── public/question-images/   locally cached question images (gitignored, generated)
 ```
