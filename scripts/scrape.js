@@ -1,6 +1,6 @@
 const { chromium } = require("playwright");
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 
 const OUTPUT_DIR = path.join(__dirname, "..", "data");
 const HOME_URL = "https://www.g1.ca/";

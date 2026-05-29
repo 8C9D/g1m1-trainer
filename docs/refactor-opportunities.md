@@ -83,7 +83,7 @@ cleaned up (Opportunities A/B/C — see the execution log)._
   plus a side-effect-free `require()` load (the scraper needs a live browser, so
   it cannot be run in CI); `cd web && npm test`.
 - **Dependency ordering:** Independent.
-- **Autopilot status:** Planned
+- **Autopilot status:** Implemented
 
 ## 4. Quick Wins
 
@@ -159,8 +159,8 @@ npm run cache-images  # node scripts/cache-images.js
 | A | Remove unused boilerplate SVGs | deleted 5× `web/public/*.svg` | test/lint/build green | `61a4b39` | pushed | Static assets only; unreferenced |
 | C | Fix root README repo-layout | `README.md` | paths verified | `f193846` | pushed | Added scrape.js/sync-helpers.js |
 | B | Replace boilerplate web/README | `web/README.md` | docs only | (prior run) | pushed | Removed create-next-app boilerplate |
-| — | Update report for this run | `docs/refactor-opportunities.md` | n/a (docs) | _this commit_ | pending | Re-baselined (99 tests/7 files); planned Opportunity D |
-| D | Normalize `node:` import prefix | `scripts/scrape.js`, `scripts/sync-data.js` | _pending_ | _pending_ | _pending_ | — |
+| — | Update report for this run | `docs/refactor-opportunities.md` | n/a (docs) | `3cd113c` | pushed | Re-baselined (99 tests/7 files); planned Opportunity D |
+| D | Normalize `node:` import prefix | `scripts/scrape.js`, `scripts/sync-data.js` | `node --check` + load; `npm run sync` (no data diff); web tests 99/7 green | _this commit_ | pending | Runtime no-op; matches cache-images.js/image-cache.js/questions.server.ts |
 
 _Opportunities A/B/C were completed in a prior run and are already on `main`.
 The data/-traversal unification in §6 remains deliberately skipped as

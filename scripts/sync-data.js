@@ -19,8 +19,8 @@
  * Safe no-op if `data/` doesn't exist — useful when only `web/` is checked
  * out (e.g., a deploy that ships the pre-synced JSONs straight from git).
  */
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 const { PUBLIC_DIR_NAME } = require("./image-cache");
 const { projectQuestion } = require("./sync-helpers");
 
