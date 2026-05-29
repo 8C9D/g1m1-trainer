@@ -514,3 +514,37 @@ describe("data-file resolution", () => {
     expect(fetchMock).toHaveBeenCalledExactlyOnceWith("/data/g1-all-questions.json");
   });
 });
+
+describe("getQuestionsFor* error handling", () => {
+  const m1 = LICENCE_CLASSES.find((c) => c.key === "m1")!;
+  const g1 = LICENCE_CLASSES.find((c) => c.key === "g1")!;
+
+  afterEach(() => {
+    vi.unstubAllGlobals();
+  });
+
+  it("rejects naming the data file and status when the response is not ok", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({ ok: false, status: 503, statusText: "Service Unavailable" }),
+    );
+    await expect(getQuestionsForClass(m1)).rejects.toThrow(
+      /Failed to fetch \/data\/all-questions\.json: 503 Service Unavailable/,
+    );
+  });
+
+  it("rejects naming the data file when the response body is not an array", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: true,
+        status: 200,
+        statusText: "OK",
+        json: async () => ({ not: "an array" }),
+      }),
+    );
+    await expect(getQuestionsForPracticeTest(g1, "g1-practice-test-1")).rejects.toThrow(
+      /\/data\/g1-practice-test-1\/questions\.json: expected an array of questions at the top level/,
+    );
+  });
+});
