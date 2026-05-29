@@ -127,7 +127,20 @@ brittle route rendering.
   fill; rounding of 1/3 → 33% and 2/3 → 67%.
 - **Validation run:** `npm test -- components/ProgressBar.test.tsx`, then `npm test`.
 - **Result:** 5/5 new tests pass; full suite 89/89 pass.
-- **Commit:** `test: improve coverage for ProgressBar component` (see git log).
+- **Commit:** `8afed7c` — `test: improve coverage for ProgressBar component`.
+- **Push result:** pushed to `origin/chore/repo-cleanup-autopilot`.
+
+### Improvement 2 — `BankCount` (Gap B)
+- **Files changed:** `web/components/BankCount.test.tsx` (new).
+- **Behavior covered:** the empty-bank branch (renders nothing) versus the
+  populated branch (renders a link to `/test/{bankId}` with the count and label),
+  and that the count is read from the supplied `bankKey`.
+- **New test cases:** empty bank → no output and no link; populated bank → link
+  `href` is `/test/bank` and `BANK_LABEL` shows; count text reflects the stored
+  questions; a different `bankKey`/`bankId` pair is honored.
+- **Validation run:** `npm test -- components/BankCount.test.tsx`, then `npm test`.
+- **Result:** 4/4 new tests pass; full suite 93/93 pass.
+- **Commit:** `test: improve coverage for BankCount component` (see git log).
 - **Push result:** pushed to `origin/chore/repo-cleanup-autopilot`.
 
 ## 6. Skipped Opportunities
