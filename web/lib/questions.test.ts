@@ -440,6 +440,32 @@ describe("updateBank", () => {
     expect(stored.questions[0].correctAnswerIndex).toBe("2");
     expect(stored.questions[1].questionNumber).toBe(1);
   });
+
+  it("removes only the question answered correctly, keeping the rest of the bank", () => {
+    const q2: Question = { ...baseQuestion, questionNumber: 2, question: "Q2?" };
+    updateBank(baseQuestion, false, bankKey); // bank: [Q1]
+    updateBank(q2, false, bankKey); // bank: [Q1, Q2]
+
+    updateBank(baseQuestion, true, bankKey); // answer Q1 correctly
+
+    const stored = JSON.parse(localStorage.getItem(bankKey)!);
+    // Only Q1 is removed; Q2 (a different testName/questionNumber identity) stays.
+    expect(stored.questions).toHaveLength(1);
+    expect(stored.questions[0].questionNumber).toBe(2);
+  });
+
+  it("leaves the bank unchanged when a question that was never missed is answered correctly", () => {
+    const q2: Question = { ...baseQuestion, questionNumber: 2, question: "Q2?" };
+    updateBank(baseQuestion, false, bankKey); // bank: [Q1]
+    updateBank(q2, false, bankKey); // bank: [Q1, Q2]
+
+    const neverMissed: Question = { ...baseQuestion, questionNumber: 99, question: "Q99?" };
+    updateBank(neverMissed, true, bankKey); // correct + not in bank → no-op
+
+    const stored = JSON.parse(localStorage.getItem(bankKey)!);
+    expect(stored.questions).toHaveLength(2);
+    expect(stored.questions.map((q: Question) => q.questionNumber)).toEqual([1, 2]);
+  });
 });
 
 describe("data-file resolution", () => {
