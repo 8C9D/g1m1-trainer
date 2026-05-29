@@ -42,8 +42,8 @@ implementation-coupled). After cycles 1–3 every module has meaningful coverage
   two-question advancement, and a partial-score FAIL).
 
 The remaining gaps are not whole untested modules but **specific uncovered
-behaviors** inside otherwise-tested components, each mapping to a real,
-user-visible behavior:
+behaviors** inside otherwise-tested code, each mapping to a real, user-visible
+behavior:
 
 1. `BankCount` subscribes to the window `storage` event via
    `useSyncExternalStore`, but no test fires that event, so its **live
@@ -52,6 +52,9 @@ user-visible behavior:
 2. `QuestionCard` renders ✓ / ✗ **answer-feedback markers** after an answer is
    chosen, but only the `onNext` boolean is asserted — the visual "which option
    was correct / which you picked" feedback is unverified.
+3. The quiz route's **Restart** flow is unproven: `TestResults`'s `onRestart`
+   callback is unit-tested, but nothing checks that the route actually resets the
+   run (it remounts `TestRun` via a changing `key`).
 
 ## 3. Highest-Value Coverage Gaps
 
@@ -102,6 +105,30 @@ user-visible behavior:
 - **Validation:** `npm test -- components/QuestionCard.test.tsx`
 - **Status:** Implemented (see §6, Improvement 2)
 
+### Gap K — quiz-route Restart does not reset the run (untested)
+- **Location:** `web/app/test/[testId]/page.tsx` (`TestPage`'s `reloadKey`, the
+  `key` it feeds to `TestRun`, and the `onRestart` handler).
+- **Why it matters:** after finishing a test the results screen offers
+  **Restart**, which must drop the user back at question 1 with a fresh
+  index/score/done. The route does this by bumping `reloadKey` so the remount
+  `key` changes and React rebuilds `TestRun` (resetting all its state). That
+  wiring is load-bearing: a regression dropping `reloadKey` from the `key` (or
+  not changing it) would leave Restart stuck on the stale results screen. The
+  `TestResults` unit test only proves the `onRestart` *callback* fires; the
+  route's actual reset is unverified.
+- **Existing tests:** `TestResults` → `onRestart` called on click; the route
+  tests cover load / advancement / scoring but never click Restart.
+- **Missing cases:** completing a run to the results screen, clicking Restart,
+  and landing back on the first question (progress `1 / 2`) with the results
+  screen gone.
+- **Suggested tests:** drive a two-question marathon run to `100% PASS`, click
+  Restart, then `findBy` the `1 / 2` counter and assert `100% PASS` is no longer
+  present.
+- **Risk level:** Low/Medium (async remount + Testing Library `findBy*`; follows
+  the Gap H pattern).
+- **Validation:** `npm test -- "app/test/[testId]/page.test.tsx"`
+- **Status:** Implemented (see §6, Improvement 3)
+
 ### Remaining (not planned this cycle)
 - **`app/layout.tsx`:** renders `<html><body>{children}</body></html>` with
   static metadata — trivial, no logic worth a test.
@@ -141,12 +168,14 @@ No mock-only, existence-only, duplicate, or snapshot tests were found.
 
 ## 5. Test Improvement Plan
 
-Two improvements, each its own commit, validated after each:
+Three improvements, each its own commit, validated after each:
 
 1. **Gap I** — extend `web/components/BankCount.test.tsx` with a `storage`-event
    reactivity test.
 2. **Gap J** — extend `web/components/QuestionCard.test.tsx` with ✓/✗
    answer-feedback marker assertions.
+3. **Gap K** — extend `web/app/test/[testId]/page.test.tsx` with a Restart
+   reset test.
 
 ## 6. Implemented Test Improvements
 
@@ -187,6 +216,25 @@ Two improvements, each its own commit, validated after each:
 - **Status:** Implemented. Commit + push: see git log
   (`test: improve coverage for answer-feedback markers`).
 
+### Improvement 3 — quiz-route Restart reset (Gap K)
+- **Files changed:** `web/app/test/[testId]/page.test.tsx` (one new case in the
+  existing `TestRun` suite; no import changes).
+- **Behavior covered:** the route's Restart wiring — clicking Restart on the
+  results screen remounts `TestRun` and resets index/score/done back to the
+  first question.
+- **New test case:** a two-question marathon run is completed to `100% PASS`;
+  clicking Restart returns to the `1 / 2` first question and the `100% PASS`
+  results text is gone.
+- **Validation run:** `npx vitest run "app/test/[testId]/page.test.tsx"` (re-run
+  ×3 for shuffle stability), then full `npx vitest run`, `npm run lint`,
+  `npx tsc --noEmit`.
+- **Result:** route file **6 → 7** tests (stable across repeated runs); full
+  suite **123 → 124**, all passing; lint clean; no new `tsc` errors (the 7
+  remaining are the pre-existing CommonJS-import nits in
+  `lib/image-cache.test.ts` / `lib/sync-helpers.test.ts`).
+- **Status:** Implemented. Commit + push: see git log
+  (`test: improve coverage for quiz restart`).
+
 ## 7. Skipped Opportunities
 
 - `app/layout.tsx` — trivial shell, no logic.
@@ -199,12 +247,12 @@ Two improvements, each its own commit, validated after each:
 
 ## 8. Final Notes
 
-This cycle targets two uncovered **component behaviors** inside already-tested
-files: `BankCount`'s external-store reactivity (its reason for using
-`useSyncExternalStore` at all) and `QuestionCard`'s ✓/✗ answer feedback.
-The suite grew **118 → 123 tests** (still 10 files; both additions extend
-existing test files). Production code is unchanged; all changes are additive
-test cases that follow the existing style.
+This cycle targets three uncovered **behaviors** inside already-tested files:
+`BankCount`'s external-store reactivity (its reason for using
+`useSyncExternalStore` at all), `QuestionCard`'s ✓/✗ answer feedback, and the
+quiz route's Restart reset. The suite grew **118 → 124 tests** (still 10 files;
+all three additions extend existing test files). Production code is unchanged;
+all changes are additive test cases that follow the existing style.
 
 The standing non-test artifact remains the `server-only` resolve alias + stub
 from an earlier cycle (test infrastructure mirroring Next's own `react-server`

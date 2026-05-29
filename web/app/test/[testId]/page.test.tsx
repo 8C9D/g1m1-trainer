@@ -192,4 +192,25 @@ describe("TestPage / TestRun state machine", () => {
     expect(await screen.findByText(/1 \/ 2 correct/)).toBeTruthy();
     expect(screen.getByText(/50% FAIL/)).toBeTruthy();
   });
+
+  it("restarts from the first question after reaching the results screen", async () => {
+    setTestId("all");
+    mockFetchResolving(twoQuestions());
+    render(<TestPage />);
+
+    // Complete the run to reach the results screen.
+    expect(await screen.findByText(/1 \/ 2/)).toBeTruthy();
+    answerCurrentCorrectly();
+    fireEvent.click(screen.getByRole("button", { name: /next/i }));
+    expect(await screen.findByText(/2 \/ 2/)).toBeTruthy();
+    answerCurrentCorrectly();
+    fireEvent.click(screen.getByRole("button", { name: /finish/i }));
+    expect(await screen.findByText("100% PASS")).toBeTruthy();
+
+    // Restart remounts the runner (key changes), resetting index/score/done:
+    // we are back on the first question and the results screen is gone.
+    fireEvent.click(screen.getByRole("button", { name: /restart/i }));
+    expect(await screen.findByText(/1 \/ 2/)).toBeTruthy();
+    expect(screen.queryByText("100% PASS")).toBeNull();
+  });
 });
