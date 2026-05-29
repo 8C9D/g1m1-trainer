@@ -119,7 +119,16 @@ brittle route rendering.
 
 ## 5. Implemented Test Improvements
 
-_Populated as each improvement lands; see commit hashes below._
+### Improvement 1 — `ProgressBar` (Gap A)
+- **Files changed:** `web/components/ProgressBar.test.tsx` (new).
+- **Behavior covered:** the `Math.round((current / total) * 100)` fill width and
+  the `current / total` counter text.
+- **New test cases:** counter text; 0% at start; 100% at completion; 25% partial
+  fill; rounding of 1/3 → 33% and 2/3 → 67%.
+- **Validation run:** `npm test -- components/ProgressBar.test.tsx`, then `npm test`.
+- **Result:** 5/5 new tests pass; full suite 89/89 pass.
+- **Commit:** `test: improve coverage for ProgressBar component` (see git log).
+- **Push result:** pushed to `origin/chore/repo-cleanup-autopilot`.
 
 ## 6. Skipped Opportunities
 
