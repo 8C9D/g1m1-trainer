@@ -197,9 +197,11 @@ Three improvements, each its own commit, validated after each:
   `2 / 2` after the first answer; answering both correctly reaches `TestResults`
   with `2 / 2 correct` and `100% PASS`; answering exactly one correctly yields a
   partial `1 / 2 correct` / `FAIL` result.
-- **Validation run:** `npm test -- "app/test/[testId]/page.test.tsx"`, then
+- **Validation run:** `npm test -- "app/test/[testId]/page.test.tsx"` (re-run ×3
+  to confirm it is stable under `prepareTestQuestions` shuffling), then
   `npm test`, `npm run lint`, `npx tsc --noEmit`.
-- **Result:** new cases pass; full suite grows accordingly; lint clean; type-clean.
+- **Result:** new cases pass (stable across repeated runs); full suite
+  **116 → 118**; lint clean; type-clean.
 - **Commit:** see git log (`test: improve coverage for quiz advancement and scoring`).
 - **Push result:** pushed to `origin/main`.
 
@@ -216,8 +218,10 @@ Three improvements, each its own commit, validated after each:
 
 This cycle targets uncovered **branches** inside already-tested modules rather
 than whole new files — the bank's selective-removal path, the fetch boundary's
-error paths, and the quiz loop's multi-question advancement. Production code is
-unchanged; all changes are additive test cases that follow the existing style.
+error paths, and the quiz loop's multi-question advancement. The suite grew
+**112 → 118 tests** (still 10 files; all additions extend existing test files).
+Production code is unchanged; all changes are additive test cases that follow
+the existing style.
 
 The only standing non-test artifact remains the `server-only` resolve alias +
 empty stub from the previous cycle (test infrastructure mirroring Next's own

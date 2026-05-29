@@ -48,6 +48,46 @@ function mockFetchResolving(data: unknown) {
   return fetchMock;
 }
 
+// Two questions whose correct ("Banana"/"Dog") and wrong ("Apple"/"Cat")
+// options are uniquely identifiable, so the right button can be clicked on
+// whichever question prepareTestQuestions happens to shuffle to each screen.
+function twoQuestions(): Question[] {
+  return [
+    makeQuestion({
+      questionNumber: 1,
+      question: "Fruit?",
+      answerOptions: [
+        { index: "1", text: "Apple" },
+        { index: "2", text: "Banana" },
+      ],
+      correctAnswer: "Banana",
+      correctAnswerIndex: "2",
+    }),
+    makeQuestion({
+      questionNumber: 2,
+      question: "Animal?",
+      answerOptions: [
+        { index: "1", text: "Cat" },
+        { index: "2", text: "Dog" },
+      ],
+      correctAnswer: "Dog",
+      correctAnswerIndex: "2",
+    }),
+  ];
+}
+
+function answerCurrentCorrectly() {
+  const banana = screen.queryByRole("button", { name: /banana/i });
+  if (banana) fireEvent.click(banana);
+  else fireEvent.click(screen.getByRole("button", { name: /dog/i }));
+}
+
+function answerCurrentIncorrectly() {
+  const apple = screen.queryByRole("button", { name: /apple/i });
+  if (apple) fireEvent.click(apple);
+  else fireEvent.click(screen.getByRole("button", { name: /cat/i }));
+}
+
 describe("TestPage / TestRun state machine", () => {
   beforeEach(() => {
     localStorage.clear();
@@ -112,5 +152,44 @@ describe("TestPage / TestRun state machine", () => {
       version: BANK_STORAGE_VERSION,
       questions: [],
     });
+  });
+
+  it("advances to the next question and scores every correct answer to a passing result", async () => {
+    setTestId("all"); // M1 marathon → two-question corpus
+    mockFetchResolving(twoQuestions());
+    render(<TestPage />);
+
+    // First question is on screen with the 1 / 2 counter.
+    expect(await screen.findByText(/1 \/ 2/)).toBeTruthy();
+    answerCurrentCorrectly();
+    fireEvent.click(screen.getByRole("button", { name: /next/i }));
+
+    // Answering advances to the second question (counter moves to 2 / 2).
+    expect(await screen.findByText(/2 \/ 2/)).toBeTruthy();
+    answerCurrentCorrectly();
+    fireEvent.click(screen.getByRole("button", { name: /finish/i }));
+
+    // Both correct → non-bank results screen with a perfect score.
+    expect(await screen.findByText("100% PASS")).toBeTruthy();
+    expect(screen.getByText(/2 \/ 2 correct/)).toBeTruthy();
+  });
+
+  it("accumulates a partial score when one of several answers is wrong", async () => {
+    setTestId("all");
+    mockFetchResolving(twoQuestions());
+    render(<TestPage />);
+
+    // Miss the first question, then advance and answer the second correctly.
+    expect(await screen.findByText(/1 \/ 2/)).toBeTruthy();
+    answerCurrentIncorrectly();
+    fireEvent.click(screen.getByRole("button", { name: /next/i }));
+
+    expect(await screen.findByText(/2 \/ 2/)).toBeTruthy();
+    answerCurrentCorrectly();
+    fireEvent.click(screen.getByRole("button", { name: /finish/i }));
+
+    // One of two correct → 50%, below the 80% pass mark.
+    expect(await screen.findByText(/1 \/ 2 correct/)).toBeTruthy();
+    expect(screen.getByText(/50% FAIL/)).toBeTruthy();
   });
 });
