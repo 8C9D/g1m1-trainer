@@ -77,7 +77,7 @@ user-visible behavior:
   render empty (nothing shown) → seed + dispatch → link appears.
 - **Risk level:** Low/Medium (jsdom event + `useSyncExternalStore`; needs `act`).
 - **Validation:** `npm test -- components/BankCount.test.tsx`
-- **Status:** Planned
+- **Status:** Implemented (see §6, Improvement 1)
 
 ### Gap J — `QuestionCard` answer-feedback markers (✓ / ✗) are untested
 - **Location:** `web/components/QuestionCard.tsx` (`getIndicator`)
@@ -151,8 +151,22 @@ Two improvements, each its own commit, validated after each:
 ## 6. Implemented Test Improvements
 
 ### Improvement 1 — `BankCount` live reactivity (Gap I)
-- **Status:** Planned
-- _(to be filled in after implementation)_
+- **Files changed:** `web/components/BankCount.test.tsx` (added `act` to the
+  Testing Library import; two new cases in the existing `BankCount` suite).
+- **Behavior covered:** the `useSyncExternalStore` + `subscribe` reactivity — a
+  `storage` event re-reads the bank and updates the rendered count live, and can
+  surface the previously-hidden link.
+- **New test cases:** with a 1-question bank rendered, growing the bank to 3 and
+  dispatching `storage` updates "1 questions" → "3 questions"; starting empty
+  (nothing rendered), seeding 2 + dispatching `storage` surfaces the
+  `/test/bank` link showing "2 questions".
+- **Validation run:** `npx vitest run components/BankCount.test.tsx`, then full
+  `npx vitest run`, `npm run lint`, `npx tsc --noEmit`.
+- **Result:** BankCount **4 → 6** tests; full suite **118 → 120**, all passing;
+  lint clean; no new `tsc` errors (only the pre-existing untyped-CommonJS-import
+  nits in `lib/image-cache.test.ts` / `lib/sync-helpers.test.ts` remain).
+- **Status:** Implemented. Commit + push: see git log
+  (`test: improve coverage for the missed-question bank count`).
 
 ### Improvement 2 — `QuestionCard` answer-feedback markers (Gap J)
 - **Status:** Planned

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, act } from "@testing-library/react";
 import { BankCount } from "./BankCount";
 import { serializeBankStorage, BANK_LABEL, type Question } from "@/lib/questions";
 
@@ -53,6 +53,33 @@ describe("BankCount", () => {
     seedBank("g1-missed", 2);
     render(<BankCount bankKey="g1-missed" bankId="g1-bank" />);
     expect(screen.getByRole("link").getAttribute("href")).toBe("/test/g1-bank");
+    expect(screen.getByText(/2 questions/)).toBeTruthy();
+  });
+
+  it("updates the count live when a storage event fires (cross-tab sync)", () => {
+    seedBank("m1-missed", 1);
+    render(<BankCount bankKey="m1-missed" bankId="bank" />);
+    expect(screen.getByText(/1 questions/)).toBeTruthy();
+
+    // Another tab adds two more missed questions and notifies via `storage`.
+    act(() => {
+      seedBank("m1-missed", 3);
+      window.dispatchEvent(new Event("storage"));
+    });
+
+    expect(screen.getByText(/3 questions/)).toBeTruthy();
+  });
+
+  it("surfaces the bank link when a storage event reports the first missed question", () => {
+    const { container } = render(<BankCount bankKey="m1-missed" bankId="bank" />);
+    expect(container.querySelector("a")).toBeNull(); // empty bank: nothing rendered
+
+    act(() => {
+      seedBank("m1-missed", 2);
+      window.dispatchEvent(new Event("storage"));
+    });
+
+    expect(screen.getByRole("link").getAttribute("href")).toBe("/test/bank");
     expect(screen.getByText(/2 questions/)).toBeTruthy();
   });
 });
