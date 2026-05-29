@@ -1,14 +1,18 @@
 # Security Sanity Check Report
 
-_Generated: 2026-05-28. This is a practical security hygiene review, not a formal
+_Generated: 2026-05-28. Re-verified: 2026-05-29 on `main` (no new issues; no new
+changes applied). This is a practical security hygiene review, not a formal
 penetration test or full audit._
 
 ## 1. Scope
 
-Local inspection of the `g1m1-trainer` repository on branch
-`chore/repo-cleanup-autopilot`: tracked files, `.gitignore` coverage, secret
-scanning, frontend XSS sinks, unsafe operations, route input handling, the data
-pipeline scripts, CI configuration, and a dependency audit of the web app.
+Local inspection of the `g1m1-trainer` repository on branch `main`: tracked
+files, `.gitignore` coverage, secret scanning, frontend XSS sinks, unsafe
+operations, route input handling, the data pipeline scripts (including the
+image-cache URL→path mapping), CI configuration, and a dependency audit of the
+web app. The original pass ran on `chore/repo-cleanup-autopilot` (since merged);
+the 2026-05-29 re-verification re-ran every check against `main` and confirmed
+all findings below still hold.
 
 ## 2. Project Overview
 
@@ -32,11 +36,18 @@ pipeline scripts, CI configuration, and a dependency audit of the web app.
 
 This is a static, client-side practice-test app with no secrets, no auth, no
 backend, and no server-side handling of untrusted input. No secrets were found in
-tracked files or in the working tree. The only concrete hygiene gap was that the
-root `.gitignore` did not protect `.env` files; that has been fixed. One moderate
-transitive dependency advisory exists (`postcss` via Next.js) but its only npm
-remediation is a breaking Next.js downgrade, so it is left for manual handling;
-its practical exploitability here is minimal.
+tracked files or in the working tree. The only concrete hygiene gap — the root
+`.gitignore` not protecting `.env` files — was fixed in the original pass and is
+now part of `main` (re-verified present). One moderate transitive dependency
+advisory exists (`postcss` via Next.js) but its only npm remediation is a
+breaking Next.js downgrade, so it is left for manual handling; its practical
+exploitability here is minimal.
+
+The 2026-05-29 re-verification on `main` found **no new issues and applied no new
+changes**: the secret scans (including the committed JSON data), XSS-sink and
+dynamic-execution greps, route/`testId` and server file-read tracing, the
+image-cache URL→path mapping, install-hook check, and `npm audit` all returned
+the same results as the original pass.
 
 ## 4. Findings
 
@@ -50,7 +61,9 @@ its practical exploitability here is minimal.
   scraper token), it could be committed by accident.
 - **Recommended fix:** add `.env` / `.env.*` (with `!.env.example`) to the root
   `.gitignore`.
-- **Auto-fix status:** Fixed.
+- **Auto-fix status:** Fixed in the original pass; the rule is present on `main`
+  and was re-verified this run (`git check-ignore .env` → ignored). No change
+  applied in the 2026-05-29 run.
 - **Secret redacted:** No secret involved.
 - **Confidence:** High.
 
@@ -156,6 +169,12 @@ non-sensitive.
 - **Parsing is defensive:** `parseQuestion` / `parseQuestionsArray` validate types
   and throw on malformed data; `parseBankStorage` swallows invalid JSON and
   unknown storage versions, returning `[]`.
+- **Image-cache writes can't traverse:** `scripts/image-cache.js`
+  `urlToCacheFilename` reduces any image URL to `path.posix.basename(pathname)`
+  and rejects empty / `/` / `.` / `..`, so `cache-images.js`'s
+  `path.join(DEST_DIR, filename)` can only ever write inside
+  `web/public/question-images/`. The downloader is an opt-in local CLI fetching
+  first-party scraped URLs (not a server endpoint), so SSRF is not in scope.
 
 ## 9. Dependency and Tooling Review
 
@@ -178,17 +197,22 @@ non-sensitive.
 
 ## 11. Auto-Fixes Applied
 
-### Auto-fix 1 — Harden root `.gitignore` against `.env` files
+**2026-05-29 re-verification run: no new auto-fixes were applied.** Every safe
+hygiene gap identified in the original pass is already resolved on `main`, and
+the remaining findings (postcss advisory, CI hardening) are out of safe auto-fix
+scope. The only change committed this run is this report update.
+
+### Auto-fix 1 (original pass) — Harden root `.gitignore` against `.env` files
 - **Files changed:** `.gitignore`
 - **What changed:** added a "Local env / secrets" block ignoring `.env` and
   `.env.*` with an `!.env.example` exception.
 - **Why it is safe:** purely additive ignore rules; no tracked files are affected
   (none match), and application/runtime behavior is unchanged.
-- **Validation run:** `git check-ignore .env` (now ignored), `git diff --check`,
+- **Validation run:** `git check-ignore .env` (ignored), `git diff --check`,
   and `npm test` (web) as a sanity check.
-- **Result:** `.env` is now ignored; web suite 99/99 pass; no whitespace errors.
-- **Commit hash:** see §13 / final summary.
-- **Push result:** pushed to `origin/chore/repo-cleanup-autopilot`.
+- **Result:** `.env` is ignored; the rule is present on `main` and was
+  re-confirmed in the 2026-05-29 run.
+- **Status:** merged into `main` (historical; not re-applied this run).
 
 ## 12. Recommended Manual Fix Order
 
@@ -202,18 +226,26 @@ non-sensitive.
 
 ## 13. Commands Run
 
-- `pwd`, `git status --short`, `git branch --show-current`, `git remote -v`, `ls -la`
-- `git rev-parse --abbrev-ref --symbolic-full-name @{u}`
+- `pwd`, `git status --short`, `git branch --show-current`, `git remote -v`, `ls`
 - `git ls-files` (filtered), and globbed `git ls-files` for sensitive file types
-- `git grep` for secret patterns; for `dangerouslySetInnerHTML`/`innerHTML`;
-  for `eval`/`Function`/`child_process`/`exec`/`spawn`; for `process.env`
-- `find` for stray sensitive files; `git check-ignore` for `.env`/`auth.json`
+- `git grep` for secret patterns (incl. high-signal token shapes across JSON
+  data: `eyJ…`, `AKIA…`, `-----BEGIN`, `sk_live_`, `sk-…`, `ghp_…`, `xox…`);
+  for `dangerouslySetInnerHTML`/`innerHTML`/`outerHTML`/`insertAdjacentHTML`;
+  for `eval`/`new Function`/`child_process`/`exec`/`spawn`; for `process.env`;
+  for `pre`/`postinstall`/`prepare` hooks
+- `git grep` tracing `testId` → `classifyTestId`/`getPracticeTest` and
+  `fetch(dataFile)` / `path.join(..., publicPath)` to confirm trusted-only inputs
+- Read of `scripts/image-cache.js` + `scripts/cache-images.js` to confirm the
+  URL→cache-path mapping cannot traverse outside `web/public/question-images/`
+- `find` for stray sensitive files; `git check-ignore` for
+  `.env` / `web/.env.local` / `auth.json` / `web/public/question-images/*`
 - `npm audit --audit-level=moderate` (in `web/`)
-- `npm test` (in `web/`) for post-fix validation
 
 ## 14. Final Notes
 
-No secrets were found anywhere. Production/runtime behavior is unchanged: the only
-applied change is additive `.gitignore` hardening. The remaining items are a
+No secrets were found anywhere. Production/runtime behavior is unchanged. As of
+the 2026-05-29 re-verification on `main`, no new issues were found and no code or
+config changes were applied — the prior `.gitignore` hardening is already merged,
+and the only commit this run is this report update. The remaining items are a
 low-practical-risk transitive advisory and optional CI hardening, both left for
 human review per safe-auto-fix limits.
